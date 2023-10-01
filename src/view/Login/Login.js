@@ -1,10 +1,10 @@
 import './Login.css'
 const Login = () =>{
     return(
-        <div>
-            <h1 className='home'>Login</h1>
-        </div>
-    )
+        <>
+        <h1 className="login">login</h1>
+        </>
 
+    )
 }
-export default Login;
+export default Login

@@ -1,0 +1,7 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /* position: fixed;
+    bottom: 0; */
+}

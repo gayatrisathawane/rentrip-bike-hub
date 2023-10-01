@@ -1,3 +1,10 @@
-.home{
-    color:black;
+.home-bg{
+    /* background-image: url('./bg-home2.jpg'); */
+    background-size:cover;
+    background-image: linear-gradient(rgba(35, 34, 34, 0.9), rgba(52, 51, 51, 0.8)),
+    url('./bg-home2.jpg');
+    opacity: 0.9;
+    width: 100%;
+    height: 100vh;
+   
 }
