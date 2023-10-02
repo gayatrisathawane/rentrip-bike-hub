@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Home from './view/Home/Home';
 import About from './view/About/About';
-import Blog from './view/Blog/Blog';
+import Blog from './view/Blog/Blog'
 import Support from './view/Support/Support';
 import Login from './view/Login/Login';
 import Contact from './view/Contact/Contact';
