@@ -1,0 +1,10 @@
+.cityimg{
+    width:160px;
+    height: 160px;
+   border-radius: 50%;
+
+}
+.citydiv:hover{
+    box-shadow: 0 0 5px black;
+    width: 170px;
+}

@@ -1,9 +1,9 @@
 .home-bg{
-    /* background-image: url('./bg-home2.jpg'); */
-    /* background-size:cover; */
+    /* background-image: url('./bg-home2.jpg');  */
+    background-size:cover;
     /* background-image: linear-gradient(rgba(53, 52, 52, 0.9), rgba(59, 58, 58, 0.8)),
-    url('./bg-home2.jpg'); */
-    /* background-image:url('./bg-home2.jpg') ; */
+    url('./bg-home2.jpg');  */
+    background-image:url('./bg-home2.jpg') ;
     opacity: 0.9;
     width: 100%;
     height: 100vh;
@@ -21,4 +21,8 @@
     position: absolute;
     top:410px;
    left: 500px;
+}
+.city-main-container{
+    background-color: rgb(250, 247, 247);
+    padding: 25px;
 }
