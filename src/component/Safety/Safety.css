@@ -1,0 +1,27 @@
+.safetyimg{
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+   
+}
+.container-saftey{
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+   
+ 
+}
+
+.imgdivsafety:hover{
+    border-radius: 50%;
+    width: 160px;
+  box-shadow: 0 0 5px rgb(154, 152, 152);
+    height: 160px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+}
