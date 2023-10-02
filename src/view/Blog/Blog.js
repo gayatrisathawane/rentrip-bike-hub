@@ -1,10 +1,26 @@
 import './Blog.css'
-const Blog = () =>{
-    return(
+import BlogJson from "./../../component/Blog/Blog.json";
+
+export default function Blog({ id, title, travel, date, name }) {
+    return (
+
+
         <div>
-            <h1 className='home'>Blog</h1>
+
+            {
+                BlogJson.map((blog, index) => (
+            <div key={index}>
+                <h2>{blog.title}</h2>
+                <p>{blog.date}</p>
+                <h3>{blog.travel}</h3>
+                <h2>{blog.name}</h2>
+
+            </div>
+            ))
+          }
+            <BlogJson id={id} title={title} travel={travel} date={date} name={name} />
         </div>
+
     )
 
 }
-export default Blog;

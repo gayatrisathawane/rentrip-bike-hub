@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Home from './view/Home/Home';
@@ -10,7 +9,6 @@ import Support from './view/Support/Support';
 import Login from './view/Login/Login';
 import Contact from './view/Contact/Contact';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
-
 const router = createBrowserRouter([
     {
       path: "/",
@@ -25,7 +23,7 @@ const router = createBrowserRouter([
         element:<Contact />,
       },
       {
-        path: "/blog",
+        path: "/contact/blog:id",
         element: <Blog/>,
       },
       {
@@ -37,13 +35,11 @@ const router = createBrowserRouter([
         element: <Login/>,
       },
   ]);
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-    <RouterProvider router={router} />
+  <>
+  <RouterProvider router={router} />
+    </>
 );
 
 
