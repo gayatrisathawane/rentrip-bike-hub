@@ -1,6 +1,6 @@
 import Navbar from './../../component/Navbar/Navbar';
 
-import Footer from './../../component/Footer/Footer';
+// import Footer from './../../component/Footer/Footer';
 import './Home.css'
 const Home = () =>{
     return(
@@ -10,7 +10,7 @@ const Home = () =>{
      <div className='home-bg'></div>
      <h1></h1>
      </div>
-     <Footer/>
+     {/* <Footer/> */}
       
         </div>
     )
