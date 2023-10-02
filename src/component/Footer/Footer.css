@@ -2,6 +2,13 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    background-color: rgba(7, 1, 15, 0.727);
+    color: white;
     /* position: fixed;
     bottom: 0; */
+}
+.footer-link{
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }

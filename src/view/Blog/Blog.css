@@ -1,3 +1,15 @@
-.home{
-    color: black;
+
+.content{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    box-shadow: 1px 0 1px black;
+    margin: 20px;
+    padding: 15px;
+}
+.blog-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
