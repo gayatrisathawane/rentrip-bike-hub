@@ -6,6 +6,7 @@ export default function Blog({ id, title, travel, date, name }) {
 
 
         <div>
+            <h1>Blog</h1>
 
             {
                 BlogJson.map((blog, index) => (
