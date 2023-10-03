@@ -1,56 +1,51 @@
 [
     {
+        "img":"https://www.onroadz.in/wp-content/uploads/2023/05/Bike-rental-benefits-in-bangalore-1-400x250.png",
         "id":"1",
-        "title":"BEST DESTINATION WEDDING LOCATIONS IN INDIA",
-        "travel":"Travel",
-        "date":"24 Apr, 23" ,
-        "name":"satyajit",
-        "facebook":"./facebook.png"
+        "title":"Bike Rental Service in Bangalore",
+        "date":"24 Apr",
+        "description":"Bengaluru, is located in Karnataka. It is the capital of Karnataka and is one of the fastest-growing cities in India. The city is known for its pleasant climate, diverse culture, and vibrant nightlife. Bangalore is also called the 'Silicon Valley of India' due to its.we will explore the benefits of bike rental ..."
+        
 
     },
     {
-        "id":"1",
-        "title":"BEST DESTINATION WEDDING LOCATIONS IN INDIA",
-        "travel":"Travel",
-        "date":"24 Apr, 23" ,
-        "name":"satyajit",
-        "facebook":"./facebook.png"
+        "img":"https://www.onroadz.in/wp-content/uploads/2023/01/Bike-Rental-In-koramangala-Bangalore-400x250.jpg",
+        "id":"2",
+        "title":"Weekend Bike Trip From Bangalore",
+        "description":"If you're looking for a fun and active way to spend your weekend, consider going on a bike trip! Bangalore is a great city for cycling, with plenty of scenic routes to explore. This weekend, why not check out some of the awesome trails near the city? there are plenty...",
+         "date":"11 Dec, 23" 
+   },
+    {
+        "img":"https://www.onroadz.in/wp-content/uploads/2023/01/30-Best-things-to-do-in-Bangalore-400x250.jpg",
+        "id":"3",
+        "title":"Complete Travel Guide To Bangalore",
+        "date":"19 july" ,
+        "description":"Bangalore is known as the “Silicon Valley of India” because of its developing IT industry Area. This Bangalore city is also home to many historical places. Whether you’re visiting Bangalore for business or pleasure, this travel guide will tell you everything you need..."
+      
+     
 
     },
     {
-        "id":"1",
-        "title":"BEST DESTINATION WEDDING LOCATIONS IN INDIA",
-        "travel":"Travel",
-        "date":"24 Apr, 23" ,
-        "name":"satyajit",
-        "facebook":"./facebook.png"
+        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Travel-Guide-to-Bangalore-400x250.jpeg",
+        "id":"4",
+        "title":"Tourist Places To Visit in Bangalore",
+        "date":"9 nov" ,
+        "description":"Bangalore, the capital of Karnataka, is a delightful city to visit. The city has a mix of old and new, with a rich history and a modern, cosmopolitan feel. There are a number of places to visit in Bangalore, ranging from historical monuments to religious sites to..."
 
     },
     {
-        "id":"1",
-        "title":"BEST DESTINATION WEDDING LOCATIONS IN INDIA",
-        "travel":"Travel",
+        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Hills-Station-Near-Bangalore-400x250.jpeg",
+        "id":"5",
+        "title":"Bike rentals In Koramangala, Bangalore",
         "date":"24 Apr, 23" ,
-        "name":"satyajit",
-        "facebook":"./facebook.png"
+     "description":"Koramangala is a bustling neighborhood in Bengaluru, known for its vibrant street life and diverse culture. The area is home to many businesses, offices, and residential areas which makes it a perfect spot for bike rentals. Whether you're a local resident or a tourist.."
 
     },
     {
-        "id":"1",
-        "title":"BEST DESTINATION WEDDING LOCATIONS IN INDIA",
-        "travel":"Travel",
+        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Enjoy-The-Fun-Life-in-Bangalore-400x250.jpeg",
+        "id":"6",
+        "title":"Outstation Road Trip From Bangalore",
         "date":"24 Apr, 23" ,
-        "name":"satyajit",
-        "facebook":"./facebook.png"
-
-    },
-    {
-        "id":"1",
-        "title":"BEST DESTINATION WEDDING LOCATIONS IN INDIA",
-        "travel":"Travel",
-        "date":"24 Apr, 23" ,
-        "name":"satyajit",
-        "facebook":"./facebook.png"
-
+        "description":"Taking a road trip from Bangalore city to an outstation is a great way to explore more of India. The journey is full of beautiful scenery and interesting stops along the way. If you are planning to go on a road trip with your bike, there are certain things that you.."
     }
 ]
