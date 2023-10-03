@@ -1,28 +1,78 @@
-.home-bg{
+
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400&display=swap');
+
+
+.home-bg {
     /* background-image: url('./bg-home2.jpg');  */
-    background-size:cover;
+    background-size: cover;
     /* background-image: linear-gradient(rgba(53, 52, 52, 0.9), rgba(59, 58, 58, 0.8)),
     url('./bg-home2.jpg');  */
-    background-image:url('./bg-home2.jpg') ;
+    background-image: url('./../Home/assets/gifhome.gif');
     opacity: 0.9;
     width: 100%;
     height: 100vh;
-   
+
 }
-.heading-home{
-    color: rgb(7, 7, 7);
-    position: absolute;
+
+.main-heading{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Martian Mono', monospace;
+}
+
+.sub-head{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Martian Mono', monospace;
+}
+
+.container-grp{
+    padding-top : 230px;
+
+}
+
+.heading-home {
+    color: #fff;
+    /* position: absolute;
     top:350px;
-   left: 600px;
+   left: 580px; */
+    font-size: 60px;
 }
-.decs-head{
+
+.decs-head {
     font-size: 30px;
     color: rgb(248, 248, 248);
-    position: absolute;
+    /* position: absolute;
     top:410px;
-   left: 500px;
+   left: 500px; */
 }
-.city-main-container{
+
+.heading-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-main-container {
     background-color: rgb(250, 247, 247);
     padding: 25px;
+}
+.cityheading{
+    color: rgb(15, 15, 54);
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Martian Mono', monospace;
+}
+
+.how-to-use{
+  
+    padding: 20px;
+}
+.useheading{
+    font-family: 'Martian Mono', monospace;
+    margin-top: 10px;
+    color: rgb(20, 46, 141);
+
 }

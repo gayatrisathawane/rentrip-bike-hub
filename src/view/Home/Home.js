@@ -1,27 +1,37 @@
 import Safety from '../../component/Safety/Safety'
-import Navbar from './../../component/Navbar/Navbar'
+import Navbar from '../../component/Navbar/Navbar'
+import Footer from '../../component/Footer/Footer'
+import UseTo from './../../component/UseTo/UseTo'
 import './Home.css'
-import City from './../../component/City/City'
 
-import noriding from './noridingimg.png'
-import helmet from './helmet.png'
-import payment from './secure-payment.png'
-import hour24 from './24-hours.png'
-import person from './person.png'
-import cash from './cash.png'
+import City from '../../component/City/City'
+
+import noriding from './assets/noridingimg.png'
+import helmet from './assets/helmet.png'
+import payment from './assets/secure-payment.png'
+import hour24 from './assets/24-hours.png'
+import person from './assets/person.png'
+import cash from './assets/cash.png'
 //cityimages
-import city1 from './Ahmedabad.jpg'
-import city2 from './Bangalore.jpg'
-import city3 from './Chandigarh.jpg'
-import city4 from './Chennai.jpg'
-import city5 from './coimbatore.jpg'
-import city6 from './goa.jpg'
-import city7 from './guwahati.jpg'
-import city8 from './indore.jpg'
-import city9 from './kolkata.jpg'
-import city10 from './jaipur.jpg'
-import city11 from './pune.jpg'
-import city12 from './mumbai.jpg'
+import city1 from './assets/Ahmedabad.jpg'
+import city2 from './assets/Bangalore.jpg'
+import city3 from './assets/Chandigarh.jpg'
+import city4 from './assets/Chennai.jpg'
+import city5 from './assets/coimbatore.jpg'
+import city6 from './assets/goa.jpg'
+import city7 from './assets/guwahati.jpg'
+import city8 from './assets/indore.jpg'
+import city9 from './assets/kolkata.jpg'
+import city10 from './assets/jaipur.jpg'
+import city11 from './assets/pune.jpg'
+import city12 from './assets/mumbai.jpg'
+
+
+import use1 from './assets/key.png'
+import use2 from './assets/select-to-cart.png'
+import use3 from './assets/pick-up.png'
+import use4 from './assets/ride-your-bike.png'
+
 
 
 
@@ -31,9 +41,9 @@ const Home = () => {
          <Navbar />
 
          <div className='home-bg'>
-            <div className='descdiv'>
-               <h1 className='heading-home'>RENTALS, REDEFINED</h1>
-               <p className='decs-head'>Rent from India's Largest Fleet of Vehicles, Trusted by millions</p>
+            <div className='container-grp'>
+               <h1 className='main-heading'>RENTALS, REDEFINED</h1>
+               <p className='sub-head mt-4'>Rent from India's Largest Fleet of Vehicles, Trusted by millions</p>
             </div>
 
          </div>
@@ -47,8 +57,35 @@ const Home = () => {
             <div> <Safety safetyheading="Verified Dealers" saftdec="Every Single Dealer is Committed to Quality Service." safetylogo={person} /></div>
             <div> <Safety safetyheading="100% Moneyback" saftdec="Not Happy With Service, Take Your Money Back." safetylogo={cash} /></div>
          </div>
+    
 
-         <h1 className='text-center fs-1 fw-lighter m-5'>----------- Bike Rental Services in Top Cities----------</h1>
+   {/* how to use */}
+   
+   <h1 className='text-center fw-bold useheading '>How To Use</h1>
+   
+   <div className='how-to-use'>
+   
+     
+       <div className='d-flex justify-content-evenly flex-wrap mt-5 '>
+
+         <div className='ms-3'><UseTo useimg={use1} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
+
+         <div className='ms-3'><UseTo useimg={use2} useheading="Add to cart" usedes="Easily add multiple product in your cart or direct book from Book Now button" /></div>
+
+         <div className='ms-3'><UseTo useimg={use3} useheading="Select Rental Product"  usedes="You can search & select product from our wide range." /></div>
+
+         <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
+
+
+       </div>
+       </div>
+  
+
+
+
+
+
+         <h1 className='text-center fs-1  m-5 cityheading'>Bike Rental Services in Top Cities</h1>
 
          <div className='city-main-container'>
             <div className='d-flex justify-content-evenly flex-wrap m-3'>
@@ -125,7 +162,9 @@ const Home = () => {
 
 
 
-
+<div>
+   <Footer/>
+</div>
 
 
 
