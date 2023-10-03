@@ -1,12 +1,46 @@
+.blog-image{
+    height: 400px;
+    opacity: 0.9;
+    background-image: no-repeat;
+    width: 100%;
+    
+    background-image:linear-gradient(rgba(72, 70, 97, 0.9), rgba(78, 76, 93, 0.8)), url(footer1.png);
+}
+.blog-text{
+    font-size: 100px;
+    position: relative;
+    top:100px;
+    text-align: center;
+    color: rgb(236, 101, 5);
+   
 
+}
+.image-blog{
+    margin-top: -25px;
+    height: 230px;
+    width:370px;
+    }
 .content{
     border: 1px solid black;
-    height: 400px;
+    height: 600px;
     width: 400px;
     box-shadow: 1px 0 1px black;
     margin: 20px;
     padding: 15px;
 }
+.blog-button{
+    background-color: rgb(253, 136, 18);
+    border: none;
+   
+    font-size: 20px;
+    border-radius: 14px;
+    padding: 5px;
+    margin: 2px 5px 3px 1px;
+    cursor: pointer;
+    
+}
+
+
 .blog-container{
     display: flex;
     justify-content: space-around;

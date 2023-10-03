@@ -1,55 +1,86 @@
-.login-main{
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px ;
-    padding: 15px;
-}
+
+
 .login{
     display: flex;
     flex-direction: row;
      margin: 50px;
     box-shadow: 2px 4px 4px 5px lightgrey;
-    width: 900px;
+    width: 500px;
+    height: 600px;
     border-radius: 20px;
+    margin-left: 320px;
 }
-.login-img{
-    height: 300px;
-    width: 350px;
-    margin: 20px;
-    border-radius: 20px;
+.login-main{
+    display: flex;
+}
+.login-image{
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+
 }
 .info{
     font-size: 25px;
    text-align: center;
- 
    padding: 5px;
-   margin-top: 100px;
+  position: relative;
+  bottom: 110px;
 
 }
 .text{
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgb(97, 94, 94);
 }
-
-.button{
-    border-radius: 25px;
-    background-color: rgb(98, 94, 94);
+.facebook{
+    background-color: rgb(22, 22, 233);
     color: white;
-    margin: 5px;
-    padding: 7px;
-}
+    margin: 5px ;
+    padding: 2px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 10px;
+    font-size: 20px;
 
-@media screen and (max-width:600px) {
-    .about{
-        flex-wrap: wrap;
-        width: 300px;
-        height: 600px;
-        margin: 20px;
-    }
-    .about-img{
-        width: 260px;
-        height: 230px;
-    }
+}
+.or-login{
+    position: relative;
+    bottom: 50px;
+
+}
+.google-logo{
+    height: 35px;
+
+}
+.google{
+    background-color: orangered;
+    color: white;
+    margin: 5px ;
+    padding: 5px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 10px;
+
+
+
+}
+.login-content{
+    background-color: rgb(11, 11, 90);
+    height: 480px;
+    width: 500px;
+    margin-top: 90px;
+    margin-left: -50px;
+    border-radius: 15px;
+}
+.blog-button{
+    background-color: orangered;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin: 2px 5px 3px 1px;
+    
+}
+.password{
+    text-decoration: none;
+    margin-left: 30px;
+    color: orangered;
 }
