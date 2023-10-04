@@ -4,9 +4,8 @@ import './ReviewTask.css'
 const ReviewTask=({id,title,description, name, profession, emoji})=>{
   return (
     <> 
-    <div className='review-main-container shadow'>
-       {/* <p>{id}</p> */}
-       <p className='text-center'>{title}</p>
+    <div className='review-main-container shadow my-3'>
+       <h5 className='text-center'>{title}</h5>
        <p className='text-center'>{description}</p>
        <h5 className='text-center'>{name}</h5>
        <p className='text-center'>{profession}</p>

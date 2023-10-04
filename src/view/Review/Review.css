@@ -1,3 +1,25 @@
 .input-box{
+width: 400px;
+margin-left: 20px;
+border-radius: 5px;
+border: 2px solid rgb(15, 15, 54);
+padding: 10px;
+}
 
+.title-main{
+    color: #142e8d;
+}
+
+.add-button{
+    margin-top: -39px;
+    padding: 8px 15px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+
+}
+
+::placeholder{
+    color:rgb(15, 15, 54) ;
 }
