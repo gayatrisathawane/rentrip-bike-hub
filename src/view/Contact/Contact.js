@@ -1,8 +1,19 @@
 import './Contact.css'
+import Navbar from './../../component/Navbar/Navbar'
 const Contact = () =>{
     return(
         <div>
-            <h1 className='home'>Contact</h1>
+            <Navbar/>
+
+            <h1 className='text-center'>Contact us</h1>
+           <div className='row'>
+            <div className='col-md-6'>
+jjjjjjjjjjjjjjjjjjjjjj
+            </div>
+            <div className='col-md-6'>
+               xxxx
+                 </div>
+           </div>
         </div>
     )
 
