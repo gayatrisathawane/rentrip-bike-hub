@@ -8,6 +8,7 @@ import Blog from './view/Blog/Blog'
 import Review from './view/Review/Review'
 import Login from './view/Login/Login'
 import Contact from './view/Contact/Contact'
+// import ReadPost from "./component/ReadPost/ReadPost"
 import BookBike from './view/BookBike/BookBike'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 const router = createBrowserRouter([
@@ -20,10 +21,15 @@ const router = createBrowserRouter([
         path: "/contact",
         element:<Contact />,
       },
+     
       {
         path: "/blog",
         element: <Blog/>,
       },
+      // {
+      //   path: "blog/read/:id",
+      //   element:<ReadPost />,
+      // },
       {
         path: "/faq",
         element: <Faq/>,
@@ -40,6 +46,10 @@ const router = createBrowserRouter([
         path: "/login",
         element: <Login/>,
       },
+      // {
+      //   path: "*",
+      //   element: "404 Not Found",
+      // },
   ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

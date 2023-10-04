@@ -1,0 +1,24 @@
+.blog-button{
+    background-color: rgb(253, 136, 18);
+    border: none;
+   
+    font-size: 20px;
+    border-radius: 14px;
+    padding: 5px;
+    margin: 2px 5px 3px 1px;
+    cursor: pointer;
+    
+}
+.image-blog{
+    margin-top: -25px;
+    height: 230px;
+    width:370px;
+    }
+.content{
+    border: 1px solid black;
+    height: 600px;
+    width: 400px;
+    box-shadow: 1px 0 1px black;
+    margin: 20px;
+    padding: 15px;
+}
