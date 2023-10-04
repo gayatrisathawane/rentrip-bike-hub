@@ -9,6 +9,7 @@ import Review from './view/Review/Review'
 import Login from './view/Login/Login'
 import Contact from './view/Contact/Contact'
 import BookBike from './view/BookBike/BookBike'
+import Readbike from './view/Readbike/Readbike';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/bookbike",
         element: <BookBike/>,
+      },
+      {
+        path: "/readbikedata",
+        element: <Readbike />,
       },
       {
         path: "/login",
