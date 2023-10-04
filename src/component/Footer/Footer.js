@@ -7,21 +7,22 @@ import In from "./in.png";
 const Footer = () => {
     return (
         <>
+        
             <div className=' footer-image '>
+               
                 <div className='row d-flex'>
                     <div className='col-md-3 text-light fs-5 mt-5  position-footer' >
-                        <h1 className='fs-2'>Bike Blitz </h1><br />
+                        <h1 className='fs-2'>BikeBlitz </h1><br />
                         <p>Self Drive Byke Rental in Ahmedabad</p>
                         <p>Self Drive Byke Rental in Bangalore</p>
                         <p>Self Drive Byke Rental in Chandigarh</p>
                         <p>Self Drive Byke Rental in Chennai</p>
-                        <p>Self Drive Byke Rental in Goa<br />
-                            Self Drive Byke Rental in Indore</p>
+                        <p>Self Drive Byke Rental in Goa</p>
 
                     </div>
 
                     <div className='col-md-3 text-light fs-5 text-center  mt-5 '>
-                        <h2  className='fs-2'>Quick Links and<br/> Policies</h2>
+                        <h2  className='fs-2'>Quick Links</h2>
                         <Link to="/Home" className='footer-link'>Home</Link><br />
                         <Link to="/Blog" className='footer-link'>Blog</Link><br />
                         <Link to="/contact" className='footer-link'>Contact</Link><br />
@@ -51,15 +52,15 @@ const Footer = () => {
 
                 <div className='col-md-3 text-light fs-5  mt-5   text-center'>
                 <h1  className='fs-2   mb-4'>Bike Rental Cities</h1>
-                <p>Rent a Bike in Coimbatore</p>
-                 <p>Rent a Bike in Bangalore</p>
+                <p className='mt-2'>Rent a Bike in Coimbatore</p>
+                 <p className='mt-2'>Rent a Bike in Bangalore</p>
                 </div>
 
 
 
             </div>
             </div>
-        
+         
         </>
     )
 }

@@ -13,12 +13,13 @@
    
 }
 .footer-image{
-    background-image: linear-gradient(rgba(99, 97, 124, 0.9), rgba(109, 105, 136, 0.8)), url("footer.png");
+    /* background-image: linear-gradient(rgba(99, 97, 124, 0.9), rgba(109, 105, 136, 0.8)), url("footer.png"); */
  height: 400px;
- opacity: 0.9;
+ /* opacity: 0.9; */
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    background-color: rgb(15, 15, 54);
     
 }
 .position-footer{
