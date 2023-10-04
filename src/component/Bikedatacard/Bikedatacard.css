@@ -3,14 +3,16 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 50px;
+    padding: 0;
 }
 
 .container-items-bike{
-    border: 1px solid black;
+   
     border-radius: 2px;
     height: 500px;
     width: 350px;
-    box-shadow: 1px 0 1px black;   
+    box-shadow: 1px 1px 3px black;   
+    
 }
 .bike-offer{
     background-color: rgb(166, 187, 157);
@@ -21,7 +23,7 @@
 }
 .bike-left{
     margin-left: 100px;
-    background-color: rgb(100, 219, 70);
+    background-color: rgb(36, 130, 36);
     width: 150px;
      padding: 5px;
      border-radius: 5px;
@@ -57,15 +59,53 @@
    
     display: flex;
     justify-content: center;
-    background-color: rgb(190, 187, 183);
-    width: 350px;padding: 3px;
+    background-color: rgb(247, 241, 231);
+    width: 348.5px;
+    padding: 3px;
 
    
 }
 .deposite-bike{
     display: flex;
     justify-content: space-around;
-    margin-top: 15px;
+   
     font-weight: 500;
+    margin-left: 30px;
+    margin-top: 10px;
     
+}
+.details-bike{
+    display: flex;
+    justify-content:space-evenly;
+
+   
+   
+
+}
+.view-details{
+    
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+.addtocard{
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orange;
+    border-radius: 1px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+.addtocard:hover{
+    background-color: aqua;
+    transition: 1s;
+   
 }
