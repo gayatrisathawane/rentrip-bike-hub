@@ -11,10 +11,24 @@ const Review = () => {
     {
       title: "Trip to ASSAM and MEGHALAYA!",
       description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
+      name: "Jeetu Dongre`",
+      profession: "Senior Teacher, Bhopal",
+      emoji: "❤❤❤❤❤",
+    },
+    {
+      title: "Trip to ASSAM and MEGHALAYA!",
+      description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
+      name: "Know Startup",
+      profession: "News",
+      emoji: "❤❤❤❤❤",
+    },
+    {
+      title: "Trip to ASSAM and MEGHALAYA!",
+      description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
       name: "Mandy Varshaney",
       profession: "TripAdvisor",
       emoji: "❤❤❤❤❤",
-    }
+    },
   ]);
 
   const [title, setTitle] = useState("");
@@ -43,6 +57,7 @@ const Review = () => {
       <CustomerCard />
 
       <div className="container">
+      <h1 className='text-center mt-5 title-main'>CUSTOMER EXPERIENCES</h1>
 
       <div>
 
@@ -104,13 +119,14 @@ const Review = () => {
 
         {/* <h1 className="text-center mt-5">Add Your Review Here</h1> */}
 
-        <div className="d-flex justify-content-evenly mt-5">
+        <div className="d-flex justify-content-evenly mt-5 flex-wrap">
             {/* <h1>Show Review</h1> */}
             {taskList.map((taskItem, index) => {
               const { id, title, description, name, profession, emoji } =
                 taskItem;
 
               return (
+                
                 <ReviewTask
                   id={id}
                   title={title}
@@ -118,7 +134,7 @@ const Review = () => {
                   name={name}
                   profession={profession}
                   emoji={emoji}
-                />
+                 className=""/>
               );
             })}
          
