@@ -11,6 +11,7 @@ import Contact from './view/Contact/Contact'
 import BookBike from './view/BookBike/BookBike'
 import Readbike from './view/Readbike/Readbike';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+import Addtocard from './view/Addtocard/Addtocard';
 const router = createBrowserRouter([
     {
       path: "/",
@@ -38,8 +39,12 @@ const router = createBrowserRouter([
         element: <BookBike/>,
       },
       {
-        path: "/readbikedata",
+        path: "/bookbike/readbikedata/:id",
         element: <Readbike />,
+      },
+      {
+        path: "/addtocard",
+        element: <Addtocard />,
       },
       {
         path: "/login",

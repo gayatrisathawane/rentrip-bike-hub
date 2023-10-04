@@ -1,4 +1,7 @@
+
 [
+
+   
     {
         "id":"1",
         "offer":"Offer Available",
@@ -9,7 +12,7 @@
         "price":"Rs. 399.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"No deposit amount",
+        "deposite":"Deposite Rs.2000",
         "terms":" 📑Terms",
         "viewdetails":""
        
@@ -24,7 +27,7 @@
         "price":"Rs. 499.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"1000",
+        "deposite":"Deposite Rs.1000",
         "terms":" 📑Terms",
         "viewdetails":""
        
@@ -39,7 +42,7 @@
         "price":"Rs. 599.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"1000",
+        "deposite":"Deposite Rs. 1000",
         "terms":" 📑Terms",
         "viewdetails":""
        
@@ -54,7 +57,7 @@
         "price":"Rs. 599.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"1000",
+        "deposite":"Deposite Rs.1000",
         "terms":" 📑Terms",
         "viewdetails":""
        
@@ -69,7 +72,7 @@
         "price":"Rs.419.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"2000",
+        "deposite":"Deposite Rs.2000",
         "terms":" 📑Terms",
         "viewdetails":""
        
@@ -84,7 +87,7 @@
         "price":"Rs. 699.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"2000",
+        "deposite":"Deposite Rs.2000",
         "terms":" 📑Terms",
         "viewdetails":""
        
@@ -99,7 +102,22 @@
         "price":"Rs. 699.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"2000",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"8",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/500x350/593184IMG_1550255529.jpg",
+        "title":"Vespa SXL 125",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
         "terms":" 📑Terms",
         "viewdetails":""
        
@@ -114,13 +132,377 @@
         "price":"Rs. 699.00/day",
         "pickup":"Pay at Pickup Location Available",
         "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"2000",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"8",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1686118770.jpg",
+        "title":"Jupitar BS6",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"8",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1686118770.jpg",
+        "title":"Jupitar BS6",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"9",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550576072.jpg",
+        "title":"Vespa Lx 125",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"10",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550576072.jpg",
+        "title":"Access",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    
+    
+    
+    {
+        "id":"11",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550576072.jpg",
+        "title":"Jupitar",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    
+    {
+        "id":"12",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/500x350/593184IMG_1598641180.png",
+        "title":"Activa 3G",
+        "rating":"⭐⭐⭐",
+        "price":"Rs. 299.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    
+    {
+        "id":"13",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1679740346.jpeg",
+        "title":"Wego",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    
+    {
+        "id":"14",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550570672.jpg",
+        "title":"Jupitar",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"15",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1466788065.png",
+        "title":"Splendor",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 599.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"16",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550564821.jpg",
+        "title":"Passion",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"17",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1466789054.jpg",
+        "title":"Shine",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 899.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"18",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1632920852.png",
+        "title":"FZS",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 999.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"19",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550259433.jpg",
+        "title":"FZ16",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"20",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550568290.jpg",
+        "title":"Fazer",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"21",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1598686630.jpg",
+        "title":"Oulsar NS 160",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"22",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1566545252.jpg",
+        "title":"Avenger Street 160 ABS",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"23",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550260534.jpg",
+        "title":"Avenger",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"24",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1584352729.jpg",
+        "title":"   FZ 25",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"25",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550577659.jpg",
+        "title":"Electra 350 cc",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"26",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1598686711.jpg",
+        "title":"Pulser Ns 200",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"27",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1632919788.png",
+        "title":"R15 V3",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"28",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550252257.jpg",
+        "title":"Duke 250",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"29",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1649696145.jpg",
+        "title":"Jawa 42",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    
+    {
+        "id":"29",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1648987082.jpg",
+        "title":"Dominor 400 New",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 1699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
         "terms":" 📑Terms",
         "viewdetails":""
        
     }
     
-
-  
-   
 ]
