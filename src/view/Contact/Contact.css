@@ -1,3 +1,37 @@
 .home{
     color: black;
 }
+.map{
+    width:700px ;
+    height:550px;
+}
+.form-container{
+   width:600px;
+    padding: 30px;
+    background-color: rgb(240, 238, 238);
+    margin-bottom: 10px;
+}
+.checkbox-robot{
+    width:200px;
+    padding: 20px;
+    border-radius: 2px;
+    border:  1px solid rgb(230, 228, 228);
+    background-color: rgb(219, 219, 219);
+}
+.contact-tittle{
+    color:rgb(45, 77, 171);
+    margin-top: 20px;
+    font-size: 50px;
+   
+}
+.contact-sub{
+    color: orange;
+}
+
+.messagebtn{
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  font-size: 25px;
+  
+}
