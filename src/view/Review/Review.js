@@ -9,7 +9,7 @@ import Footer from "./../../component/Footer/Footer";
 const Review = () => {
   const [taskList, setTaskList] = useState([
     {
-      title: "Trip to ASSAM and MEGHALAYA!",
+      title: "RenTrip Gonna be My First Choice Forever",
       description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
       name: "Jeetu Dongre`",
       profession: "Senior Teacher, Bhopal",
@@ -23,7 +23,7 @@ const Review = () => {
       emoji: "❤❤❤❤❤",
     },
     {
-      title: "Trip to ASSAM and MEGHALAYA!",
+      title: "Leading motorbike rental service providers!",
       description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
       name: "Mandy Varshaney",
       profession: "TripAdvisor",
@@ -62,6 +62,7 @@ const Review = () => {
       <div>
 
             <form>
+            <div className="first-input-grp">
               <input
                 type="text"
                 value={title}
@@ -91,6 +92,9 @@ const Review = () => {
                   setName(e.target.value);
                 }}
               />
+              </div>
+
+              <div className="first-input-grp">
               <input
                 type="text"
                 value={profession}
@@ -110,12 +114,12 @@ const Review = () => {
                 }}
               />
 
-              <button type="button" onClick={addReviseToList}>
-                Add{" "}
+              <button type="button" className="add-button mx-5 px-5 shadow" onClick={addReviseToList}>
+                Add Review
               </button>
+          </div>
             </form>
           </div>
-
 
         {/* <h1 className="text-center mt-5">Add Your Review Here</h1> */}
 
