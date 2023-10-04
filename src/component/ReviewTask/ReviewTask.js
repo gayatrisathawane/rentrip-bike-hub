@@ -1,22 +1,20 @@
 import React from 'react'
+import './ReviewTask.css'
 
-
-const ReviewTask=({id,title,description})=>{
-
-{
+const ReviewTask=({id,title,description, name, profession, emoji})=>{
   return (
-    <>
-       <h1>ReviewTask</h1> 
-       <p>{id}</p>
-       <p>{title}</p>
+    <> 
+    <div className='review-main-container shadow'>
+       {/* <p>{id}</p> */}
+       <p >{title}</p>
        <p>{description}</p>
-       {/* <p>{name}</p>
+       <p>{name}</p>
        <p>{profession}</p>
-       <p>{emoji}</p> */}
+       <p>{emoji}</p> 
+    </div>
 
 
     </>
   )
-}
 }
 export default ReviewTask
