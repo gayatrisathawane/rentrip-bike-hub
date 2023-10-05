@@ -40,6 +40,7 @@
     bottom: 30px;
     border-radius: 10px;
     font-size: 20px;
+    border: none;
 
 }
 .or-login{
@@ -55,18 +56,19 @@
     background-color: orangered;
     color: white;
     margin: 5px ;
-    padding: 5px;
+    /* padding: 5px; */
     position: relative;
     bottom: 30px;
     border-radius: 10px;
+    border: none;
 
 
 
 }
 .login-content{
     background-color: rgb(11, 11, 90);
-    height: 480px;
-    width: 500px;
+    height: 500px;
+    width: 440px;
     margin-top: 90px;
     margin-left: -50px;
     border-radius: 15px;
@@ -82,5 +84,22 @@
 .password{
     text-decoration: none;
     margin-left: 30px;
-    color: orangered;
+    color: orange;
 }
+
+@media screen and (max-width: 600px) {
+
+    .login-content {
+        background-color: rgb(11, 11, 90);
+        height: 500px;
+        width: 440px;
+        margin-top: -49px;
+        margin-left: 346px;
+        border-radius: 15px;
+      }
+}
+
+
+
+
+

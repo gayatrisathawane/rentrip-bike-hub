@@ -1,49 +1,59 @@
 [
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2023/05/Bike-rental-benefits-in-bangalore-1-400x250.png",
-        "id":"1",
-        "title":"Bike Rental Service in Bangalore",
-        "date":"24 Apr",
-        "description":"Bengaluru, is located in Karnataka. It is the capital of Karnataka and is one of the fastest-growing cities in India. The city is known for its pleasant climate, diverse culture, and vibrant nightlife. Bangalore is also called the 'Silicon Valley of India' due to its.we will explore the benefits of bike rental ..."
-        },
-    {
-        "img":"https://www.onroadz.in/wp-content/uploads/2023/01/Bike-Rental-In-koramangala-Bangalore-400x250.jpg",
-        "id":"2",
-        "title":"Weekend Bike Trip From Bangalore",
-        "description":"If you're looking for a fun and active way to spend your weekend, consider going on a bike trip! Bangalore is a great city for cycling, with plenty of scenic routes to explore. This weekend, why not check out some of the awesome trails near the city? there are plenty...",
-         "date":"11 Dec, 23" 
-   },
-    {
-        "img":"https://www.onroadz.in/wp-content/uploads/2023/01/30-Best-things-to-do-in-Bangalore-400x250.jpg",
-        "id":"3",
-        "title":"Complete Travel Guide To Bangalore",
-        "date":"19 july" ,
-        "description":"Bangalore is known as the “Silicon Valley of India” because of its developing IT industry Area. This Bangalore city is also home to many historical places. Whether you’re visiting Bangalore for business or pleasure, this travel guide will tell you everything you need..."
-      
-     
-
+        "img": "https://www.onroadz.in/wp-content/uploads/2023/05/Bike-rental-benefits-in-bangalore-1-400x250.png",
+        "id": "1",
+        "title": "Bike Rental Service in Bangalore",
+        "date": "24 Apr",
+        "description": "Bengaluru, is located in Karnataka. It is the capital of Karnataka and is one of the fastest-growing cities in India. The city is known for its pleasant climate, diverse culture, and vibrant nightlife. Bangalore is also called the 'Silicon Valley of India' due to its.we will explore the benefits of bike rental ...",
+        "titletext": "BANGALORE FEATURED GUIDES ",
+        "info": " Bengaluru, is located in Karnataka. It is the capital of Karnataka and is one of the fastest-growing cities in India. The city is known for its pleasant climate, diverse culture, and vibrant nightlife. Bangalore is also called the “Silicon Valley of India” due to its thriving IT industry and numerous tech startups. The city has a population of over 12 million people and is a hub for education, healthcare, and research institutions. Bangalore is home to various historical landmarks, gardens, and parks, making it a popular tourist destination. With such a large population, commuting can be a daunting task. One solution to this problem is bike rental services. Bike rental services have been gaining popularity in Bangalore due to the numerous benefits they offer. In this article, we will explore the benefits of bike rental services in Bangalore. ",
+        "effect":"Affordable and cost-effective",
+        "effectinfo":"Bike rental services in Bangalore are affordable and cost-effective. Renting a bike is much cheaper than owning one, especially if you only need it for a short period. Additionally, bike rental services offer various plans and packages that cater to different budgets, making it easy for people to find a plan that suits their needs.",
+        "Convenient":"Convenient",
+        "Convenientinfo":"Bike rental services in Bangalore are incredibly convenient. With just a few clicks on your smartphone, you can rent a bike from anywhere and at any time. This is especially useful for people who need a bike for short trips or occasional use. Moreover, bike rental services offer doorstep delivery and pickup, making it easy for users to access a bike without leaving their homes.",
+        "parking":"Better parking options",
+        "parkinginfo":"Finding parking in Bangalore can be a nightmare. With the city’s limited parking spaces and strict parking regulations, it can be challenging to find a safe and secure parking spot for your vehicle. However, with a bike, parking is much easier. Bikes can be parked in designated areas, making it easier for users to find parking spots without breaking any parking regulations."
     },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Travel-Guide-to-Bangalore-400x250.jpeg",
-        "id":"4",
-        "title":"Tourist Places To Visit in Bangalore",
-        "date":"9 nov" ,
-        "description":"Bangalore, the capital of Karnataka, is a delightful city to visit. The city has a mix of old and new, with a rich history and a modern, cosmopolitan feel. There are a number of places to visit in Bangalore, ranging from historical monuments to religious sites to..."
-
+        "img": "https://www.onroadz.in/wp-content/uploads/2023/01/Bike-Rental-In-koramangala-Bangalore-400x250.jpg",
+        "id": "2",
+        "title": "Weekend Bike Trip From Bangalore",
+        "description": "If you're looking for a fun and active way to spend your weekend, consider going on a bike trip! Bangalore is a great city for cycling, with plenty of scenic routes to explore. This weekend, why not check out some of the awesome trails near the city? there are plenty...",
+        "date": "11 Dec, 23",
+        "effect":"Bike rentals In Koramangala, Bangalore",
+        "effectinfo":" At our Onroadz bike rental Company, we pride ourselves on providing a wide range of high-quality bikes to suit the needs of every customer. From sleek road bikes to sturdy mountain bikes, we have something for everyone. All of our bikes are well-maintained and are regularly serviced to ensure that they are in tip-top condition. We also provide helmets and locks with every rental, to ensure that you have everything you need to stay safe and secure while exploring the city. One of the best things about renting a bike in Koramangala is the convenience it offers. With a bike, you can easily navigate through the busy streets, avoid traffic and reach your destination in a timely manner. You can also take a leisurely ride through the neighborhood, stopping to explore local shops, cafes, and landmarks along the way.",
+        "Convenient":"About Onroadz: What do you know about us?",
+        "Convenientinfo":" Onroadz is a ridesharing company that operates in over 500 cities worldwide. We offer a convenient, affordable, and safe ridesharing experience for both riders and drivers. Our app connects riders with drivers in real-time, so you can easily find a ride near you. Plus, we offer a variety of features and benefits that make ridesharing with Onroadz Bike rental a breeze. Here are just a few things you can expect when riding with Onroadz bike rental: ",
+        "parking":"Onroadz bike rental in Bangalore: Our services",
+        "parkinginfo":"Onroadz is a bike rental company in Bangalore that offers a variety of bikes for rent. We have a wide range of bikes available, from small and lightweight scooters to large and powerful touring bikes. We have something for everyone, and we’re sure you’ll find the perfect bike to suit your needs. Our rental service is simple and straightforward. We provide you with a bike, and you simply pay for the time you use it. We also offer a variety of accessories and gear, so you can travel in comfort and style."
     },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Hills-Station-Near-Bangalore-400x250.jpeg",
-        "id":"5",
-        "title":"Bike rentals In Koramangala, Bangalore",
-        "date":"24 Apr, 23" ,
-     "description":"Koramangala is a bustling neighborhood in Bengaluru, known for its vibrant street life and diverse culture. The area is home to many businesses, offices, and residential areas which makes it a perfect spot for bike rentals. Whether you're a local resident or a tourist.."
-
+        "img": "https://www.onroadz.in/wp-content/uploads/2023/01/30-Best-things-to-do-in-Bangalore-400x250.jpg",
+        "id": "3",
+        "title": "Complete Travel Guide To Bangalore",
+        "date": "19 july",
+        "description": "Bangalore is known as the “Silicon Valley of India” because of its developing IT industry Area. This Bangalore city is also home to many historical places. Whether you’re visiting Bangalore for business or pleasure, this travel guide will tell you everything you need...",
+        "info":""
     },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Enjoy-The-Fun-Life-in-Bangalore-400x250.jpeg",
-        "id":"6",
-        "title":"Outstation Road Trip From Bangalore",
-        "date":"24 Apr, 23" ,
-        "description":"Taking a road trip from Bangalore city to an outstation is a great way to explore more of India. The journey is full of beautiful scenery and interesting stops along the way. If you are planning to go on a road trip with your bike, there are certain things that you.."
+        "img": "https://www.onroadz.in/wp-content/uploads/2022/12/Travel-Guide-to-Bangalore-400x250.jpeg",
+        "id": "4",
+        "title": "Tourist Places To Visit in Bangalore",
+        "date": "9 nov",
+        "description": "Bangalore, the capital of Karnataka, is a delightful city to visit. The city has a mix of old and new, with a rich history and a modern, cosmopolitan feel. There are a number of places to visit in Bangalore, ranging from historical monuments to religious sites to..."
+    },
+    {
+        "img": "https://www.onroadz.in/wp-content/uploads/2022/12/Hills-Station-Near-Bangalore-400x250.jpeg",
+        "id": "5",
+        "title": "Bike rentals In Koramangala, Bangalore",
+        "date": "24 Apr, 23",
+        "description": "Koramangala is a bustling neighborhood in Bengaluru, known for its vibrant street life and diverse culture. The area is home to many businesses, offices, and residential areas which makes it a perfect spot for bike rentals. Whether you're a local resident or a tourist.."
+    },
+    {
+        "img": "https://www.onroadz.in/wp-content/uploads/2022/12/Enjoy-The-Fun-Life-in-Bangalore-400x250.jpeg",
+        "id": "6",
+        "title": "Outstation Road Trip From Bangalore",
+        "date": "24 Apr, 23",
+        "description": "Taking a road trip from Bangalore city to an outstation is a great way to explore more of India. The journey is full of beautiful scenery and interesting stops along the way. If you are planning to go on a road trip with your bike, there are certain things that you.."
     }
 ]

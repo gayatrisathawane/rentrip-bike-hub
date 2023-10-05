@@ -15,6 +15,11 @@
    
 
 }
+.image-blog{
+    margin-top: -25px;
+    height: 230px;
+    width:370px;
+    }
 /* .image-blog{
     margin-top: -25px;
     height: 230px;
@@ -27,10 +32,10 @@
     box-shadow: 1px 0 1px black;
     margin: 20px;
     padding: 15px;
-}
+} */
 .blog-button{
-    background-color: rgb(253, 136, 18);
-    border: none;
+    background-color: orange;
+    text-decoration:  none;
    
     font-size: 20px;
     border-radius: 14px;
@@ -38,7 +43,7 @@
     margin: 2px 5px 3px 1px;
     cursor: pointer;
     
-} */
+}
 
 
 .blog-container{
@@ -47,3 +52,4 @@
     flex-wrap: wrap;
 
 }
+

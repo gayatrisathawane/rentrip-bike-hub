@@ -8,9 +8,6 @@
     text-decoration: none;
     text-align: center;
     color: white;
-   position: relative;
-   top: 25px;
-   
 }
 .footer-image{
     /* background-image: linear-gradient(rgba(99, 97, 124, 0.9), rgba(109, 105, 136, 0.8)), url("footer.png"); */
@@ -27,9 +24,3 @@
     left: 50px;
     
 }
-
-
-/* .position-footer {
-    position: relative;
-    left: 215px;
-  } */

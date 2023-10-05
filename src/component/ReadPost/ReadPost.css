@@ -1,0 +1,20 @@
+.read-text-blog{
+    border: 0px solid rgb(3, 3, 58) ;
+    box-shadow: 1px 1px 1px 1px rgb(3, 3, 58);
+    width: 80%;
+    /* height: 700px; */
+    margin-left: 140px;
+    background-color: rgb(218, 218, 248);
+}
+.read-img{
+    display: flex;
+    margin-left: 400px;
+   
+}
+.orange{
+    color: rgb(237, 157, 7);
+}
+.read-text{
+    text-align: center;
+    color:rgb(14, 14, 57)  ;
+}
