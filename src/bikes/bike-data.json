@@ -1,51 +1,6 @@
 
 [
-    {
-        "id":"4",
-        "offer":"Offer Available",
-        "left":"Only 11 left",
-        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1632919149.png",
-        "title":"Honda activa 4G",
-        "rating":"⭐⭐⭐⭐⭐",
-        "price":"Rs. 599.00/day",
-        "pickup":"Pay at Pickup Location Available",
-        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"Deposite Rs.1000",
-        "terms":" 📑Terms",
-        "viewdetails":""
-        
-       
-    },
-    {
-        "id":"5",
-        "offer":"Offer Available",
-        "left":"Only 11 left",
-        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550256454.jpg",
-        "title":"Fascino",
-        "rating":"⭐⭐⭐⭐⭐",
-        "price":"Rs.419.00/day",
-        "pickup":"Pay at Pickup Location Available",
-        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"Deposite Rs.2000",
-        "terms":" 📑Terms",
-        "viewdetails":""
-       
-    },
-    {
-        "id":"6",
-        "offer":"Offer Available",
-        "left":"Only 11 left",
-        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1661260681.jpg",
-        "title":"Activa 6G STD",
-        "rating":"⭐⭐⭐⭐⭐",
-        "price":"Rs. 699.00/day",
-        "pickup":"Pay at Pickup Location Available",
-        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
-        "deposite":"Deposite Rs.2000",
-        "terms":" 📑Terms",
-        "viewdetails":""
-       
-    },
+
    
     {
         "id":"1",
@@ -92,7 +47,51 @@
         "viewdetails":""
        
     },
-    
+    {
+        "id":"4",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1632919149.png",
+        "title":"Honda activa 4G",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 599.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.1000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"5",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1550256454.jpg",
+        "title":"Fascino",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs.419.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
+    {
+        "id":"6",
+        "offer":"Offer Available",
+        "left":"Only 11 left",
+        "ImageUrl":"https://www.rentrip.in/uploads/products/bike/370x220/225064IMG_1661260681.jpg",
+        "title":"Activa 6G STD",
+        "rating":"⭐⭐⭐⭐⭐",
+        "price":"Rs. 699.00/day",
+        "pickup":"Pay at Pickup Location Available",
+        "dealertiming":"Dealer Timings: 09:00 AM - 09:00 PM",
+        "deposite":"Deposite Rs.2000",
+        "terms":" 📑Terms",
+        "viewdetails":""
+       
+    },
     {
         "id":"7",
         "offer":"Offer Available",
