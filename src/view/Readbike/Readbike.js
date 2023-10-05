@@ -46,6 +46,9 @@ function Readbike() {
               <h6 className='mx-5'>{post.price}</h6>
               <Link to={`/bookbike/addtocard/${id}` }className='readbike-addtocard' >Add To Card</Link>
          </div>
+         <div>
+        <h4>  Description</h4>
+         </div>
     </div>
     </div>
   )

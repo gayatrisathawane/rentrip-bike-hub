@@ -10,12 +10,12 @@ const BookBike = () => {
         <div className='main-container-bike'>
             <Navbar />
 
-            <div className='bikepage-container'  >
+            <div className='bikepage-container shadow'  >
                 <h2 className='p-2'>    Rent A Bike In Pune </h2>
                 <span className=''>Dealer Timings: 01:00 AM - 12:00 AM</span>
             </div>
 
-            <div className='bikefound'>
+            <div className='bikefound shadow'>
                 Found 46 bikes
 
             </div>
