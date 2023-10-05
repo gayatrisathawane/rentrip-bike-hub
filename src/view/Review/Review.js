@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./../../component/Navbar/Navbar";
 import CustomerCard from "../../component/CustomerCard/CustomerCard";
 import ReviewTask from "../../component/ReviewTask/ReviewTask";
+import showToast from 'crunchy-toast';
 import "./Review.css";
 import "./../../component/Footer/Footer";
 import Footer from "./../../component/Footer/Footer";
@@ -10,24 +11,23 @@ const Review = () => {
   const [taskList, setTaskList] = useState([
     {
       title: "RenTrip Gonna be My First Choice Forever",
-      description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
-      name: "Jeetu Dongre`",
+      description: "It has been an awesome experience for me when I got to roam places like Dipor Bil, Kamakhya Temple, Umanadna temple and many more places. Before I started the journey I wasn't sure I would get chance to visit and these all beautiful places.",
       profession: "Senior Teacher, Bhopal",
-      emoji: "❤❤❤❤❤",
+      emoji: "⭐⭐⭐⭐⭐",
     },
     {
       title: "Trip to ASSAM and MEGHALAYA!",
       description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
       name: "Know Startup",
       profession: "News",
-      emoji: "❤❤❤❤❤",
+      emoji: "⭐⭐⭐⭐⭐",
     },
     {
       title: "Leading motorbike rental service providers!",
       description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
       name: "Mandy Varshaney",
       profession: "TripAdvisor",
-      emoji: "❤❤❤❤❤",
+      emoji: "⭐⭐⭐⭐⭐",
     },
   ]);
 
@@ -38,7 +38,34 @@ const Review = () => {
   const [emoji, setEmoji] = useState("");
 
   const addReviseToList = () => {
-    const randomId = Math.floor(Math.random() * 1000);
+    if(!title)
+    {
+      showToast("Title is Required.",'alert', 3000);
+      return;
+    }
+    if(!description)
+    {
+      showToast("Description is Required.",'alert', 3000);
+      return;
+    }
+    if(!name)
+    {
+      showToast("Name is Required.",'alert', 3000);
+      return;
+    }
+    if(!profession)
+    {
+      showToast("Profession is Required.",'alert', 3000);
+      return;
+    }
+    if(!emoji)
+    {
+      showToast("Stars are Required.",'alert', 3000);
+      return;
+    }
+
+    
+    // const randomId = Math.floor(Math.random() * 1000);
 
     const obj = {
       title: title,
@@ -49,6 +76,7 @@ const Review = () => {
     };
 
     setTaskList([...taskList, obj]);
+    showToast('Review added successfully!', 'success',3000);
   };
 
   return (
