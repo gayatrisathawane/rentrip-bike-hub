@@ -59,15 +59,14 @@ const Review = () => {
       <div className="container">
       <h1 className='text-center mt-5 title-main'>CUSTOMER EXPERIENCES</h1>
 
-      <div>
-
+      <div className="input-container mt-5 shadow">
             <form>
             <div className="first-input-grp">
               <input
                 type="text"
                 value={title}
                 placeholder="Enter Revise Title Here"
-                className="mt-5 px-3 input-box"
+                className="mt-5 px-3 input-box shadow"
                 onChange={(e) => {
                   setTitle(e.target.value);
                 }}
@@ -77,7 +76,7 @@ const Review = () => {
                 type="text"
                 value={description}
                 placeholder="Enter Revise Description Here"
-                className="mt-5 px-3 input-box"
+                className="mt-5 px-3 input-box shadow"
                 onChange={(e) => {
                   setDescription(e.target.value);
                 }}
@@ -87,7 +86,7 @@ const Review = () => {
                 type="text"
                 value={name}
                 placeholder="Enter Name Here"
-                className="mt-5 px-3 input-box"
+                className="mt-5 px-3 input-box shadow"
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
@@ -99,7 +98,7 @@ const Review = () => {
                 type="text"
                 value={profession}
                 placeholder="Enter Profession Here"
-                className="mt-5 px-3 input-box"
+                className="mt-5 px-3 input-box shadow"
                 onChange={(e) => {
                   setProfession(e.target.value);
                 }}
@@ -108,7 +107,7 @@ const Review = () => {
                 type="text"
                 value={emoji}
                 placeholder="Add Emoji Here"
-                className="mt-5 px-3 input-box"
+                className="mt-5 px-3 input-box shadow"
                 onChange={(e) => {
                   setEmoji(e.target.value);
                 }}
