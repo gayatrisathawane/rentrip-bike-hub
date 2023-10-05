@@ -1,27 +1,26 @@
 import './Blog.css'
 import Navbar from '../../component/Navbar/Navbar';
-import BlogJson from "./../../component/Blog/Blog.json";
+import PostCard from "./../../component/PostCard/PostCard";
+import blogJson from "./../../component/Blog/Blog.json";
 import Footer from '../../component/Footer/Footer';
-export default function Blog({id}) {
+
+
+export default function Blog() {
     return (
         <div>
             <Navbar />
             <div className="blog-image">
                 <b > <h1 className='blog-text'>Blog</h1></b>
             </div>
+
             <div className='blog-container'>
+
                 {
-                    BlogJson.map((blog, index) => (
-                        <div key={index} className='content '>
-                            <p>{id}</p>
-                            <img src={blog.img} className='image-blog'/>
-                            <h2>{blog.title}</h2><br/>
-                            <p>{blog.description}</p>
-                            <p>{blog.date}</p>
-                           <button type='button' value="Read More" className='blog-button px-3 text-li'> Read More</button>
-                        </div>
-                    ))
+                    blogJson.map((blog, index) => {
+                        return <PostCard key={index} img={blog.img} title={blog.title} description={blog.description} id={blog.id}/>
+                    })
                 }
+
             </div>
             <Footer />
         </div>
