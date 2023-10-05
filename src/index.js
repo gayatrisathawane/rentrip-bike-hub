@@ -14,7 +14,6 @@ import BookBike from './view/BookBike/BookBike'
 import Readbike from './view/Readbike/Readbike';
 import Addtocard from "./view/Addtocard/Addtocard";
 
-
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 
 const router = createBrowserRouter([
