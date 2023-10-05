@@ -1,135 +1,99 @@
-.bike-container {
+.bike-container{ 
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 50px;
     padding: 0;
-    background-color: white;
 }
 
-.container-items-bike {
-
+.container-items-bike{
+   
     border-radius: 2px;
     height: 500px;
     width: 350px;
-    box-shadow: 1px 1px 2px 0 black;
-    position: relative;
-
+    box-shadow: 1px 1px 3px black;   
+    
 }
-
-.container-items-bike:hover {
-    height: 515px;
-    box-shadow: 1px 1px 4px 1px black;
+.bike-offer{
+    background-color: rgb(166, 187, 157);
+   margin-left: 15px;
+   padding: 5px;
+   border-radius: 5px;
+   
 }
-
-.bike-offer {
-    color: green;
-    margin-left: 15px;
-    font-weight: bold;
-    padding: 5px;
-    border-radius: 5px;
-    position: absolute;
-    margin-top: -20px;
-
-}
-
-.bike-left {
+.bike-left{
     margin-left: 100px;
-    background-color: rgba(87, 87, 215, 0.151);
-    width: 100px;
-    right: 0;
-    top: 0;
-    padding: 5px;
-    margin-left: auto;
-    position: absolute;
-    margin-left: 240px;
-
+    background-color: rgb(36, 130, 36);
+    width: 150px;
+     padding: 5px;
+     border-radius: 5px;
 }
-
-.bike-img1 {
+.bike-img{
     height: 190px;
     margin-left: 13px;
-
-
+  
+   
 }
-
-.bike-i {
+.bike-i{
     height: 180px;
 }
-
-.extra-margine {
-    margin-left: 115px;
-
+.extra-margine{
+  margin-left: 115px;
+    
 }
-
-.pickup {
+.pickup{
     font-size: 10px;
-    margin-left: 90px;
+    margin-left: 100px;
     background-color: rgb(161, 210, 133);
-    padding: 3px 15px;
-    color: blue;
-    /* font-weight: bold; */
-
-    /* border: 2px double rgb(132, 177, 132); */
+    padding: 1px;
+    border: 2px double rgb(132, 177, 132);
     border-radius: 10px;
 }
-
-.price {
+.price{
     font-size: 23px;
-    margin-left: 100px;
+  margin-left: 100px;
 }
-
-.delear {
+.delear{
     font-size: 12px;
-    margin-top: 15px;
-
+   margin-top: 15px;
+   
     display: flex;
     justify-content: center;
     background-color: rgb(247, 241, 231);
     width: 348.5px;
     padding: 3px;
 
-
+   
 }
-
-.deposite-bike {
+.deposite-bike{
     display: flex;
     justify-content: space-around;
-
+   
     font-weight: 500;
     margin-left: 30px;
     margin-top: 10px;
-
+    
 }
-
-.details-bike {
+.details-bike{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content:space-evenly;
 
-
-
+   
+   
 
 }
-
-.view-details {
-
-    padding: 0 15px;
+.view-details{
+    
+    padding: 7px;
     border: 1px solid black;
-    /* background-color: rgba(43, 43, 176, 0.658); */
     border-radius: 40px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    /* font-size: 17px; */
+    color: black;
+    font-size: 17px;
     font-weight: 400;
-    padding: 5px 15px;
-
+    
 }
-
-
-
-
-.addtocard {
+.addtocard{
     padding: 8px;
     padding-left: 20px;
     padding-right: 20px;
@@ -140,9 +104,8 @@
     font-weight: 500;
 
 }
-
-.addtocard:hover {
-    background-color: rgb(125, 125, 158);
+.addtocard:hover{
+    background-color: aqua;
     transition: 1s;
-
+   
 }
