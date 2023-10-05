@@ -12,7 +12,7 @@ const BookBike = () => {
 
             <div className='bikepage-container'  >
                 <h2 className='p-2'>    Rent A Bike In Pune </h2>
-                <span className='mx-3'>Dealer Timings: 01:00 AM - 12:00 AM</span>
+                <span className=''>Dealer Timings: 01:00 AM - 12:00 AM</span>
             </div>
 
             <div className='bikefound'>
@@ -23,7 +23,7 @@ const BookBike = () => {
             <div className='bookbike'>
                 {
                     bikeData.map((bookbike, index) => {
-                        return <Bikedatacard key={index} id={bookbike.id} offer={bookbike.offer} left={bookbike.left} ImageUrl={bookbike.ImageUrl} title={bookbike.title} rating={bookbike.rating} price={bookbike.price} pickup={bookbike.pickup} dealertiming={bookbike.dealertiming} deposite={bookbike.dealertiming} deposite={bookbike.deposite} terms={bookbike.terms} viewdetails={bookbike.viewdetails} addtocard={bookbike.addtocard} />
+                        return <Bikedatacard key={index} id={bookbike.id} offer={bookbike.offer} left={bookbike.left} ImageUrl={bookbike.ImageUrl} title={bookbike.title} rating={bookbike.rating} price={bookbike.price} pickup={bookbike.pickup} dealertiming={bookbike.dealertiming} deposite={bookbike.deposite} terms={bookbike.terms} viewdetails={bookbike.viewdetails} addtocard={bookbike.addtocard} />
 
                     })
                 }
@@ -62,30 +62,30 @@ const BookBike = () => {
                 We are also coming up with a lot of new amazing services apart from bike hire in Pune to make your trip even more <br />memorable and exciting. Be it a bike rental, Bicycle touring, or a Trek, in the last, what matters is the Trip and we <br />are specialized to create awesome trips for you.<br /><br /><br /><br /><br />
 
                 Frequently Asked Questions<br />
-                1.<b> How can I rent a bike?</b><br />
+                <b>1. How can I rent a bike?</b><br />
                 Renting a bike of your choice is simple. Just select the bike which you want to rent and book it. On the next step, you <br />shall need to visit the location to pick the bike up.<br /><br />
 
-                2.<b> What documents are required for renting a bike?</b><br />
+                <b> 2.What documents are required for renting a bike?</b><br />
                 You need to submit an ID in original and the copy of Driving License.<br /><br />
 
-                3. <b>Is fuel included with the rental?</b><br />
+                 <b>3.Is fuel included with the rental?</b><br />
                 No. Fuel is not included with rental amount.<br /><br />
 
-                4. <b>How much security deposit I need to pay?</b><br />
+                 <b>4.How much security deposit I need to pay?</b><br />
                 There is a varying security deposit for renting a bike depending of the location and type of bike. This is given with <br />the bike listing.<br /><br />
 
-                5. <b>When shall I get the security deposit back?</b><br />
+                 <b>5.When shall I get the security deposit back?</b><br />
                 You shall be getting the security deposit immediately after returning the bike.<br /><br />
 
-                6. <b>Are long term bike rentals cheaper?</b><br />
+                 <b> 6.Are long term bike rentals cheaper?</b><br />
                 Yes. You can avail upto 70% discount on monthly bike rentals.<br /><br />
 
-                7. What are the various bike rental formats?<br />
+               <b>7.What are the various bike rental formats?</b><br />
                 You can rent a bike on hourly, daily, weekly and monthly. Longer the duration, cheaper the rent.<br /><br />
 
                 Mail
             </div>
-            <Footer />
+           <Footer/>
         </div>
 
     )
