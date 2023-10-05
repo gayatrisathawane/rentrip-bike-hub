@@ -1,0 +1,13 @@
+.review-main-container{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.name{
+    color: #142e8d;
+}

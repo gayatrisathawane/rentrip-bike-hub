@@ -1,0 +1,62 @@
+*{
+    padding:0
+}
+
+.card-customer{
+    height: 300px;
+    display: flex;
+}
+
+.main-container{
+
+}
+
+.content-head{
+    color: grey;
+    /* padding: 50px 40px 0 50px; */
+    font-size: 20px;
+    list-style: none;
+}
+
+.ranking{
+    /* padding: 0 65px; */
+    font-size: 90px;
+    color: green;
+
+}
+
+.small-head{
+    color: gray;
+}
+
+.bottom-head{
+    color: grey;
+    font-size: 17px;
+    /* padding: 0px 40px 0 70px; */
+
+}
+
+.verified-content{
+    font-size: 20px;
+    padding: 10px 20px;
+    
+}
+.middle-content{
+    border: 1px solid green;
+    width: 350px;
+    height: 100px;
+    background-color: rgb(163, 214, 163);
+    display: block;
+    justify-content: center;
+    align-self: center;
+    /* padding: 0 30px; */
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.font{
+ color: orange;
+}

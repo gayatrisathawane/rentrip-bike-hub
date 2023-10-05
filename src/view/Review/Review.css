@@ -1,3 +1,31 @@
-*{
-    padding:0
+.input-box{
+width: 400px;
+margin-left: 20px;
+border-radius: 5px;
+border: 2px solid #142e8d;
+padding: 10px;
+}
+
+.title-main{
+    color: #142e8d;
+}
+
+.add-button{
+    margin-top: -39px;
+    padding: 8px 15px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+
+}
+
+::placeholder{
+    color:#142e8d ;
+}
+
+.input-container{
+    /* border: 1px solid #142e8d; */
+    padding: 5px 0 50px 10px ;
+    border-radius: 10px;
 }
