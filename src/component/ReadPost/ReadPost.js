@@ -6,19 +6,23 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 function ReadPost(){
-    const {id}=useParams()
+    const {id} = useParams()
     const [post,setPost]=useState({})
    useEffect(()=>{
+
     Blog.forEach((postObj)=>{
-        if (post.id==id){
+        if (postObj.id==id){
             setPost(postObj)
         }
     })
    },[id])
 
     return (<>
+    <img src={post.img}/>
+    <h1>{post.title}</h1>
+    <h1>{post.description}</h1>
+    <h1>{post.date}</h1>
         </>
-        
-    );
+         );
 }
 export default ReadPost

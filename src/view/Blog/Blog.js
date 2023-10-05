@@ -17,8 +17,8 @@ export default function Blog() {
 
                 {
                     blogJson.map((blog, index) => {
-                        return <PostCard key={index} id={blog.id} img={blog.img} title={blog.title} description={blog.description}/>
-})
+                        return <PostCard key={index} img={blog.img} title={blog.title} description={blog.description} id={blog.id}/>
+                    })
                 }
 
             </div>
