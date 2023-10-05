@@ -2,7 +2,7 @@
 width: 400px;
 margin-left: 20px;
 border-radius: 5px;
-border: 2px solid rgb(15, 15, 54);
+border: 2px solid #142e8d;
 padding: 10px;
 }
 
@@ -21,5 +21,11 @@ padding: 10px;
 }
 
 ::placeholder{
-    color:rgb(15, 15, 54) ;
+    color:#142e8d ;
+}
+
+.input-container{
+    /* border: 1px solid #142e8d; */
+    padding: 5px 0 50px 10px ;
+    border-radius: 10px;
 }

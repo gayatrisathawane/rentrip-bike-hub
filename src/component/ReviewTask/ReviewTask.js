@@ -7,7 +7,7 @@ const ReviewTask=({id,title,description, name, profession, emoji})=>{
     <div className='review-main-container shadow my-3'>
        <h5 className='text-center'>{title}</h5>
        <p className='text-center'>{description}</p>
-       <h5 className='text-center'>{name}</h5>
+       <h5 className='text-center name'>{name}</h5>
        <p className='text-center'>{profession}</p>
        <p className='text-center'>{emoji}</p> 
     </div>
