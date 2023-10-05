@@ -6,12 +6,13 @@ import Footer from '../../component/Footer/Footer';
 
 import Bikedatacard from '../../component/Bikedatacard/Bikedatacard';
 const BookBike = () => {
+   
     return (
         <div className='main-container-bike'>
             <Navbar />
 
             <div className='bikepage-container shadow'  >
-                <h2 className='p-2'>    Rent A Bike In Pune </h2>
+                <h2 className='p-2'> hjhgh </h2>
                 <span className=''>Dealer Timings: 01:00 AM - 12:00 AM</span>
             </div>
 

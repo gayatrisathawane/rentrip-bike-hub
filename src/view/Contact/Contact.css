@@ -31,7 +31,8 @@
 .messagebtn{
   background-color: orange;
   border: none;
-  padding: 10px;
-  font-size: 25px;
+ padding:8px 30px;
+  border-radius: 5px;
+  font-size: 18px;
   
 }
