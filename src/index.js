@@ -13,7 +13,6 @@ import ReadPost from "./component/ReadPost/ReadPost"
 import BookBike from './view/BookBike/BookBike'
 import Readbike from './view/Readbike/Readbike';
 import Addtocard from "./view/Addtocard/Addtocard";
-import Register from "./view/Register/Register"
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 
 const router = createBrowserRouter([
