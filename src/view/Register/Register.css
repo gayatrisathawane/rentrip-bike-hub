@@ -26,7 +26,7 @@
     background-color:rgb(37, 37, 66) ;
     margin: 10px;
     padding: 10px;
-    margin-top:-30px;
+    
 }
 
 .register-data{
@@ -95,10 +95,99 @@
     text-decoration: none;
    
 }
+.textregi {
+    margin: 14px;
+    font-size: 24px;
+    text-align: center;
+box-shadow:  1px 1px 1px rgb(120, 116, 116);
+    
+  }
 
 
 .password{
     text-decoration: none;
     margin-left: 30px;
     color: orange;
+}
+
+@media screen and (max-width: 600px) {
+
+    .register-data {
+        background-color: rgb(246, 162, 7);
+        width: 540px;
+        height: 107px;
+        margin-left: 13px;
+        margin-top: -5px;
+        border-radius: 10px;
+        color: white;
+      }
+      .google {
+        background-color: orange;
+        color: white;
+        margin-left: 207px;
+        padding: 11px;
+          padding-right: 11px;
+          padding-left: 11px;
+        font-size: 14px;
+        border-radius: 10px;
+        text-decoration: none;
+      }
+  .register-image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+      margin-bottom: auto;
+    height: 61px;
+  }
+  .text {
+    margin: 14px;
+    /* padding: -281px; */
+    font-size: 24px;
+    text-align: center;
+
+  }
+  .form-line {
+    padding: 12px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+  .textregi {
+    margin: 14px;
+    /* padding: -281px; */
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    margin-right: 30px;
+    
+  }
+  .register{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 4px 4px 5px lightgrey;
+    width: 540px;
+    /* height: 100vh; */
+    border-radius: 20px;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin: 0 auto;
+   padding: 5px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+    
+}
+.bike-info-text {
+    color: white;
+    background-color: rgb(37, 37, 66);
+    margin: -14px;
+      margin-top: -14px;
+    padding: 5px;
+    text-align: center;
+   
+  }
 }

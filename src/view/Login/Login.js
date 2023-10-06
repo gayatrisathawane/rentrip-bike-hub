@@ -6,7 +6,7 @@ import Navbar from './../../component/Navbar/Navbar';
 import Google from "./logo.png";
 import Footer from './../../component/Footer/Footer';
 import Logo1 from "./../../component/Navbar/logo-rentrip.png"
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -25,14 +25,14 @@ const Login = () => {
       };
       localStorage.setItem('currentUser', JSON.stringify(loginData));
       showToast(' Successful loged in', 'success', 5000);
-      window.location.href= "";
+      window.location.href = "";
       setEmail('');
       setPassword('');
     }
   };
 
   const validEmail = (email) => {
-   
+
     const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailSymbol.test(email);
   };
@@ -40,7 +40,7 @@ const Login = () => {
     <>
       <Navbar />
 
-      <div className='d-flex'>
+      <div className='d-flex login-flex'>
         <div className='row login-media'>
           <div className='login col-md-6'>
 
@@ -48,12 +48,26 @@ const Login = () => {
             <div>
               <form>
                 <h1 className='sign-text text-center mt-4 '> Login</h1>
-                <div>
 
-                  <button type="button" className=' m-2 ms-4 fs-5 p-2 facebook'>  <img src={Facebook} className=' google-logo px-auto' />With Facebook</button>
-                  <button type="button" className='fs-5 m-5 p-2 pe-2 google'> <img src={Google} className=' google-logo px-auto' />With Google</button>
-                  <h3 className='ms-2 or-login'>-----------------or-----------------</h3>
-                </div>
+                <div className='button-flex p-3'>
+
+                  <div>
+                    <button type="button" className='btn-facebook'>
+                      <img src={Facebook} className='google-logo' />
+                      With Facebook
+                    </button>
+                  </div>
+
+                  <div>
+                    <button type="button" className='btn-google'>
+                      <img src={Google} className='google-logo' />
+                      With google
+                    </button>
+                  </div>
+
+                </div><br/>
+
+                <h3 className='ms-2 or-login'>-----------------or-----------------</h3>
 
                 <div className='info p-5 mt-5'>
                   <input
@@ -91,7 +105,7 @@ const Login = () => {
                       Login
                     </button>
                   </Link>
-                  </div>
+                </div>
               </form>
             </div>
           </div>
@@ -103,7 +117,7 @@ const Login = () => {
             <p className='text-light'>✔️Sign up to recive exclusive news and private offter</p>
             <p className='text-light'>✔️Quick Book Trips</p><br /><br />
             <Link to="/register">
-            <button type='button' className='google ms-4 px-auto p-2'>Register Now!</button>
+              <button type='button' className='google ms-4 px-auto p-2'>Register Now!</button>
             </Link>
           </div>
         </div>
