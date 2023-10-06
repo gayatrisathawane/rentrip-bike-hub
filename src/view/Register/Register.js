@@ -27,7 +27,7 @@ const Register = () => {
     }
     const addRegister = () => {
 
-        if (!email && !password ) {
+        if (!email && !password) {
             showToast(' Enter a Name email and password', 'alert', 5000);
         }
         else if (!firstname) {
@@ -72,7 +72,7 @@ const Register = () => {
                 mobileno,
                 modelno,
                 age,
-              };
+            };
             localStorage.setItem('currentUser', JSON.stringify(loginData));
             showToast(' Successful Register in', 'success', 5000);
             window.location.href = "";
@@ -85,7 +85,7 @@ const Register = () => {
             setMobileNo('');
             setModelNo('');
             setAge('');
-             }
+        }
     };
     const validEmail = (email) => {
         const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -153,7 +153,7 @@ const Register = () => {
                                     }}
                                 /><br />
 
-                                   <input
+                                <input
                                     type='age'
                                     className='text px-4'
                                     value={mobileno}
@@ -164,7 +164,7 @@ const Register = () => {
 
                                     }}
                                 />
-                          </form>
+                            </form>
                             <h1 className='bike-info-text mt-5'>Bike Information</h1>
                             <br />
                             <div className='px-5  text-center mt-4'>
@@ -192,8 +192,8 @@ const Register = () => {
                                     }}
                                 /><br />
                             </div><br /><br />
-                            <h3> Please indicate any identifying items on your bike : 
-                                </h3>
+                            <h3> Please indicate any identifying items on your bike :
+                            </h3>
                             <div className='form-line '>
 
 
@@ -229,11 +229,6 @@ const Register = () => {
                                 Submit
                             </button>
                         </Link>
-
-
-
-
-
                     </div>
                 </div>
             </div>
