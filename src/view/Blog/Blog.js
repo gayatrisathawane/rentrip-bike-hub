@@ -9,9 +9,11 @@ export default function Blog() {
     return (
         <div>
             <Navbar />
-            <div className="blog-image">
+            <div className='blog-image'>
+                {/* <img src="" className='blog-image'/> */}
                 <b > <h1 className='blog-text'>Blog</h1></b>
             </div>
+           
 
             <div className='blog-container'>
 

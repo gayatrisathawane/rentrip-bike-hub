@@ -4,11 +4,20 @@
     width: 80%;
     /* height: 700px; */
     margin-left: 140px;
-    background-color: rgb(218, 218, 248);
+    background-color: white;
+}
+.blog-image{
+    height: 400px;
+    opacity: 1.9;
+    background-image: no-repeat;
+    width: 100%;
+    background-image:linear-gradient(rgba(72, 70, 97, 0.9), rgba(78, 76, 93, 0.8)), url(./../Footer/footer1.png);
 }
 .read-img{
     display: flex;
-    margin-left: 400px;
+   margin-left:120px; 
+    width: 80%;
+    height: 500px;
    
 }
 .orange{

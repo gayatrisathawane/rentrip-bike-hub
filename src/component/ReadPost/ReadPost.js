@@ -18,17 +18,24 @@ function ReadPost(){
    },[id])
 
     return (<>
+
+              <div className='blog-image'>
+             
+                <b > <h1 className='blog-text'>Blog</h1></b>
+            </div>
+     
     <div className="read-text-blog">
+     
     <img src={post.img} className="read-img mt-5 p-3"/><br/>
     <h1 className="text-center orange">{post.title}</h1><br/>
-    <h4 className="text-center ms-5 me-5">{post.description}</h4><br/>
+    <p className="text-center ms-5 me-5 fs-5">{post.description}</p><br/>
     <h3 className="ms-5 orange ">Date : {post.date} ;</h3><br/>
     <h2 className="ms-5 orange">1.{post.effect}</h2>
-    <h3 className="text-center ms-5 me-5">{post.effectinfo}</h3><br/>
+    <p className="text-center ms-5 me-5 fs-5">{post.effectinfo}</p><br/>
     <h2 className="ms-5 orange">2.{post.Convenient}</h2>
-    <h3 className="text-center ms-5 me-5">{post.Convenientinfo}</h3><br/>
+    <p className="text-center ms-5 me-5 fs-5">{post.Convenientinfo}</p><br/>
     <h2 className="ms-5 orange">3 : {post.parking}</h2>
-    <h3 className="text-center ms-5 me-5 p-5">{post.parkinginfo}</h3><br/>
+    <p className="text-center ms-5 me-5 p-5 fs-5">{post.parkinginfo}</p><br/>
 
     </div>
         </>
