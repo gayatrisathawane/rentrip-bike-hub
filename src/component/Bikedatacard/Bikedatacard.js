@@ -11,7 +11,7 @@ function Bikedatacard({ id, offer, left, ImageUrl, title, rating, price, pickup,
                     <span className=' bike-offer' >{offer}</span>
                     <span className='bike-left'>{left}</span>
 
-                    <div className='bike-i'> <img src={ImageUrl} className='bike-img' height='50px' /></div>
+                    <div className='bike-i'> <img src={ImageUrl} className='bike-img1' height='50px' /></div>
 
                     <h5 className='text-center'>{title}</h5>
                     <span className=' extra-margine'>{rating}</span><br />
