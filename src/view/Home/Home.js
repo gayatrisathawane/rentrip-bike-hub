@@ -46,26 +46,40 @@ const Home = () => {
    const[pickuptime,setpickupTime]=useState('')
    const[droptime,setdropTime]=useState('')
 
-   const saveFormData = () => {
-      // Parse existing data from local storage or create an empty array
-      const formdatasave = JSON.parse(localStorage.getItem('formUser')) || [];
+   // const saveFormData = () => {
+   //    // Parse existing data from local storage or create an empty array
+   //    const formdatasave = JSON.parse(localStorage.getItem('formUser')) || [];
     
-      // Create a new form data object
+   //    // Create a new form data object
+   //    const dataForm = {
+   //      city,
+   //      bookDay,
+   //      pickupdate,
+   //      pickuptime,
+   //      dropdate,
+   //      droptime,
+   //    };
+    
+   //    // Add the new form data object to the array
+   //    formdatasave.push(dataForm);
+    
+   //    // Store the entire array in local storage
+   //    localStorage.setItem('formUser', JSON.stringify(formdatasave));
+   //  };
+
+
+   const saveFormData =() =>{
       const dataForm = {
-        city,
-        bookDay,
-        pickupdate,
-        pickuptime,
-        dropdate,
-        droptime,
-      };
-    
-      // Add the new form data object to the array
-      formdatasave.push(dataForm);
-    
-      // Store the entire array in local storage
-      localStorage.setItem('formUser', JSON.stringify(formdatasave));
-    };
+              city,
+              bookDay,
+              pickupdate,
+              pickuptime,
+              dropdate,
+              droptime,
+            };
+     localStorage.setItem('currentUser', JSON.stringify(dataForm))
+      
+   }
     
    return (
       <div>

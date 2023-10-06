@@ -5,6 +5,7 @@
     margin-left: 150px;
     margin-right: 150px;
     background-color: white;
+    margin-top: 30px;
 
 
 
@@ -12,10 +13,10 @@
 }
 
 .bikepage-container {
-    height: 100px;
+    /* height: 100px; */
     background-color: white;
     margin-top: 30px;
-    width: 81%;
+    /* width: 81%; */
     margin-left: 140px;
 }
 
@@ -45,4 +46,22 @@
 
 .bold {
     font-weight: bold;
+}
+.searchbar{
+    font-size: 25px;
+    /* border-radius: 30px; */
+    padding: 10px 20px ;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    width: 600px;
+    outline: none;
+    border: none;
+    /* box-shadow:  0 0 10px rgb(42, 43, 43); */
+    /* margin-left:150px; */
+}
+
+.datasearch{
+    border: 1px solid rgb(43, 43, 152);
+    padding:5px;
 }

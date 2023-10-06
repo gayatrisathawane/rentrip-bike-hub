@@ -1,33 +1,84 @@
 import './BookBike.css'
+import { useState, useEffect } from 'react';
 import bikeData from "./../../bikes/bike-data.json"
 import Navbar from '../../component/Navbar/Navbar';
 import Footer from '../../component/Footer/Footer';
-
-
 import Bikedatacard from '../../component/Bikedatacard/Bikedatacard';
+
 const BookBike = () => {
-   
+    const [DataStore, setDataStore] = useState(bikeData)
+    const [searchTerm, setSearchTerm] = useState('')
+    const [findform, setFindform] = useState("")
+    console.log(findform)
+
+
+    useEffect(() => {
+        console.log("Search term changed:", searchTerm);
+
+        const filteredBike = bikeData.filter((bike) => {
+            const title = bike?.title?.toLowerCase();
+            const query = searchTerm?.toLowerCase();
+
+            return title.includes(query);
+        });
+
+        setDataStore(filteredBike);
+    }, [searchTerm]);
+
+    useEffect(() => {
+        const list = JSON.parse(localStorage.getItem('currentUser'));
+      
+    //    if(list && list.length>0){
+        setFindform(list)
+    //    }
+  
+    }, [])
+
+
+
     return (
         <div className='main-container-bike'>
             <Navbar />
 
-            <div className='bikepage-container shadow'  >
-                <h2 className='p-2'> hjhgh </h2>
-                <span className=''>Dealer Timings: 01:00 AM - 12:00 AM</span>
+            <div className='bikepage-container shadow p-3'  >
+               
+            
+                  <h1> Rent  A Bike at {findform.city}</h1>
+                  <button className='datasearch'> your search :</button>
+                   <span className='ms-3 fs-5'>{findform.pickupdate}  </span>
+                   <span className='fw-bold fs-5'>{findform.pickuptime} </span> - 
+                  <span className='ms-2 fs-5'>{findform.dropdate} </span>
+                  <span className='fw-bold fs-5'>{findform.droptime} </span>
+
+                
+                
+                
+
+               
+                    
             </div>
 
             <div className='bikefound shadow'>
                 Found 46 bikes
 
             </div>
+            <div className='d-flex justify-content-center'>
+                <input type="text"
+                    className='searchbar shadow '
+                    placeholder=" Search any bike                                                 "
+                    value={searchTerm}
+                    onChange={(e) => {
+                        setSearchTerm(e.target.value)
+                    }}  /> <span className='bg-primary'>🔍</span>
+            </div>
 
             <div className='bookbike'>
                 {
-                    bikeData.map((bookbike, index) => {
+                    DataStore.map((bookbike, index) => {
                         return <Bikedatacard key={index} id={bookbike.id} offer={bookbike.offer} left={bookbike.left} ImageUrl={bookbike.ImageUrl} title={bookbike.title} rating={bookbike.rating} price={bookbike.price} pickup={bookbike.pickup} dealertiming={bookbike.dealertiming} deposite={bookbike.deposite} terms={bookbike.terms} viewdetails={bookbike.viewdetails} addtocard={bookbike.addtocard} />
-
                     })
                 }
+
             </div>
 
             <div className='text-bike'>
@@ -69,24 +120,24 @@ const BookBike = () => {
                 <b> 2.What documents are required for renting a bike?</b><br />
                 You need to submit an ID in original and the copy of Driving License.<br /><br />
 
-                 <b>3.Is fuel included with the rental?</b><br />
+                <b>3.Is fuel included with the rental?</b><br />
                 No. Fuel is not included with rental amount.<br /><br />
 
-                 <b>4.How much security deposit I need to pay?</b><br />
+                <b>4.How much security deposit I need to pay?</b><br />
                 There is a varying security deposit for renting a bike depending of the location and type of bike. This is given with <br />the bike listing.<br /><br />
 
-                 <b>5.When shall I get the security deposit back?</b><br />
+                <b>5.When shall I get the security deposit back?</b><br />
                 You shall be getting the security deposit immediately after returning the bike.<br /><br />
 
-                 <b> 6.Are long term bike rentals cheaper?</b><br />
+                <b> 6.Are long term bike rentals cheaper?</b><br />
                 Yes. You can avail upto 70% discount on monthly bike rentals.<br /><br />
 
-               <b>7.What are the various bike rental formats?</b><br />
+                <b>7.What are the various bike rental formats?</b><br />
                 You can rent a bike on hourly, daily, weekly and monthly. Longer the duration, cheaper the rent.<br /><br />
 
                 Mail
             </div>
-           <Footer/>
+            <Footer />
         </div>
 
     )
