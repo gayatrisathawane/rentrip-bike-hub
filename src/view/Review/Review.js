@@ -2,30 +2,32 @@ import { useEffect, useState } from "react";
 import Navbar from "./../../component/Navbar/Navbar";
 import CustomerCard from "../../component/CustomerCard/CustomerCard";
 import ReviewTask from "../../component/ReviewTask/ReviewTask";
-import showToast from 'crunchy-toast';
+import showToast from "crunchy-toast";
 import "./Review.css";
 import "./../../component/Footer/Footer";
 import Footer from "./../../component/Footer/Footer";
-
 
 const Review = () => {
   const [taskList, setTaskList] = useState([
     {
       title: "RenTrip Gonna be My First Choice Forever",
-      description: "It has been an awesome experience for me when I got to roam places like Dipor Bil, Kamakhya Temple, Umanadna temple and many more places. Before I started the journey I wasn't sure I would get chance to visit and these all beautiful places.",
+      description:
+        "It has been an awesome experience for me when I got to roam places like Dipor Bil, Kamakhya Temple, Umanadna temple and many more places. Before I started the journey I wasn't sure I would get chance to visit and these all beautiful places.",
       profession: "Senior Teacher, Bhopal",
       emoji: "⭐⭐⭐⭐⭐",
     },
     {
       title: "Trip to ASSAM and MEGHALAYA!",
-      description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
+      description:
+        "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
       name: "Know Startup",
       profession: "News",
       emoji: "⭐⭐⭐⭐⭐",
     },
     {
       title: "Leading motorbike rental service providers!",
-      description: "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
+      description:
+        "We had booked two bikes (Pulsar 180 & 150) for my ASSAM and MEGHALAYA trip from Rentrip Guwahati. The bikes were very well maintained and perfectly clean when they handed the key. So no trouble with the bike at any place .",
       name: "Mandy Varshaney",
       profession: "TripAdvisor",
       emoji: "⭐⭐⭐⭐⭐",
@@ -38,70 +40,48 @@ const Review = () => {
   const [name, setName] = useState("");
   const [profession, setProfession] = useState("");
   const [emoji, setEmoji] = useState("");
-
-  //load from local storage
-  // useEffect(()=>{
-  //   const list = JSON.parse(localStorage.getItem('reviewlist'))
-  //   setTaskList(list)
-  // },[]);
-
-  // useEffect(() => {
-  //   const storedData = localStorage.getItem("reviewlist");
-  //   if (storedData) {
-  //     const list = JSON.parse(storedData);
-  //     setTaskList(list);
-  //   }
-  // }, []);
-  
-
-
-    //save local storage
-    // const savetolocalstorage = (review) =>{
-    //   localStorage.setItem("reviewlist", JSON.stringify(review));
-    // }
-  
-    const savetolocalstorage = (review) => {
-      localStorage.setItem("reviewlist", JSON.stringify(review));
+  //----------------------------------------------------------------
+  useEffect(() => {
+    const list = JSON.parse(localStorage.getItem("reviwelist"));
+    if (list && list.length > 0) {
+      setTaskList(list);
     }
-    
+  }, []);
 
-// add revise
+  const saveListtoLocalStorage = (task) => {
+    localStorage.setItem("reviwelist", JSON.stringify(task));
+  };
+
+  //----------------------------------------------------------------
   const addReviseToList = () => {
     if (!title) {
       showToast("Title is Required.", "alert", 3000);
       return;
     }
-    if(!description)
-    {
-      showToast("Description is Required.",'alert', 3000);
+    if (!description) {
+      showToast("Description is Required.", "alert", 3000);
       return;
     }
-    if(!name)
-    {
-      showToast("Name is Required.",'alert', 3000);
+    if (!name) {
+      showToast("Name is Required.", "alert", 3000);
       return;
     }
-    if(!profession)
-    {
-      showToast("Profession is Required.",'alert', 3000);
+    if (!profession) {
+      showToast("Profession is Required.", "alert", 3000);
       return;
     }
-    if(!emoji)
-    {
-      showToast("Stars are Required.",'alert', 3000);
+    if (!emoji) {
+      showToast("Stars are Required.", "alert", 3000);
       return;
     }
 
-    const clearInputFields = (newReviewList) => {
+    const clearInputFields = () => {
       setTitle("");
       setDescription("");
       setName("");
       setProfession("");
       setEmoji("");
-
-      savetolocalstorage(newReviewList);
     };
-
 
     // const randomId = Math.floor(Math.random() * 1000);
 
@@ -112,21 +92,14 @@ const Review = () => {
       profession: profession,
       emoji: emoji,
     };
-
-    const newReviewList = [...taskList, obj];
-
-    setTaskList(newReviewList);
+    const newTaskList = [...taskList, obj];
+    setTaskList(newTaskList);
 
     clearInputFields();
+    saveListtoLocalStorage(newTaskList);
 
     showToast("Review added successfully!", "success", 3000);
   };
-  
-
-  //update review 
-  const updateReview = () =>{
-    
-  }
 
   return (
     <>
@@ -135,10 +108,10 @@ const Review = () => {
       <CustomerCard />
 
       <div className="container">
-      <h1 className='text-center mt-5 title-main'>CUSTOMER EXPERIENCES</h1>
+        <h1 className="text-center mt-5 title-main">CUSTOMER EXPERIENCES</h1>
 
-      <div className="input-container mt-5 shadow">
-            <form>
+        <div className="input-container mt-5 shadow">
+          <form>
             <div className="first-input-grp">
               <input
                 type="text"
@@ -149,7 +122,7 @@ const Review = () => {
                   setTitle(e.target.value);
                 }}
               />
-      
+
               <input
                 type="text"
                 value={description}
@@ -169,9 +142,9 @@ const Review = () => {
                   setName(e.target.value);
                 }}
               />
-              </div>
+            </div>
 
-              <div className="first-input-grp">
+            <div className="first-input-grp">
               <input
                 type="text"
                 value={profession}
@@ -191,17 +164,20 @@ const Review = () => {
                 }}
               />
 
-              <button type="button" className="add-button mx-5 px-5 shadow" onClick={addReviseToList}>
+              <button
+                type="button"
+                className="add-button mx-5 px-5 shadow"
+                onClick={addReviseToList}
+              >
                 Add Review
               </button>
-          </div>
-            </form>
-          </div>
+            </div>
+          </form>
+        </div>
 
         {/* <h1 className="text-center mt-5">Add Your Review Here</h1> */}
 
         <div className="d-flex justify-content-evenly mt-5 flex-wrap">
-         
           {taskList.map((taskItem, index) => {
             const { id, title, description, name, profession, emoji } =
               taskItem;
