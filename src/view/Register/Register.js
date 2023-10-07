@@ -41,9 +41,9 @@ const Register = () => {
             // else if (!device) {
             //     showToast(' Enter a Devices', 'alert', 5000);
             // }
-            else if (!serialno) {
-                showToast(' Enter a Serial No', 'alert', 5000);
-            }
+            // else if (!serialno) {
+            //     showToast(' Enter a Serial No', 'alert', 5000);
+            // }
             else if (!mobileno) {
                 showToast(' Enter a Mobile No', 'alert', 5000);
 
@@ -66,7 +66,7 @@ const Register = () => {
                     lastname,
                     lastname,
                     // device,
-                    serialno,
+                    // serialno,
                     mobileno,
                     age,
 
@@ -79,14 +79,14 @@ const Register = () => {
                 setFirstName('');
                 setLastName('');
                 // setDevice('');
-                setSerialNo('');
+                // setSerialNo('');
                 setMobileNo('');
                 setAge('');
 
             }
         };
         const validEmail = (email) => {
-            const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const emailSymbol = /[@]/;
             return emailSymbol.test(email);
         };
         return (

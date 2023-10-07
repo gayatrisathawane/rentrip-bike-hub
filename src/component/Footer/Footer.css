@@ -24,12 +24,16 @@
     left: 50px;
     
 }
+.get-cursor{
+cursor: pointer;
+}
 .bike-text{
     color: white;
+    cursor: pointer;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 800px){
     .footer-image {
         /* background-image: linear-gradient(rgba(99, 97, 124, 0.9), rgba(109, 105, 136, 0.8)), url("footer.png"); */
         height: 1170px;
@@ -48,6 +52,8 @@
         color: white;
         margin-right: 270px;
     }
+
+   
 
 
 
