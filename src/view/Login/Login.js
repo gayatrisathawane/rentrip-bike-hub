@@ -66,10 +66,6 @@ const Login = () => {
                     </button>
                   </div> */}
 
-
-
-
-
               <label className='fs-4'>Name</label>
               <input
 
@@ -110,11 +106,6 @@ const Login = () => {
                 }}
               />
               <br /><br></br>
-              {/* {error && <p className='text-danger'>{error}</p>}   */}
-
-
-              
-
               <div className='d-flex justify-content-between'>
                 <div>
                 <input type='checkbox' className=' fs-4' /> <span className='fs-3'>I'm not a robort</span>
@@ -124,13 +115,6 @@ const Login = () => {
              </div>
              
               </div>
-             
-
-
-            
-
-
-
               <div>
                 <button className="btn btn-login text-light p-2 fs-5" type="button" onClick={addLogin} >Login</button>
               </div>

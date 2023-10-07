@@ -112,7 +112,7 @@ box-shadow:  1px 1px 1px rgb(120, 116, 116);
     color: orange;
 } */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 800px) {
 
     .register-data {
         background-color: orange;

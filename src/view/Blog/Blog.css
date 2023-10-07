@@ -22,6 +22,7 @@
     margin-top: -25px;
     height: 230px;
     width:370px;
+    
     }
 
 .blog-button{
@@ -41,6 +42,16 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: white;
 
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+    .blog-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: rgb(252, 249, 249);
+    }
 }
 
