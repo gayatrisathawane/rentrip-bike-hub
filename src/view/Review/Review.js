@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./../../component/Navbar/Navbar";
 import CustomerCard from "../../component/CustomerCard/CustomerCard";
 import ReviewTask from "../../component/ReviewTask/ReviewTask";
@@ -6,6 +6,7 @@ import showToast from 'crunchy-toast';
 import "./Review.css";
 import "./../../component/Footer/Footer";
 import Footer from "./../../component/Footer/Footer";
+
 
 const Review = () => {
   const [taskList, setTaskList] = useState([
@@ -31,6 +32,7 @@ const Review = () => {
     },
   ]);
 
+  const [id, setId] = useState(0);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [name, setName] = useState("");
@@ -38,9 +40,8 @@ const Review = () => {
   const [emoji, setEmoji] = useState("");
 
   const addReviseToList = () => {
-    if(!title)
-    {
-      showToast("Title is Required.",'alert', 3000);
+    if (!title) {
+      showToast("Title is Required.", "alert", 3000);
       return;
     }
     if(!description)
@@ -64,7 +65,18 @@ const Review = () => {
       return;
     }
 
-    
+    const clearInputFields = () => {
+      setTitle("");
+      setDescription("");
+      setName("");
+      setProfession("");
+      setEmoji("");
+    };
+
+    const savetolocalstorage = () =>{
+
+    };
+
     // const randomId = Math.floor(Math.random() * 1000);
 
     const obj = {
@@ -76,12 +88,16 @@ const Review = () => {
     };
 
     setTaskList([...taskList, obj]);
-    showToast('Review added successfully!', 'success',3000);
-  };
 
+    clearInputFields();
+
+    showToast("Review added successfully!", "success", 3000);
+  };
+  
   return (
     <>
       <Navbar />
+      <h1 className="text-center mt-5 title-main">CUSTOMER REVIEW</h1>
       <CustomerCard />
 
       <div className="container">
@@ -151,25 +167,22 @@ const Review = () => {
         {/* <h1 className="text-center mt-5">Add Your Review Here</h1> */}
 
         <div className="d-flex justify-content-evenly mt-5 flex-wrap">
-            {/* <h1>Show Review</h1> */}
-            {taskList.map((taskItem, index) => {
-              const { id, title, description, name, profession, emoji } =
-                taskItem;
-
-              return (
-                
-                <ReviewTask
-                  id={id}
-                  title={title}
-                  description={description}
-                  name={name}
-                  profession={profession}
-                  emoji={emoji}
-                 className=""/>
-              );
-            })}
          
-          
+          {taskList.map((taskItem, index) => {
+            const { id, title, description, name, profession, emoji } =
+              taskItem;
+
+            return (
+              <ReviewTask
+                id={id}
+                title={title}
+                description={description}
+                name={name}
+                profession={profession}
+                emoji={emoji}
+              />
+            );
+          })}
         </div>
       </div>
       <Footer />

@@ -4,10 +4,22 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
 .name{
     color: #142e8d;
+}
+
+.edit-btn{
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;    
+    /* display: flex; */
+    text-align: end;
+    position: relative;
+    top : 2px;
+    left: 315px;
+    cursor: pointer;
+
 }
