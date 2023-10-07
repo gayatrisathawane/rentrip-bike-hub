@@ -3,6 +3,7 @@ import Navbar from '../../component/Navbar/Navbar'
 import Footer from '../../component/Footer/Footer'
 import UseTo from './../../component/UseTo/UseTo'
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 import City from '../../component/City/City'
 
@@ -139,7 +140,10 @@ const Home = () => {
                         setdropDate(e.target.value)
                      }} className='ms-3'/>
                   </div>
+
+                  <Link to="/bookbike">
                   <button onClick={saveFormData} >find bike</button>
+                  </Link>
 
 
                   

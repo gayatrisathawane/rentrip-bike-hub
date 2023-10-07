@@ -61,11 +61,34 @@ const Contact = () => {
     return (
         <div>
             <Navbar />
+            <h1 className='text-center mt-5'>Contact Us </h1>
+            <p className='text-'>lorem bcbnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn bnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn bnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn bnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn 
+            lorem bcbnnxbcbxv mbcnxzbcnn  </p>
 
             {/* <h1 className='text-center contact-tittle'>Contact us</h1> */}
-            <div className='d-flex justify-content-evenly flex-wrap '>
-                <div className=''>
-                    <div className='form-container mt-5'>
+            <div className='d-flex justify-content-between flex-wrap pe-4 '>
+                
+                    <div className=' mt-5'>
+                        <h3>hfdfghjgf</h3>
+                        <h3>ndfmdnfb</h3>
+                        <h3>fbnbdnfnb</h3>
+                        <h3>nbndbfndbf</h3>
+                       
+                    </div>
+               
+
+
+
+
+
+
+
+
+
+
+
+               
+                <div className='form-container mt-5 '>
                         <form>
                             <h1 className='contact-sub'>Contact Form</h1>
 
@@ -111,21 +134,15 @@ const Contact = () => {
 
                         </form>
                     </div>
+                    
+                   
                 </div>
+            
 
-
-
-
-
-
-
-
-
-
-
-                <div className='mt-5'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15249822.21961233!2d82.7525294!3d21.0686228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c9d5f5646388b%3A0x15566accbb28f624!2sRentrip.in-%20Rent%20Bikes%20in%20India!5e0!3m2!1sen!2sin!4v1696392198654!5m2!1sen!2sin" className='map' ></iframe>
-                </div>
+            <div className='map'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15249822.21961233!2d82.7525294!3d21.0686228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c9d5f5646388b%3A0x15566accbb28f624!2sRentrip.in-%20Rent%20Bikes%20in%20India!5e0!3m2!1sen!2sin!4v1696392198654!5m2!1sen!2sin" className='map' ></iframe>
+                
+                
             </div>
 
             <Footer />
