@@ -109,8 +109,6 @@ const Login = () => {
                 }}
               />
               <br /><br></br>
-<<<<<<< HEAD
-=======
               {/* {error && <p className='text-danger'>{error}</p>}   */}
               
                 
@@ -126,7 +124,6 @@ const Login = () => {
 
               
 
->>>>>>> 0b259810cc250ea79c5cf5f7aa03ad06c907b71c
               <div className='d-flex justify-content-between'>
                 <div>
                 <input type='checkbox' className=' fs-4' /> <span className='fs-3'>I'm not a robort</span>
