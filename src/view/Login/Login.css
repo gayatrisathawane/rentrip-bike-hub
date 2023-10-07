@@ -1,15 +1,27 @@
 
 
+
 .login{
     display: flex;
     flex-direction: row;
      margin: 50px;
     box-shadow: 2px 4px 4px 5px lightgrey;
     width: 500px;
-    height: 600px;
+    height: 550px;
     border-radius: 20px;
     margin-left: 320px;
 }
+
+.btn-facebook{
+    background-color: rgb(22, 22, 233);
+    color: white;
+    /* margin: 5px ; */
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+}
+
 .login-main{
     display: flex;
 }
@@ -31,17 +43,28 @@
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgb(97, 94, 94);
 }
-.facebook{
-    background-color: rgb(22, 22, 233);
+.google{
+    background-color: orange;
     color: white;
-    margin: 5px ;
-    padding: 2px;
-    position: relative;
-    bottom: 30px;
+    margin: 5px ; 
+    margin-bottom: 30px;
     border-radius: 10px;
     font-size: 20px;
-
+    border: none;
 }
+ .btn-google{
+    background-color: orange;
+    color: white;
+   padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-left:80px ;
+    margin-bottom: 5px;
+
+ }
+
+
 .or-login{
     position: relative;
     bottom: 50px;
@@ -49,24 +72,16 @@
 }
 .google-logo{
     height: 35px;
-
 }
-.google{
-    background-color: orangered;
-    color: white;
-    margin: 5px ;
-    padding: 5px;
-    position: relative;
-    bottom: 30px;
-    border-radius: 10px;
 
-
-
+.button-flex{
+    display: flex;
+    flex-wrap: wrap;
 }
 .login-content{
     background-color: rgb(11, 11, 90);
-    height: 480px;
-    width: 500px;
+    height: 500px;
+    width: 440px;
     margin-top: 90px;
     margin-left: -50px;
     border-radius: 15px;
@@ -82,5 +97,89 @@
 .password{
     text-decoration: none;
     margin-left: 30px;
-    color: orangered;
+    color: orange;
 }
+.login-flex{
+    display: flex;
+    flex-wrap: wrap2;
+}
+
+@media screen and (max-width: 600px) {
+
+    .login-content {
+        background-color: rgb(11, 11, 90);
+        height: 441px;
+        width: 416px;
+        margin-top: -43px;
+        margin-left: 93px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    
+}
+
+.facebook {
+    background-color: rgb(22, 22, 233);
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    position: relative;
+    bottom: -15px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+  }
+
+  .google{
+    background-color: orange;
+    color: white;
+    margin: 5px ; 
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+  .info {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 140px;
+  }
+
+
+
+.login {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+      margin-left: 50px;
+    box-shadow: 2px 4px 4px 5px lightgrey;
+    width: 426px;
+    height: 541px;
+    border-radius: 20px;
+    margin-left: 88px;
+    
+  }
+
+  .text {
+    margin: 9px;
+    padding: 1px;
+    font-size: 24px;
+    text-align: center;
+  }
+ 
+.btn-google {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    margin-left: 27px;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+
+

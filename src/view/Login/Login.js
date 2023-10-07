@@ -1,22 +1,22 @@
 import './Login.css';
 import { useState } from 'react';
+import showToast from 'crunchy-toast';
 import Facebook from "./../../component/Footer/facebook - Copy.png"
 import Navbar from './../../component/Navbar/Navbar';
 import Google from "./logo.png";
 import Footer from './../../component/Footer/Footer';
 import Logo1 from "./../../component/Navbar/logo-rentrip.png"
-
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  // const [error, setError] = useState('');
 
   const addLogin = () => {
-    if (!email || !password || !email && !password ) {
-      alert('Please enter both email and password.');
+    if (!email && !password) {
+      showToast(' Enter a email and password', 'alert', 5000);
     } else if (!validEmail(email)) {
-      alert('Please enter a valid email address.');
+      showToast(' Enter valid email', 'warning', 5000);
     }
     else {
       const loginData = {
@@ -24,14 +24,15 @@ const Login = () => {
         password,
       };
       localStorage.setItem('currentUser', JSON.stringify(loginData));
-      alert('Successfully logged in');
+      showToast(' Successful loged in', 'success', 5000);
+      window.location.href = "";
       setEmail('');
       setPassword('');
     }
   };
 
   const validEmail = (email) => {
-   
+
     const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailSymbol.test(email);
   };
@@ -39,20 +40,34 @@ const Login = () => {
     <>
       <Navbar />
 
-      <div className='d-flex'>
-        <div className='row'>
+      <div className='d-flex login-flex'>
+        <div className='row login-media'>
           <div className='login col-md-6'>
 
 
             <div>
               <form>
-                <h1 className='sign-text text-center mt-4 '> Sign in</h1>
-                <div>
+                <h1 className='sign-text text-center mt-4 '> Login</h1>
 
-                  <button type="button" className=' m-2  facebook'>  <img src={Facebook} className=' google-logo ' />With Facebook</button>
-                  <button type="button" className='fs-4 m-5  google'> <img src={Google} className='fs-5 google-logo' />With Google</button>
-                  <h3 className='ms-5 or-login'>------------------or-----------------</h3>
-                </div>
+                <div className='button-flex p-3'>
+
+                  <div>
+                    <button type="button" className='btn-facebook'>
+                      <img src={Facebook} className='google-logo' />
+                      With Facebook
+                    </button>
+                  </div>
+
+                  <div>
+                    <button type="button" className='btn-google'>
+                      <img src={Google} className='google-logo' />
+                      With google
+                    </button>
+                  </div>
+
+                </div><br/>
+
+                <h3 className='ms-2 or-login'>-----------------or-----------------</h3>
 
                 <div className='info p-5 mt-5'>
                   <input
@@ -85,13 +100,11 @@ const Login = () => {
                   <input type='checkbox' className=' fs-3' />I'm not a robort
                   <a href="" className='password fs-5'>Forgot Password?</a><br /><br />
 
-                  <a href="">
+                  <Link to="">
                     <button type='button' onClick={addLogin} className='google m-5 px-5'>
                       Login
                     </button>
-                  </a>
-
-
+                  </Link>
                 </div>
               </form>
             </div>
@@ -103,8 +116,9 @@ const Login = () => {
             <p className='text-light'>✔️See Ready Hot Deals</p>
             <p className='text-light'>✔️Sign up to recive exclusive news and private offter</p>
             <p className='text-light'>✔️Quick Book Trips</p><br /><br />
-            <button type='button' className='google ms-4'>Register Now!</button>
-
+            <Link to="/register">
+              <button type='button' className='google ms-4 px-auto p-2'>Register Now!</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -112,6 +126,4 @@ const Login = () => {
     </>
   );
 };
-
 export default Login;
-
