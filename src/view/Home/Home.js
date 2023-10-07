@@ -241,15 +241,11 @@ const Home = () => {
             />
           </div>
 
-          <div className="ms-3">
-            <UseTo
-              useimg={use4}
-              useheading="Select Rental Product"
-              usedes="You can search & select product from our wide range."
-            />
-          </div>
-        </div>
-      </div>
+               <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
+
+
+            </div>
+         </div>
 
       <h1 className="text-center fs-1  m-5 cityheading">
         Bike Rental Services in Top Cities

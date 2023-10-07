@@ -45,21 +45,26 @@ const Review = () => {
   //   setTaskList(list)
   // },[]);
 
-  useEffect(() => {
-    const storedData = localStorage.getItem("reviewlist");
-    if (storedData) {
-      const list = JSON.parse(storedData);
-      setTaskList(list);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const storedData = localStorage.getItem("reviewlist");
+  //   if (storedData) {
+  //     const list = JSON.parse(storedData);
+  //     setTaskList(list);
+  //   }
+  // }, []);
   
 
 
     //save local storage
-    const savetolocalstorage = (review) =>{
+    // const savetolocalstorage = (review) =>{
+    //   localStorage.setItem("reviewlist", JSON.stringify(review));
+    // }
+  
+    const savetolocalstorage = (review) => {
       localStorage.setItem("reviewlist", JSON.stringify(review));
     }
-  
+    
+
 // add revise
   const addReviseToList = () => {
     if (!title) {
