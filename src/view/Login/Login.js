@@ -65,6 +65,51 @@ const Login = () => {
                   </div> */}
 
 
+
+
+
+
+              <label className='fs-4'>Name</label>
+              <input
+
+                value={name}
+                placeholder='Enter name'
+                required
+                className="form-control p-3 fs-5" type="text" aria-label="default input example"
+                onChange={(e) => {
+                  setName(e.target.value);
+                  // setError(''); 
+                }}
+              />
+              <label className='mt-3 fs-4'>Email</label>
+              <input
+                type='email'
+                value={email}
+                placeholder='Enter Email'
+                className="form-control p-3 fs-5" aria-label="default input example"
+                required
+
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  // setError(''); 
+                }}
+              />
+              <br />
+              <label  className='fs-4'>Password</label>
+              <input
+                type='password'
+                // className='text'
+                value={password}
+                required
+                className="form-control p-3 fs-5" aria-label="default input example"
+                placeholder='Enter Password'
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                  // setError(''); 
+                }}
+              />
+              <br /><br></br>
+              {/* {error && <p className='text-danger'>{error}</p>}   */}
               
                 <div className='info p-5 mt-5'>
 
@@ -111,6 +156,7 @@ const Login = () => {
                   {/* {error && <p className='text-danger'>{error}</p>}   */}
 
 
+
               
 
               <div className='d-flex justify-content-between'>
@@ -141,7 +187,7 @@ const Login = () => {
 
             </div>
           </form>
-          <Link to="/Register"><p className='fs-4 text-decoration-none text-center mt-3 text-light'>Register</p></Link>
+          <Link to="/register"><p className='fs-4 text-decoration-none  text-center mt-3 text-light'>Register</p></Link>
         </div>
 
         {/* <div className='login-content col-md-6'>
