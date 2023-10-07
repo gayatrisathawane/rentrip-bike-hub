@@ -1,0 +1,29 @@
+.read-text-blog{
+    border: 0px solid rgb(3, 3, 58) ;
+    box-shadow: 1px 1px 1px 1px rgb(3, 3, 58);
+    width: 80%;
+    /* height: 700px; */
+    margin-left: 140px;
+    background-color: white;
+}
+.blog-image{
+    height: 400px;
+    opacity: 1.9;
+    background-image: no-repeat;
+    width: 100%;
+    background-image:linear-gradient(rgba(72, 70, 97, 0.9), rgba(78, 76, 93, 0.8)), url(./../Footer/footer1.png);
+}
+.read-img{
+    display: flex;
+   margin-left:120px; 
+    width: 80%;
+    height: 500px;
+   
+}
+.orange{
+    color: rgb(237, 157, 7);
+}
+.read-text{
+    text-align: center;
+    color:rgb(14, 14, 57)  ;
+}

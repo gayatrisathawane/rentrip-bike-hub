@@ -31,11 +31,56 @@ import use1 from './assets/key.png'
 import use2 from './assets/select-to-cart.png'
 import use3 from './assets/pick-up.png'
 import use4 from './assets/ride-your-bike.png'
+import { useState } from 'react'
+
+
 
 
 
 
 const Home = () => {
+   const[city,setcity]=useState('')
+   const[bookDay,setBook]=useState('')
+   const[pickupdate,setpickupDate]=useState('')
+   const[dropdate,setdropDate]=useState('')
+   const[pickuptime,setpickupTime]=useState('')
+   const[droptime,setdropTime]=useState('')
+
+   // const saveFormData = () => {
+   //    // Parse existing data from local storage or create an empty array
+   //    const formdatasave = JSON.parse(localStorage.getItem('formUser')) || [];
+    
+   //    // Create a new form data object
+   //    const dataForm = {
+   //      city,
+   //      bookDay,
+   //      pickupdate,
+   //      pickuptime,
+   //      dropdate,
+   //      droptime,
+   //    };
+    
+   //    // Add the new form data object to the array
+   //    formdatasave.push(dataForm);
+    
+   //    // Store the entire array in local storage
+   //    localStorage.setItem('formUser', JSON.stringify(formdatasave));
+   //  };
+
+
+   const saveFormData =() =>{
+      const dataForm = {
+              city,
+              bookDay,
+              pickupdate,
+              pickuptime,
+              dropdate,
+              droptime,
+            };
+     localStorage.setItem('currentUser', JSON.stringify(dataForm))
+      
+   }
+    
    return (
       <div>
          <Navbar />
@@ -43,8 +88,62 @@ const Home = () => {
          <div className='home-bg'>
             <div className='container-grp'>
                <h1 className='main-heading'>RENTALS, REDEFINED</h1>
-               <p className='sub-head mt-4'>Rent from India's Largest Fleet of Vehicles, Trusted by millions</p>
+               <p className='sub-head mt-4'>Rent from India's Largest Fleet of Vehicles, Trusted by millions</p> {city}
+
+               <form>
+
+                  <div className='d-flex text-white border border-primary p-5 '>
+                     <h4 style={{color:"white"}}> City </h4>
+                     <select  onChange={(e)=>{
+                        setcity(e.target.value)
+                     }}> <br/> <br/>
+                        <option value="pune">pune</option>
+                        <option value="bengluru">bengluru</option>
+                        <option value="chandigadh">chandigadh</option>
+                        <option value="chennai">chennai</option>
+                        <option value="Ahmdabad">Ahmdabad</option>
+                        <option value="Indore">Indore</option>
+                        <option value="Goa">Goa</option>
+                        <option value="jaipur">Jaipur</option>
+                        <option value="Kolkata">Kolkatta</option>
+                        <option value="Mumbai">Mumbai</option>
+                     </select>
+
+                     <h4>Book At</h4><br/>
+                     <select onChange={(e)=>{
+                        setBook(e.target.value)
+
+                     }}>
+                        <option>Daily</option>
+                        <option>Weekly</option>
+                        <option>Monthly</option>
+                     </select>
+
+                    
+
+                        pick up date
+                     <input type="time" onChange={(e)=>{
+                        setpickupTime(e.target.value)
+                     }} />
+                     <input type="date" onChange={(e)=>{
+                        setpickupDate(e.target.value)
+                     }} />
+
+                     drop  up date
+                     <input type="time" onChange={(e)=>{
+                        setdropTime(e.target.value)
+                     }} />
+                     <input type="date"  onChange={(e)=>{
+                        setdropDate(e.target.value)
+                     }}/>
+                  </div>
+
+                  
+               </form>
+
+             
             </div>
+            <button onClick={saveFormData} >find bike</button>
 
          </div>
 
@@ -57,29 +156,29 @@ const Home = () => {
             <div> <Safety safetyheading="Verified Dealers" saftdec="Every Single Dealer is Committed to Quality Service." safetylogo={person} /></div>
             <div> <Safety safetyheading="100% Moneyback" saftdec="Not Happy With Service, Take Your Money Back." safetylogo={cash} /></div>
          </div>
-    
-
-   {/* how to use */}
-   
-   <h1 className='text-center fw-bold useheading '>How To Use</h1>
-   
-   <div className='how-to-use'>
-   
-     
-       <div className='d-flex justify-content-evenly flex-wrap mt-5 '>
-
-         <div className='ms-3'><UseTo useimg={use1} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
-
-         <div className='ms-3'><UseTo useimg={use2} useheading="Add to cart" usedes="Easily add multiple product in your cart or direct book from Book Now button" /></div>
-
-         <div className='ms-3'><UseTo useimg={use3} useheading="Select Rental Product"  usedes="You can search & select product from our wide range." /></div>
-
-         <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
 
 
-       </div>
-       </div>
-  
+         {/* how to use */}
+
+         <h1 className='text-center fw-bold useheading '>How To Use {city}</h1>
+
+         <div className='how-to-use'>
+
+
+            <div className='d-flex justify-content-evenly flex-wrap mt-5 '>
+
+               <div className='ms-3'><UseTo useimg={use1} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
+
+               <div className='ms-3'><UseTo useimg={use2} useheading="Add to cart" usedes="Easily add multiple product in your cart or direct book from Book Now button" /></div>
+
+               <div className='ms-3'><UseTo useimg={use3} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
+
+               <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
+
+
+            </div>
+         </div>
+
 
 
 
@@ -162,9 +261,9 @@ const Home = () => {
 
 
 
-<div>
-   <Footer/>
-</div>
+         <div>
+            <Footer />
+         </div>
 
 
 

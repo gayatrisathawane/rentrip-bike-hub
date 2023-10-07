@@ -1,49 +1,83 @@
 [
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2023/05/Bike-rental-benefits-in-bangalore-1-400x250.png",
-        "id":"1",
-        "title":"Bike Rental Service in Bangalore",
-        "date":"24 Apr",
-        "description":"Bengaluru, is located in Karnataka. It is the capital of Karnataka and is one of the fastest-growing cities in India. The city is known for its pleasant climate, diverse culture, and vibrant nightlife. Bangalore is also called the 'Silicon Valley of India' due to its.we will explore the benefits of bike rental ..."
-        },
+        "img": "https://www.onroadz.in/wp-content/uploads/2023/05/Bike-rental-benefits-in-bangalore-1-400x250.png",
+        "id": "1",
+        "title": "Bike Rental Service in Bangalore",
+        "date": "24 Apr",
+        "description": "Bengaluru, is located in Karnataka. It is the capital of Karnataka and is one of the fastest-growing cities in India. The city is known for its pleasant climate, diverse culture, and vibrant nightlife. Bangalore is also called the 'Silicon Valley of India' due to its.we will explore the benefits of bike rental ...",
+        "titletext": "BANGALORE FEATURED GUIDES ",
+        "info": " Bengaluru, is located in Karnataka. It is the capital of Karnataka and is one of the fastest-growing cities in India. The city is known for its pleasant climate, diverse culture, and vibrant nightlife. Bangalore is also called the “Silicon Valley of India” due to its thriving IT industry and numerous tech startups. The city has a population of over 12 million people and is a hub for education, healthcare, and research institutions. Bangalore is home to various historical landmarks, gardens, and parks, making it a popular tourist destination. With such a large population, commuting can be a daunting task. One solution to this problem is bike rental services. Bike rental services have been gaining popularity in Bangalore due to the numerous benefits they offer. In this article, we will explore the benefits of bike rental services in Bangalore. ",
+        "effect":"Affordable and cost-effective",
+        "effectinfo":"Bike rental services in Bangalore are affordable and cost-effective. Renting a bike is much cheaper than owning one, especially if you only need it for a short period. Additionally, bike rental services offer various plans and packages that cater to different budgets, making it easy for people to find a plan that suits their needs.",
+        "Convenient":"Convenient",
+        "Convenientinfo":"Bike rental services in Bangalore are incredibly convenient. With just a few clicks on your smartphone, you can rent a bike from anywhere and at any time. This is especially useful for people who need a bike for short trips or occasional use. Moreover, bike rental services offer doorstep delivery and pickup, making it easy for users to access a bike without leaving their homes.",
+        "parking":"Better parking options",
+        "parkinginfo":"Finding parking in Bangalore can be a nightmare. With the city’s limited parking spaces and strict parking regulations, it can be challenging to find a safe and secure parking spot for your vehicle. However, with a bike, parking is much easier. Bikes can be parked in designated areas, making it easier for users to find parking spots without breaking any parking regulations."
+    },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2023/01/Bike-Rental-In-koramangala-Bangalore-400x250.jpg",
-        "id":"2",
-        "title":"Weekend Bike Trip From Bangalore",
-        "description":"If you're looking for a fun and active way to spend your weekend, consider going on a bike trip! Bangalore is a great city for cycling, with plenty of scenic routes to explore. This weekend, why not check out some of the awesome trails near the city? there are plenty...",
-         "date":"11 Dec, 23" 
-   },
+        "img": "https://www.onroadz.in/wp-content/uploads/2023/01/Bike-Rental-In-koramangala-Bangalore-400x250.jpg",
+        "id": "2",
+        "title": "Weekend Bike Trip From Bangalore",
+        "description": "If you're looking for a fun and active way to spend your weekend, consider going on a bike trip! Bangalore is a great city for cycling, with plenty of scenic routes to explore. This weekend, why not check out some of the awesome trails near the city? there are plenty...",
+        "date": "11 Dec, 23",
+        "effect":"Bike rentals In Koramangala, Bangalore",
+        "effectinfo":" At our Onroadz bike rental Company, we pride ourselves on providing a wide range of high-quality bikes to suit the needs of every customer. From sleek road bikes to sturdy mountain bikes, we have something for everyone. All of our bikes are well-maintained and are regularly serviced to ensure that they are in tip-top condition. We also provide helmets and locks with every rental, to ensure that you have everything you need to stay safe and secure while exploring the city. One of the best things about renting a bike in Koramangala is the convenience it offers. With a bike, you can easily navigate through the busy streets, avoid traffic and reach your destination in a timely manner. You can also take a leisurely ride through the neighborhood, stopping to explore local shops, cafes, and landmarks along the way.",
+        "Convenient":"About Onroadz: What do you know about us?",
+        "Convenientinfo":" Onroadz is a ridesharing company that operates in over 500 cities worldwide. We offer a convenient, affordable, and safe ridesharing experience for both riders and drivers. Our app connects riders with drivers in real-time, so you can easily find a ride near you. Plus, we offer a variety of features and benefits that make ridesharing with Onroadz Bike rental a breeze. Here are just a few things you can expect when riding with Onroadz bike rental: ",
+        "parking":"Onroadz bike rental in Bangalore: Our services",
+        "parkinginfo":"Onroadz is a bike rental company in Bangalore that offers a variety of bikes for rent. We have a wide range of bikes available, from small and lightweight scooters to large and powerful touring bikes. We have something for everyone, and we’re sure you’ll find the perfect bike to suit your needs. Our rental service is simple and straightforward. We provide you with a bike, and you simply pay for the time you use it. We also offer a variety of accessories and gear, so you can travel in comfort and style."
+    },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2023/01/30-Best-things-to-do-in-Bangalore-400x250.jpg",
-        "id":"3",
-        "title":"Complete Travel Guide To Bangalore",
-        "date":"19 july" ,
-        "description":"Bangalore is known as the “Silicon Valley of India” because of its developing IT industry Area. This Bangalore city is also home to many historical places. Whether you’re visiting Bangalore for business or pleasure, this travel guide will tell you everything you need..."
-      
-     
+        "img": "https://www.onroadz.in/wp-content/uploads/2023/01/30-Best-things-to-do-in-Bangalore-400x250.jpg",
+        "id": "3",
+        "title": "Complete Travel Guide To Bangalore",
+        "description": "Bangalore is known as the “Silicon Valley of India” because of its developing IT industry Area. This Bangalore city is also home to many historical places. Whether you’re visiting Bangalore for business or pleasure, this travel guide will tell you everything you need.",
+        "date": "19 july",
+        "effect":"Vidhana Soudha:",
+        "effectinfo":"The Vidhana Soudha is the seat of the state government and is one of the most important landmarks of Bangalore. The High Court, located adjacent to the Vidhana Soudha, is also a must-visit attraction. Both buildings are fine examples of neo-Dravidian architecture and are worth a visit for their architectural and historical significance.Bangalore, also known as Bengaluru, is a vibrant and cosmopolitan city located in the southern state of Karnataka, India. Known for its rich history, beautiful gardens, and delicious food, Bangalore is a must-visit destination for anyone looking to experience the best of India. With a population of over 12 million people, it is one of the most populous cities in India and offers a wide range of activities and attractions for visitors of all ages and interests. ",
+        "Convenient":" Tipu Sultan’s Summer Palace:",
+        "Convenientinfo":"The Tipu Sultan’s Summer Palace is a beautiful palace built in the 18th century by the ruler of Mysore, Tipu Sultan. The palace is made of teak wood and is beautifully decorated with frescoes and intricate carvings. The palace is open to visitors and is a great place to learn about the history of Bangalore.In this article, we will take a look at the 30 best things to do in Bangalore. From historical sites and temples to modern shopping centers and museums, there is something for everyone in this city. If you explore this city book an Onroadz rental bike in Bangalore for the perfect choice to explore the city.",
+        "parking":"Bull Temple:",
+        "parkinginfo":" The Bull Temple is a famous temple located in the Basavanagudi area of Bangalore. It is dedicated to Lord Shiva, who is depicted as Nandi, the bull. The temple is known for its huge granite statue of Nandi, which is 4.5 meters tall and 6 meters long. The temple is also a great place to learn about the religious and cultural heritage of Bangalore. The Someshwara Temple is an ancient temple dating back to the Chola era. The temple is dedicated to Lord Someshwara, an incarnation of Lord Shiva. The temple is a popular tourist destination due to its beautiful architecture and intricate carvings. It is a great place to learn about the religious and cultural heritage of Bangalore."
 
     },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Travel-Guide-to-Bangalore-400x250.jpeg",
-        "id":"4",
-        "title":"Tourist Places To Visit in Bangalore",
-        "date":"9 nov" ,
-        "description":"Bangalore, the capital of Karnataka, is a delightful city to visit. The city has a mix of old and new, with a rich history and a modern, cosmopolitan feel. There are a number of places to visit in Bangalore, ranging from historical monuments to religious sites to..."
-
+        "img": "https://www.onroadz.in/wp-content/uploads/2022/12/Travel-Guide-to-Bangalore-400x250.jpeg",
+        "id": "4",
+        "title": "Tourist Places To Visit in Bangalore",
+        "date": "9 nov",
+        "description": "Bangalore, the capital of Karnataka, is a delightful city to visit. The city has a mix of old and new, with a rich history and a modern, cosmopolitan feel. There are a number of places to visit in Bangalore, ranging from historical monuments to religious sites to...",
+        "effect":" Lalbagh Botanical Garden",
+        "effectinfo":"The Lalbagh Botanical Garden is one of the most popular tourist destinations in Bangalore. It is a 240-acre garden that was established in 1760. The garden is home to a variety of plants, flowers, and trees, as well as a number of different animal species. It is a great place to visit for those who want to enjoy some peace and quiet, as well as for those who want to learn more about the local flora and fauna.If you are looking for a list of tourist places to visit in Bangalore, India, you have come to the right place. This city is home to some amazing tourist destinations, ranging from historical sites to natural wonders. Here are the top ten places to visit in Bangalore: ",
+        "Convenient":"Cubbon Park:",
+        "Convenientinfo":"In the heart of Bangalore, lies Cubbon Park. This huge park is home to a variety of flora and fauna. The park also has a number of historical landmarks, including the Vidhana Soudha. The park is a great place to spend a lazy day, and there are also a number of restaurants and cafes located within its boundaries.",
+        "parking":"Bannerghatta National Park:",
+        "parkinginfo":"Bannerghatta National Park is a beautiful place to visit, and it’s home to a wide variety of animals and plants. A park is also a great place for birdwatching, and visitors can see a variety of birds there. One of the highlights of the park is the Jaguar Safari, which allows visitors to see Jaguars up close. Bangalore, the capital of Karnataka, is a delightful city to visit. The city has a mix of old and new, with a rich history and a modern, cosmopolitan feel. There are a number of places to visit in Bangalore, ranging from historical monuments to religious sites to natural attractions. For the tourist who wants to experience everything, the city has to offer."
     },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Hills-Station-Near-Bangalore-400x250.jpeg",
-        "id":"5",
-        "title":"Bike rentals In Koramangala, Bangalore",
-        "date":"24 Apr, 23" ,
-     "description":"Koramangala is a bustling neighborhood in Bengaluru, known for its vibrant street life and diverse culture. The area is home to many businesses, offices, and residential areas which makes it a perfect spot for bike rentals. Whether you're a local resident or a tourist.."
-
+        "img": "https://www.onroadz.in/wp-content/uploads/2022/12/Hills-Station-Near-Bangalore-400x250.jpeg",
+        "id": "5",
+        "title": "Hills Station Around Bangalore",
+        "date": "24 Apr, 23",
+        "description": "If you're looking for a scenic hill station close to Bangalore, you'll love the options within 100 km of the city. Ramanagara, Savandurga, and Nandi Hills are all popular destinations, each offering its own unique charms. Ramanagara is known for its rocky cliffs",
+        "effect":"Kunti Betta:",
+        "effectinfo":"Kunti Betta, located in the Mandya district of Karnataka, is one of the most popular tourist destinations in the state. Surrounded by hills that spell romance, the place is known for its natural beauty and tranquil atmosphere.  If you are looking for a beautiful and romantic hill station, then head to Kunti Betta. This place is located in the Mysore district of Karnataka and is known for its lush greenery and serene atmosphere. The hill station is named after the mother of the Pandavas in the Hindu epic Mahabharata. It is said that Kunti Betta was the place where she used to meditate. Kunti Betta is a great place to visit in the winter months, as the temperature is quite pleasant then. You can also enjoy a range of activities such as hiking and camping here.",
+        "Convenient":"Madhugiri:",
+        "Convenientinfo":"If you are a nature lover, then Madhugiri Hills is definitely a place you need to explore. This paradise is located in the Tumkur district of Karnataka and is known for its enchanting forested hills and wildlife. They are located about 120 kilometers northwest of Bangalore and are a part of the Deccan Plateau. The hills are known for their fort ruins and are a popular tourist destination.The Narayangiri hill range is located near the city of Bangalore, in the state of Karnataka, India. The range extends for about 12 kilometers in a north-south direction. The hills are home to several ancient temples, which are popular tourist destinations.",
+        "parking":"Kabbaldurga:",
+        "parkinginfo":"The Kabbaldurga hills are a great place to enjoy nature and get away from the hustle and bustle of city life. The hills are located near Bangalore, and they offer a great view of the city. There are many things to do in the hills, such as trekking, camping, and bird watching. The hills are also home to a number of temples, such as the Kabbaldurga Temple, which is a popular tourist destination. The temple is located on the top of a hill, and it offers a stunning view of the city. If you are looking for a great place to relax and enjoy nature, then the Kabbaldurga hills are the perfect place for you."
     },
     {
-        "img":"https://www.onroadz.in/wp-content/uploads/2022/12/Enjoy-The-Fun-Life-in-Bangalore-400x250.jpeg",
-        "id":"6",
-        "title":"Outstation Road Trip From Bangalore",
-        "date":"24 Apr, 23" ,
-        "description":"Taking a road trip from Bangalore city to an outstation is a great way to explore more of India. The journey is full of beautiful scenery and interesting stops along the way. If you are planning to go on a road trip with your bike, there are certain things that you.."
+        "img": "https://www.onroadz.in/wp-content/uploads/2022/12/Enjoy-The-Fun-Life-in-Bangalore-400x250.jpeg",
+        "id": "6",
+        "title": "Enjoy Fun Life in Bangalore",
+        "date": "24 Apr, 23",
+        "description": "Bangalore is a city known for its vibrancy and energy. If you're looking to live life to the fullest, Bangalore is a great place to be! There's always something going on, from cultural events to nightlife and everything in between. So whether you're looking to explore..",
+        "effect":"Explore all of the different neighborhoods",
+        "effectinfo":"Bangalore is a huge city, and there is so much to see and do in each of its neighborhoods. Make sure to explore all of them, as each has its own unique flavor and personality.Finally, be sure to check out the city’s nightlife. Bangalore is home to some of the best nightclubs and bars in India, and you definitely don’t want to miss them. Some of the most popular nightlife spots include the Olive Beach, the rooftop bar at the Park Hotel, and the Hard Rock Cafe.",
+        "Convenient":"Visit the many temples and religious sites",
+        "Convenientinfo":"Bangalore is home to some of the most beautiful temples and religious sites in India. Make sure to visit some of them during your stay.There’s a lot to do in Bangalore, and this comprehensive guide will help you make the most of your time in the city. From historical attractions to cultural experiences and outdoor adventures, Bangalore has something for everyone. If you want to explore Bangalore City by Bike. Onroadz bike rental in Bangalore is available for service to our valuable customers.",
+        "parking":"Sample the amazing cuisine ",
+        "parkinginfo":"Bangalore is known for its amazing cuisine, and there is something for everyone to enjoy. Make sure to try out some of the local dishes on Bangalore Streets.Bangalore is home to some stunning natural scenery. Make sure to take some time to explore the city’s beautiful parks and gardens. So if you’re looking for an exciting and vibrant city to call home, Bangalore is a great choice. There’s always something new to explore, and the people are friendly and welcoming. So what are you waiting for? Start living life to the fullest in Bangalore today!"
     }
 ]

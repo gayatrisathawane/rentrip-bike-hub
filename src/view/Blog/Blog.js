@@ -9,15 +9,17 @@ export default function Blog() {
     return (
         <div>
             <Navbar />
-            <div className="blog-image">
+            <div className='blog-image'>
+                {/* <img src="" className='blog-image'/> */}
                 <b > <h1 className='blog-text'>Blog</h1></b>
             </div>
+           
 
             <div className='blog-container'>
 
                 {
                     blogJson.map((blog, index) => {
-                        return <PostCard key={index} img={blog.img} title={blog.title} description={blog.description} id={blog.id}/>
+                        return <PostCard key={index} img={blog.img} title={blog.title} description={blog.description} id={blog.id} />
                     })
                 }
 

@@ -1,6 +1,7 @@
 import './Contact.css'
 import Navbar from './../../component/Navbar/Navbar'
 import Footer from './../../component/Footer/Footer'
+import showToast from 'crunchy-toast';
 import { useState } from 'react'
 const Contact = () => {
     const [name, setName] = useState('')
@@ -21,19 +22,40 @@ const Contact = () => {
     // }
 
     const saveMessage = () => {
+
+        if (!name) {
+            showToast('please fill name', 'alert', 3000);
+            return;
+        }
+        if (!mobile) {
+            showToast('This is a sample toast message', 'success', 3000);
+            return;
+        }
+        if (!email) {
+            showToast('This is a sample toast message', 'success', 3000);
+            return;
+        }
+        if (!subject) {
+            alert("please fill subject")
+            return;
+        }
+        if (!message) {
+            showToast('This is a sample toast message', 'success', 3000);
+            return;
+        }
         const saveData = {
-            name,email,mobile,subject,message
-         
+            name, email, mobile, subject, message
+
         };
         localStorage.setItem('currentUser', JSON.stringify(saveData));
-        alert('Successfully saved  data to localStorage');
-    
+        showToast('Contact successfully', 'success', 3000);
+
         setEmail('');
-       setName('')
-       setMessage('')
-       setSubject('')
-       setMobile('')
-      };
+        setName('')
+        setMessage('')
+        setSubject('')
+        setMobile('')
+    };
 
 
     return (
@@ -50,33 +72,33 @@ const Contact = () => {
                             <div className='d-flex '>
                                 <div>
                                     <label>Name</label>
-                                    <input class="form-control" type="text" placeholder="Enter  Name..."  onChange={(e)=>{
-                                      setName(e.target.value)
-                                    }}/>
+                                    <input class="form-control" type="text" placeholder="Enter  Name..." onChange={(e) => {
+                                        setName(e.target.value)
+                                    }} />
                                 </div>
 
                                 <div className='ms-4'>
                                     <label className='ms-5'>Mobile No</label>
-                                    <input class="form-control ms-5" type="text" placeholder="Mobile No"  onChange={(e)=>{
-                                            setMobile(e.target.value)
-                                    }}/>
+                                    <input class="form-control ms-5" type="text" placeholder="Mobile No" onChange={(e) => {
+                                        setMobile(e.target.value)
+                                    }} />
                                 </div>
                             </div>
                             <label for="exampleFormControlInput1" class="form-label mt-3">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="abc.gmail.com"  onChange={(e)=>{
-                                         setEmail(e.target.value)
-                            }}/>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="abc.gmail.com" onChange={(e) => {
+                                setEmail(e.target.value)
+                            }} />
 
                             <label className='mt-3'>Subject</label>
 
-                                    <input class="form-control mt-2" type="text" placeholder="Enter  Name..."  onChange={(e)=>{
-                                        setSubject(e.target.value)
-                                    }}/>
-                            
-                            
+                            <input class="form-control mt-2" type="text" placeholder="Enter  Name..." onChange={(e) => {
+                                setSubject(e.target.value)
+                            }} />
+
+
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label mt-3">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Message' onChange={(e)=>{
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Message' onChange={(e) => {
                                     setMessage(e.target.value)
                                 }}></textarea>
                             </div>
@@ -85,7 +107,7 @@ const Contact = () => {
                                 <input type='checkbox' /> I am not a robot
                             </div>
 
-                        <button type='button' className='messagebtn text-light mt-3' onClick={saveMessage}>Send Message</button>
+                            <button type='button' className='messagebtn text-light mt-3' onClick={saveMessage}>Send Message</button>
 
                         </form>
                     </div>
@@ -106,7 +128,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <Footer/>
+            <Footer />
         </div>
     )
 
