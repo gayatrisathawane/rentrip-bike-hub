@@ -62,10 +62,10 @@ const Contact = () => {
         <div>
             <Navbar />
 
-            <h1 className='text-center contact-tittle'>Contact us</h1>
+            {/* <h1 className='text-center contact-tittle'>Contact us</h1> */}
             <div className='d-flex justify-content-evenly flex-wrap '>
                 <div className=''>
-                    <div className='form-container'>
+                    <div className='form-container mt-5'>
                         <form>
                             <h1 className='contact-sub'>Contact Form</h1>
 
@@ -123,7 +123,7 @@ const Contact = () => {
 
 
 
-                <div className=''>
+                <div className='mt-5'>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15249822.21961233!2d82.7525294!3d21.0686228!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c9d5f5646388b%3A0x15566accbb28f624!2sRentrip.in-%20Rent%20Bikes%20in%20India!5e0!3m2!1sen!2sin!4v1696392198654!5m2!1sen!2sin" className='map' ></iframe>
                 </div>
             </div>

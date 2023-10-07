@@ -34,6 +34,8 @@ import use4 from './assets/ride-your-bike.png'
 import { useState } from 'react'
 
 
+import Model from '../../component/Model/Model'
+
 
 
 
@@ -92,8 +94,8 @@ const Home = () => {
 
                <form>
 
-                  <div className='d-flex text-white border border-primary p-5 '>
-                     <h4 style={{color:"white"}}> City </h4>
+                  <div className='d-flex justify-content-center text-white border border-primary p-5 '>
+                     <p style={{color:"white"}}> City </p>
                      <select  onChange={(e)=>{
                         setcity(e.target.value)
                      }}> <br/> <br/>
@@ -109,7 +111,7 @@ const Home = () => {
                         <option value="Mumbai">Mumbai</option>
                      </select>
 
-                     <h4>Book At</h4><br/>
+                     <p>Book At</p><br/>
                      <select onChange={(e)=>{
                         setBook(e.target.value)
 
@@ -121,30 +123,31 @@ const Home = () => {
 
                     
 
-                        pick up date
+                        <p>pick up date</p>
                      <input type="time" onChange={(e)=>{
                         setpickupTime(e.target.value)
                      }} />
                      <input type="date" onChange={(e)=>{
                         setpickupDate(e.target.value)
-                     }} />
+                     }}  className='ms-3'/>
 
-                     drop  up date
+                     <p >drop  up date</p>
                      <input type="time" onChange={(e)=>{
                         setdropTime(e.target.value)
                      }} />
                      <input type="date"  onChange={(e)=>{
                         setdropDate(e.target.value)
-                     }}/>
+                     }} className='ms-3'/>
                   </div>
+                  <button onClick={saveFormData} >find bike</button>
+
 
                   
                </form>
 
              
             </div>
-            <button onClick={saveFormData} >find bike</button>
-
+           
          </div>
 
 
@@ -174,19 +177,14 @@ const Home = () => {
                <div className='ms-3'><UseTo useimg={use3} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
 
                <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
-
-
+             
             </div>
          </div>
 
 
-
-
-
-
          <h1 className='text-center fs-1  m-5 cityheading'>Bike Rental Services in Top Cities</h1>
 
-         <div className='city-main-container'>
+         <div className='container city-main-container shadow'>
             <div className='d-flex justify-content-evenly flex-wrap m-3'>
 
                <div>
@@ -198,7 +196,7 @@ const Home = () => {
 
                </div>
                <div>
-                  <City cityimg={city3} cityname="chandigarh" />
+                  <City cityimg={city3} cityname="Chandigarh" />
 
                </div>
                <div>
@@ -206,37 +204,40 @@ const Home = () => {
 
                </div>
                <div>
-                  <City cityimg={city5} cityname="coimbatore" />
+                  <City cityimg={city5} cityname="Coimbatore" />
 
                </div>
                <div>
-                  <City cityimg={city6} cityname="goa" />
+                  <City cityimg={city6} cityname="Goa" />
 
                </div>
             </div>
+
+
+
             <div className='d-flex justify-content-evenly flex-wrap m-3 mt-5'>
                <div >
-                  <City cityimg={city7} cityname="guwahati" />
+                  <City cityimg={city7} cityname="Guwahati" />
 
                </div>
                <div >
-                  <City cityimg={city8} cityname="indore" />
+                  <City cityimg={city8} cityname="Indore" />
 
                </div>
                <div >
-                  <City cityimg={city9} cityname="kolkata" />
+                  <City cityimg={city9} cityname="Kolkata" />
 
                </div>
                <div >
-                  <City cityimg={city10} cityname="jaipur" />
+                  <City cityimg={city10} cityname="Jaipur" />
 
                </div>
                <div >
-                  <City cityimg={city11} cityname="pune" />
+                  <City cityimg={city11} cityname="Pune" />
 
                </div>
                <div>
-                  <City cityimg={city12} cityname="mumbai" />
+                  <City cityimg={city12} cityname="Mumbai" />
 
                </div>
 
@@ -244,32 +245,10 @@ const Home = () => {
             </div>
          </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         <Model/>
          <div>
             <Footer />
          </div>
-
-
-
-
-
-
 
       </div>
 

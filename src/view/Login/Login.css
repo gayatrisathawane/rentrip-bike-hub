@@ -1,15 +1,12 @@
-
-
-
 .login{
     display: flex;
     flex-direction: row;
      margin: 50px;
-    box-shadow: 2px 4px 4px 5px lightgrey;
+    box-shadow: 0px 0px 5px 0px rgb(255, 253, 253);
     width: 500px;
-    height: 550px;
+    height:600px;
     border-radius: 20px;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
 .btn-facebook{
@@ -40,14 +37,19 @@
 
 }
 .text{
-    margin-bottom: 20px;
-    box-shadow: 0 0 5px rgb(97, 94, 94);
+    /* padding: 30px; */
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    /* margin-bottom: 20px; */
+    /* box-shadow: 0 0 5px rgb(97, 94, 94); */
 }
 .google{
     background-color: orange;
     color: white;
     margin: 5px ; 
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     border-radius: 10px;
     font-size: 20px;
     border: none;
@@ -61,6 +63,10 @@
     border: none;
     margin-left:80px ;
     margin-bottom: 5px;
+
+ }
+
+ .logos{
 
  }
 
@@ -87,7 +93,7 @@
     border-radius: 15px;
 }
 .blog-button{
-    background-color: orangered;
+    background-color: orange;
     color: black;
     font-size: 20px;
     padding: 5px;
@@ -102,6 +108,8 @@
 .login-flex{
     display: flex;
     flex-wrap: wrap2;
+  background-size: cover;
+    background-image: url('bg-login.jpg');
 }
 
 @media screen and (max-width: 600px) {
