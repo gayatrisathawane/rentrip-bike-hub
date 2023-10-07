@@ -75,6 +75,7 @@ function Addtocard() {
 
           <div className='position-relative'>
             {/* <button type='button'>remove data</button> */}
+            <Link to={`/addtocard/paymentform/${id}`} className='readbike-addtocard p-2 ' >Add To Card</Link>
             <button className='p-1   rounded addtocard-btn fs-4 w-25 position-absolute end-0 mx-4 shadow '>Checkout</button>
           </div>
         </div>
