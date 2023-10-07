@@ -91,11 +91,12 @@ const Home = () => {
                <p className='sub-head mt-4'>Rent from India's Largest Fleet of Vehicles, Trusted by millions</p> {city}
 
                <form>
-                  <div className='d-flex text-white'>
-                     <h4 style={{color:"white"}}>City </h4>
+
+                  <div className='d-flex text-white border border-primary p-5 '>
+                     <h4 style={{color:"white"}}> City </h4>
                      <select  onChange={(e)=>{
                         setcity(e.target.value)
-                     }}>
+                     }}> <br/> <br/>
                         <option value="pune">pune</option>
                         <option value="bengluru">bengluru</option>
                         <option value="chandigadh">chandigadh</option>
@@ -137,10 +138,12 @@ const Home = () => {
                      }}/>
                   </div>
 
+                  
                </form>
 
-               <button onClick={saveFormData} >find bike</button>
+             
             </div>
+            <button onClick={saveFormData} >find bike</button>
 
          </div>
 
