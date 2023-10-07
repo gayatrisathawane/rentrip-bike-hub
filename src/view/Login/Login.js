@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 
 const Login = () => {
-  const [name, setName] = useState('')
+  const[name,setName]=useState('')
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -22,7 +22,6 @@ const Login = () => {
     }
     else {
       const loginData = {
-        name,
         email,
         password,
       };
@@ -31,13 +30,12 @@ const Login = () => {
       window.location.href = "";
       setEmail('');
       setPassword('');
-      setName('');
     }
   };
 
   const validEmail = (email) => {
 
-    const emailSymbol = /[@]/;
+    const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailSymbol.test(email);
   };
   return (
@@ -47,7 +45,7 @@ const Login = () => {
       <div className='login-main-container'>
         <div className='login-form-container'>
           <form>
-            <div className=''>
+        
               <h1 className='text-center'> Login</h1>
 
 
@@ -70,6 +68,7 @@ const Login = () => {
 
 
 
+
               <label className='fs-4'>Name</label>
               <input
 
@@ -85,7 +84,6 @@ const Login = () => {
               <label className='mt-3 fs-4'>Email</label>
               <input
                 type='email'
-
                 value={email}
                 placeholder='Enter Email'
                 className="form-control p-3 fs-5" aria-label="default input example"
@@ -110,8 +108,17 @@ const Login = () => {
                   // setError(''); 
                 }}
               />
-              <br /><br></br>
-              {/* {error && <p className='text-danger'>{error}</p>}   */}
+              
+              
+                
+
+
+              
+
+                 
+                  
+                 
+                  
 
 
               
@@ -125,13 +132,6 @@ const Login = () => {
              </div>
              
               </div>
-             
-
-
-            
-
-
-
               <div>
                 <button className="btn btn-login text-light p-2 fs-5" type="button" onClick={addLogin} >Login</button>
               </div>
@@ -142,9 +142,9 @@ const Login = () => {
                 </button>
               </Link> */}
 
-            </div>
+            
           </form>
-          <Link to="/Register"><p className='fs-4 text-decoration-none text-center mt-3 text-light'>Register</p></Link>
+          <Link to="/register"><p className='fs-4 text-decoration-none  text-center mt-3 text-light'>Register</p></Link>
         </div>
 
         {/* <div className='login-content col-md-6'>
@@ -162,7 +162,6 @@ const Login = () => {
       </div>
 
       <Footer />
-
     </>
   );
 };

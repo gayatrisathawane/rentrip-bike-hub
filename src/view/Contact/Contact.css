@@ -2,14 +2,17 @@
     color: black;
 }
 .map{
-    width:700px ;
-    height:550px;
+ width: 100%;
+ height:500px;
+ padding: 20px;
+ margin-bottom: 10px;
 }
 .form-container{
-   width:600px;
+   width:650px;
     padding: 30px;
     background-color: rgb(240, 238, 238);
     margin-bottom: 10px;
+   
 }
 .checkbox-robot{
     width:200px;

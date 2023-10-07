@@ -56,6 +56,10 @@ const router = createBrowserRouter([
     element: <Review />,
   },
   {
+    path: "/register",
+    element: <Register />,
+  },
+  {
     path: "/bookbike",
     element: <BookBike />,
   },

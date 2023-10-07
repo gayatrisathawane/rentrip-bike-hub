@@ -1,11 +1,11 @@
+
 import React from "react";
 import "./Model.css"
 import Mobile from "./mobile.png";
 export default function Model() {
     return (
         <>
-
-            <div className=" container model-flex shadow ">
+ <div className=" container model-flex shadow ">
                 <div>
                     <img src={Mobile} className="mobile-img" />
 
@@ -19,25 +19,17 @@ export default function Model() {
                         And Start your journey with Us
                     </p>
 
-                <div className="d-flex model-button my-5">
-                    <div>
-                        <button type="button" className="btn btn bg-dark text-light px-5 button-google"> Google Pay</button>
-
+                    <div className="d-flex model-button my-5">
+                        <div>
+                            <button type="button" className="btn btn bg-dark text-light px-5 button-google"> Google Pay</button>
+                        </div>
+                        <div>
+                            <button type="button " className="btn btn text-light px-5 mx-3 button-app" > App Store</button>
+                        </div>
                     </div>
-                    <div>
-                        <button type="button " className="btn btn text-light px-5 mx-3 button-app" > App Store</button>
-
-
-                    </div>
-                </div>
                 </div>
 
             </div>
-
-
-
-
-
-        </>
+           </>
     )
 }

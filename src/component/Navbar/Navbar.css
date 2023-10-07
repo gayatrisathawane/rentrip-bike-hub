@@ -9,3 +9,6 @@
 .cart-logo , .user{
     height: 40px;
 }
+.nav-link{
+    cursor: pointer;
+}
