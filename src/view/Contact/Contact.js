@@ -62,8 +62,7 @@ const Contact = () => {
         <div>
             <Navbar />
             <h1 className='text-center mt-5'>Contact Us </h1>
-            <p className='text-'>lorem bcbnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn bnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn bnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn bnnxbcbxv mbcnxzbcnn nmxbcnzxb  mnbnmcbv mnbxnmb nbnmbvn 
-            lorem bcbnnxbcbxv mbcnxzbcnn  </p>
+            <p className='text-center px-5 fs-5'>Are creative and memorable, allowing visitors to associate contacting your brand with a positive or funny memory.Avoid unnecessary fields and words, so your page remains as straightforward as possible — no fluff.Avoid unnecessary fields and words, so your page remains as straightforward as possible — no fluff.Avoid unnecessary fields and words, so your page remains as straightforward as possible — no fluff.Avoid unnecessary fields and words, so your page remains as straightforward as possible — no fluff. </p>
 
             {/* <h1 className='text-center contact-tittle'>Contact us</h1> */}
             <div className='d-flex justify-content-between flex-wrap pe-4 '>

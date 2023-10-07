@@ -108,8 +108,7 @@ const Login = () => {
                   // setError(''); 
                 }}
               />
-              <br /><br></br>
-              {/* {error && <p className='text-danger'>{error}</p>}   */}
+              
               
                 
 
