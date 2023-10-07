@@ -4,13 +4,14 @@ import facebook from "./facebook - Copy.png";
 import insta from "./insta.png";
 import twitter from "./twitter.png"
 import In from "./in.png";
+
 const Footer = () => {
     return (
         <>
         <div className=' footer-image '>
                 <div className='row d-flex'>
                     <div className='col-md-3 text-light fs-5 mt-5  position-footer' >
-                        <h1 className='fs-2 text-center text-light fs-2 bike-text '>BikeBlitz </h1><br />
+                        <h1 className='fs-2 text-center text-light fs-2 bike-text '>Rentrip</h1><br />
                         <p>Self Drive Byke Rental in Ahmedabad</p>
                         <p>Self Drive Byke Rental in Bangalore</p>
                         <p>Self Drive Byke Rental in Chandigarh</p>
