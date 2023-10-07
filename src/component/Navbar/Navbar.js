@@ -1,6 +1,8 @@
 import "./Navbar.css";
 import logo from "./logo-rentrip.png";
+import cart from './shopping-cart.png'
 import { Link } from "react-router-dom";
+import user from './user.png'
 import { useState,useEffect } from "react";
 
 const Navbar = () => {
@@ -55,11 +57,7 @@ const Navbar = () => {
                   Blog
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link ms-5 text-light" to="/bookbike">
-                  BookBike
-                </Link>
-              </li>
+             
               <li className="nav-item ms-5">
                 <Link className="nav-link text-light" to="/faq">
                   FAQ
@@ -74,6 +72,11 @@ const Navbar = () => {
                 <Link className="nav-link text-light" to="/contact">
                   Contact
                 </Link>
+                </li>
+                <li className="nav-item ms-5">
+                <Link className="nav-link text-light" to="/addtocart">
+                <img src={cart} className="cart-logo"/>
+                </Link>
               </li>
               <li className="nav-item ms-5">
                 {
@@ -86,7 +89,7 @@ const Navbar = () => {
                   </span>
                   :
                   <Link className="nav-link text-light" to="/login">
-                  login
+                 <img src={user} className="user"/>
                   </Link>
                 }
               </li>

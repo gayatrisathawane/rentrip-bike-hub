@@ -35,6 +35,10 @@ const router = createBrowserRouter([
     element: <Blog />,
   },
   {
+    path: "/addtocart",
+    element: <Addtocard />,
+  },
+  {
     path: "blog/read/:id",
     element: <ReadPost />,
   },
