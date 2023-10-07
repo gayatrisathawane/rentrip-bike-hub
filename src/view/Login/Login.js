@@ -85,7 +85,6 @@ const Login = () => {
               <label className='mt-3 fs-4'>Email</label>
               <input
                 type='email'
-
                 value={email}
                 placeholder='Enter Email'
                 className="form-control p-3 fs-5" aria-label="default input example"
@@ -144,7 +143,7 @@ const Login = () => {
 
             </div>
           </form>
-          <Link to="/Register"><p className='fs-4 text-decoration-none text-center mt-3 text-light'>Register</p></Link>
+          <Link to="/register"><p className='fs-4 text-decoration-none  text-center mt-3 text-light'>Register</p></Link>
         </div>
 
         {/* <div className='login-content col-md-6'>

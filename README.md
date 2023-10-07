@@ -1,7 +1,7 @@
 # Project Name :  Rentrip
 
 # Introduction : 
-#### Welcome to the Bike Rental System! This project allows users to rent bikes for various durations. Whether you're a bike rental shop owner or a customer looking to rent a bike, this system has you covered. This README provides essential information on setting up and using the system.
+#### Welcome to the Bike Rental System! This project allows users to rent bikes for various durations. Whether you're a bike rental shop owner or a customer looking to rent a bike, this system has you covered.
 
 # Features : . User registration and login
 ### . Browse available bikes
