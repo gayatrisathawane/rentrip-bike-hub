@@ -28,7 +28,7 @@ function Bikedatacard({ id, offer, left, ImageUrl, title, rating, price, pickup,
                     <div className='details-bike'>
                         <Link to={`/bookbike/readbikedata/${id}`} className='view-details'>View-Details </Link>
                         <Link to={`/bookbike/addtocard/${id}` }className='addtocard'>Add To Card</Link>
-                        <Link to={`/addtocard/paymentform/${id}` }className='addtocard'>Add To Card</Link>
+                     
                     </div>
                 </div>
             </div>
