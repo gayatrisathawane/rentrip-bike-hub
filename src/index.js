@@ -67,12 +67,13 @@ const router = createBrowserRouter([
     element: <Readbike />,
   },
   {
-    path: "/addtocard",
+    path: "/bookbike/addtocard/:id",
     element: <Addtocard />,
   },
   {
     path: "*",
     element: "404 Not Found",
+    
   },
 ]);
 
