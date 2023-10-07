@@ -39,13 +39,33 @@ const Review = () => {
   const [profession, setProfession] = useState("");
   const [emoji, setEmoji] = useState("");
 
+  //load from local storage
+  // useEffect(()=>{
+  //   const list = JSON.parse(localStorage.getItem('reviewlist'))
+  //   setTaskList(list)
+  // },[]);
+
+  // useEffect(() => {
+  //   const storedData = localStorage.getItem("reviewlist");
+  //   if (storedData) {
+  //     const list = JSON.parse(storedData);
+  //     setTaskList(list);
+  //   }
+  // }, []);
   
-  //save local storage
-  const savetolocalstorage = () =>{
-    localStorage.setItem("reviewlist", JSON.stringify({ taskList }));
-  }
 
 
+    //save local storage
+    // const savetolocalstorage = (review) =>{
+    //   localStorage.setItem("reviewlist", JSON.stringify(review));
+    // }
+  
+    const savetolocalstorage = (review) => {
+      localStorage.setItem("reviewlist", JSON.stringify(review));
+    }
+    
+
+// add revise
   const addReviseToList = () => {
     if (!title) {
       showToast("Title is Required.", "alert", 3000);
@@ -72,17 +92,16 @@ const Review = () => {
       return;
     }
 
-    const clearInputFields = () => {
+    const clearInputFields = (newReviewList) => {
       setTitle("");
       setDescription("");
       setName("");
       setProfession("");
       setEmoji("");
 
-      savetolocalstorage();
+      savetolocalstorage(newReviewList);
     };
 
-   
 
     // const randomId = Math.floor(Math.random() * 1000);
 
@@ -94,7 +113,9 @@ const Review = () => {
       emoji: emoji,
     };
 
-    setTaskList([...taskList, obj]);
+    const newReviewList = [...taskList, obj];
+
+    setTaskList(newReviewList);
 
     clearInputFields();
 
@@ -102,10 +123,10 @@ const Review = () => {
   };
   
 
+  //update review 
   const updateReview = () =>{
     
   }
-
 
   return (
     <>

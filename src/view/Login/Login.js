@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 
 const Login = () => {
-  const [name, setName] = useState('')
+  const[name,setName]=useState('')
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -22,7 +22,6 @@ const Login = () => {
     }
     else {
       const loginData = {
-        name,
         email,
         password,
       };
@@ -31,13 +30,12 @@ const Login = () => {
       window.location.href = "";
       setEmail('');
       setPassword('');
-      setName('');
     }
   };
 
   const validEmail = (email) => {
 
-    const emailSymbol = /[@]/;
+    const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailSymbol.test(email);
   };
   return (
@@ -67,51 +65,50 @@ const Login = () => {
                   </div> */}
 
 
+              
+                <div className='info p-5 mt-5'>
 
 
+                <input
+                    type='text'
+                    className='text'
+                    value={name}
+                    placeholder='Enter name'
+                    required
 
-              <label className='fs-4'>Name</label>
-              <input
+                    onChange={(e) => {
+                      setName(e.target.value);
+                      // setError(''); 
+                    }}
+                  />
 
-                value={name}
-                placeholder='Enter name'
-                required
-                className="form-control p-3 fs-5" type="text" aria-label="default input example"
-                onChange={(e) => {
-                  setName(e.target.value);
-                  // setError(''); 
-                }}
-              />
-              <label className='mt-3 fs-4'>Email</label>
-              <input
-                type='email'
+                  <input
+                    type='email'
+                    className='text'
+                    value={email}
+                    placeholder='Enter Email'
+                    required
 
-                value={email}
-                placeholder='Enter Email'
-                className="form-control p-3 fs-5" aria-label="default input example"
-                required
-
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                  // setError(''); 
-                }}
-              />
-              <br />
-              <label  className='fs-4'>Password</label>
-              <input
-                type='password'
-                // className='text'
-                value={password}
-                required
-                className="form-control p-3 fs-5" aria-label="default input example"
-                placeholder='Enter Password'
-                onChange={(e) => {
-                  setPassword(e.target.value);
-                  // setError(''); 
-                }}
-              />
-              <br /><br></br>
-              {/* {error && <p className='text-danger'>{error}</p>}   */}
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                      // setError(''); 
+                    }}
+                  />
+                  
+                  <br />
+                  <input
+                    type='password'
+                    className='text'
+                    value={password}
+                    required
+                    placeholder='Enter Password'
+                    onChange={(e) => {
+                      setPassword(e.target.value);
+                      // setError(''); 
+                    }}
+                  />
+                  <br /><br></br>
+                  {/* {error && <p className='text-danger'>{error}</p>}   */}
 
 
               
@@ -162,7 +159,6 @@ const Login = () => {
       </div>
 
       <Footer />
-
     </>
   );
 };
