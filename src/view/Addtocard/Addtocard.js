@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import Bikedatacard from '../../component/Bikedatacard/Bikedatacard'
-import bikedata from "./../../data/fqq.json"
+import bikedata from "./../../bikes/bike-data.json"
 import Navbar from '../../component/Navbar/Navbar'
 import Review from '../Review/Review'
 import ReviewTask from '../../component/ReviewTask/ReviewTask'
@@ -53,7 +53,7 @@ function Addtocard() {
           <div>
           <span className='mx-5'> Address </span> <input type='city' placeholder='Enter Your City' className='input-box-3 mx-5'></input><br/><br/>
 
-          Country<input type='city' placeholder='india'></input>
+          Country<input type='city' className='m-5' placeholder='india'></input>
           </div>
        
         </div>
