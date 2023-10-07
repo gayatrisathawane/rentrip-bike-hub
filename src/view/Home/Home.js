@@ -31,6 +31,7 @@ import use2 from "./assets/select-to-cart.png";
 import use3 from "./assets/pick-up.png";
 import use4 from "./assets/ride-your-bike.png";
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   const [city, setcity] = useState("");
@@ -131,8 +132,9 @@ const Home = () => {
                         setdropDate(e.target.value)
                      }} className='ms-3'/>
                   </div>
+                  <Link to="/bookbike">
                   <button onClick={saveFormData} >find bike</button>
-
+                 </Link>
 
                   
                </form>
