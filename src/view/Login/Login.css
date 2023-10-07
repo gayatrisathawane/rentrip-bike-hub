@@ -1,13 +1,9 @@
-
-
-
 .login{
     display: flex;
     flex-direction: row;
      margin: 50px;
     box-shadow: 2px 4px 4px 5px lightgrey;
     width: 500px;
-    height: 550px;
     border-radius: 20px;
     margin-left: 320px;
 }
@@ -87,7 +83,7 @@
     border-radius: 15px;
 }
 .blog-button{
-    background-color: orangered;
+    background-color: orange;
     color: black;
     font-size: 20px;
     padding: 5px;

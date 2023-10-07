@@ -17,7 +17,7 @@ function PostCard( {id,img,title,description,date,effect,effectinfo,Convenient,C
             <h2>{parking}</h2>
             <h3>{parkinginfo}</h3>
            
-             <Link to={`read/${id}`} className='blog-button px-3 text-li'>Read More</Link>
+             <Link to={`read/${id}`} className='blog-button px-3 text-light'>Read More</Link>
         </div>
     )
 }

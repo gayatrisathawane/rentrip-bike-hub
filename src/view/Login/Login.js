@@ -36,7 +36,7 @@ const Login = () => {
 
   const validEmail = (email) => {
 
-    const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailSymbol = /[@]/;
     return emailSymbol.test(email);
   };
   return (
@@ -141,6 +141,7 @@ const Login = () => {
         </div>
       </div>
       <Footer />
+
     </>
   );
 };
