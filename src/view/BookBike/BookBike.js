@@ -8,8 +8,8 @@ import Bikedatacard from '../../component/Bikedatacard/Bikedatacard';
 const BookBike = () => {
     const [DataStore, setDataStore] = useState(bikeData)
     const [searchTerm, setSearchTerm] = useState('')
-    const [findform, setFindform] = useState("")
-    console.log(findform)
+    const [findform, setFindform] = useState('')
+   
 
 
     useEffect(() => {
@@ -28,9 +28,9 @@ const BookBike = () => {
     useEffect(() => {
         const list = JSON.parse(localStorage.getItem('currentUser'));
       
-    //    if(list && list.length>0){
+  
         setFindform(list)
-    //    }
+   
   
     }, [])
 

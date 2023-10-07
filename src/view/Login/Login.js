@@ -9,6 +9,7 @@ import Logo1 from "./../../component/Navbar/logo-rentrip.png"
 import { Link } from 'react-router-dom'
 
 const Login = () => {
+  const[name,setName]=useState('')
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -20,6 +21,7 @@ const Login = () => {
     }
     else {
       const loginData = {
+        name,
         email,
         password,
       };
@@ -28,6 +30,7 @@ const Login = () => {
       window.location.href = "";
       setEmail('');
       setPassword('');
+      setName('');
     }
   };
 
@@ -67,9 +70,23 @@ const Login = () => {
 
                 </div><br/>
 
-                <h3 className='ms-2 or-login'>-----------------or-----------------</h3>
-
+              
                 <div className='info p-5 mt-5'>
+
+
+                <input
+                    type='text'
+                    className='text'
+                    value={name}
+                    placeholder='Enter name'
+                    required
+
+                    onChange={(e) => {
+                      setName(e.target.value);
+                      // setError(''); 
+                    }}
+                  />
+
                   <input
                     type='email'
                     className='text'
@@ -82,6 +99,7 @@ const Login = () => {
                       // setError(''); 
                     }}
                   />
+                  
                   <br />
                   <input
                     type='password'

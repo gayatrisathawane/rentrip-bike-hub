@@ -1,8 +1,27 @@
 import "./Navbar.css";
 import logo from "./logo-rentrip.png";
 import { Link } from "react-router-dom";
+import { useState,useEffect } from "react";
 
 const Navbar = () => {
+  const[login ,setLogin]=useState('')
+
+ 
+    
+  
+
+    useEffect(()=>{
+      const loginData = JSON.parse(localStorage.getItem('currentUser'));
+      setLogin(loginData)
+      // console.log(loginData)
+
+
+    },[])
+   
+
+
+
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg  position-sticky top-0 p-3 fs-4 nav1 ">
@@ -57,9 +76,19 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item ms-5">
-                <Link className="nav-link text-light" to="/login">
-                  Login
-                </Link>
+                {
+                  login ? 
+                  <span className="nav-link text-light" onClick={()=>{
+                    localStorage.clear();
+                    window.location.reload();
+                  }}>
+                    Logout
+                  </span>
+                  :
+                  <Link className="nav-link text-light" to="/login">
+                  login
+                  </Link>
+                }
               </li>
             </ul>
           </div>
