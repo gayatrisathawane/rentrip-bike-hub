@@ -45,7 +45,7 @@ const Login = () => {
       <div className='login-main-container'>
         <div className='login-form-container'>
           <form>
-            <div className=''>
+        
               <h1 className='text-center'> Login</h1>
 
 
@@ -111,50 +111,15 @@ const Login = () => {
               <br /><br></br>
               {/* {error && <p className='text-danger'>{error}</p>}   */}
               
-                <div className='info p-5 mt-5'>
+                
 
 
-                <input
-                    type='text'
-                    className='text'
-                    value={name}
-                    placeholder='Enter name'
-                    required
+              
 
-                    onChange={(e) => {
-                      setName(e.target.value);
-                      // setError(''); 
-                    }}
-                  />
-
-                  <input
-                    type='email'
-                    className='text'
-                    value={email}
-                    placeholder='Enter Email'
-                    required
-
-                    onChange={(e) => {
-                      setEmail(e.target.value);
-                      // setError(''); 
-                    }}
-                  />
+                 
                   
-                  <br />
-                  <input
-                    type='password'
-                    className='text'
-                    value={password}
-                    required
-                    placeholder='Enter Password'
-                    onChange={(e) => {
-                      setPassword(e.target.value);
-                      // setError(''); 
-                    }}
-                  />
-                  <br /><br></br>
-                  {/* {error && <p className='text-danger'>{error}</p>}   */}
-
+                 
+                  
 
 
               
@@ -185,7 +150,7 @@ const Login = () => {
                 </button>
               </Link> */}
 
-            </div>
+            
           </form>
           <Link to="/register"><p className='fs-4 text-decoration-none  text-center mt-3 text-light'>Register</p></Link>
         </div>

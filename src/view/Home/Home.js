@@ -139,9 +139,8 @@ const Home = () => {
 
              
             </div>
-          </form>
-        </div>
-      </div>
+          
+          </div>
 
       <div className="d-flex justify-content-evenly flex-wrap ms-5  mt-5">
         <div>
