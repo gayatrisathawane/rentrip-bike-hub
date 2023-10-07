@@ -1,8 +1,9 @@
-.addtocard-container{
-    height: 100vh;
+/* .addtocard-container{
+    height: 140vh;
     width:50%;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
   
 }
 .addtocard-under-container{
@@ -19,4 +20,32 @@
 .input-box-3{
    margin-left: 0px;
    width: 450px;
+} */
+.addtocard-main-container{
+    height: 70vh;
+    width: 75%;
+    margin-top: 50px;
+
+}
+.total-price{
+    margin-left: 340px;
+    margin-top: 60px;
+}
+.addtocard-additional{
+  height: 100px;
+}
+.addtocard-btn{
+    background-color: rgb(68, 68, 117);
+    color:white;
+    margin-top: 30px;
+}
+
+.img-add-1{
+height: 120px;
+padding-top: 10px;
+}
+.color{
+
+background-color:rgb(68, 68, 117) ;
+color:white;
 }

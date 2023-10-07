@@ -1,6 +1,12 @@
 import "./Navbar.css";
 import logo from "./logo-rentrip.png";
+import cart from './shopping-cart.png'
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
+=======
+import user from './user.png'
+import { useState,useEffect } from "react";
+>>>>>>> 7ff5fcbc797c10b0389c3e1961301ed51b6c1e51
 
 const Navbar = () => {
   return (
@@ -36,11 +42,7 @@ const Navbar = () => {
                   Blog
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link ms-5 text-light" to="/bookbike">
-                  BookBike
-                </Link>
-              </li>
+             
               <li className="nav-item ms-5">
                 <Link className="nav-link text-light" to="/faq">
                   FAQ
@@ -55,11 +57,32 @@ const Navbar = () => {
                 <Link className="nav-link text-light" to="/contact">
                   Contact
                 </Link>
+                </li>
+                <li className="nav-item ms-5">
+                <Link className="nav-link text-light" to="/addtocart">
+                <img src={cart} className="cart-logo"/>
+                </Link>
               </li>
               <li className="nav-item ms-5">
+<<<<<<< HEAD
                 <Link className="nav-link text-light" to="/login">
                   Login
                 </Link>
+=======
+                {
+                  login ? 
+                  <span className="nav-link text-light" onClick={()=>{
+                    localStorage.clear();
+                    window.location.reload();
+                  }}>
+                    Logout
+                  </span>
+                  :
+                  <Link className="nav-link text-light" to="/login">
+                 <img src={user} className="user"/>
+                  </Link>
+                }
+>>>>>>> 7ff5fcbc797c10b0389c3e1961301ed51b6c1e51
               </li>
             </ul>
           </div>

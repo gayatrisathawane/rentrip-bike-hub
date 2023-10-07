@@ -1,5 +1,5 @@
 .main-readbike-container{
-    height: 1000px;
+    height:100%;
     width: 70%;
     margin-left: 200px;
  
@@ -27,10 +27,11 @@
     margin: 80px;
     font-size: 25px;
     font-weight: 100;
+    margin-bottom: 5px;
     
 }
 .readbike-addtocard{
-    padding: 8px;
+    padding-top: 6px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: orange;
@@ -39,6 +40,7 @@
     color: white;
     font-weight: 500;
     margin-left: 45px;
+    margin-top: 3px;
    
 }
 .description{

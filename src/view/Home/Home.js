@@ -1,8 +1,8 @@
-import Safety from "../../component/Safety/Safety";
-import Navbar from "../../component/Navbar/Navbar";
-import Footer from "../../component/Footer/Footer";
-import UseTo from "./../../component/UseTo/UseTo";
-import "./Home.css";
+import Safety from '../../component/Safety/Safety'
+import Navbar from '../../component/Navbar/Navbar'
+import Footer from '../../component/Footer/Footer'
+import UseTo from './../../component/UseTo/UseTo'
+import './Home.css'
 
 import City from "../../component/City/City";
 
@@ -61,100 +61,83 @@ const Home = () => {
   //    localStorage.setItem('formUser', JSON.stringify(formdatasave));
   //  };
 
-  const saveFormData = () => {
-    const dataForm = {
-      city,
-      bookDay,
-      pickupdate,
-      pickuptime,
-      dropdate,
-      droptime,
-    };
-    localStorage.setItem("currentUser", JSON.stringify(dataForm));
-  };
 
-  return (
-    <div>
-      <Navbar />
-      <div className="home-bg">
-        <div className="container-grp">
-          <h1 className="main-heading">RENTALS, REDEFINED</h1>
-          <p className="sub-head mt-4">
-            Rent from India's Largest Fleet of Vehicles, Trusted by millions
-          </p>
-          <form>
-            <div className="  justify-content-space-evenly text-white border shadow p-5 form-content-design">
-              <div>
-                <h4 style={{ color: "white" }}> City </h4>
-                <select
-                  className="select-bar"
-                  onChange={(e) => {
-                    setcity(e.target.value);
-                  }}>
-                  {" "}
-                  <br /> <br />
-                  <option value="pune">Pune</option>
-                  <option value="bengluru">Bengluru</option>
-                  <option value="chandigadh">chandigadh</option>
-                  <option value="chennai">chennai</option>
-                  <option value="Ahmdabad">Ahmdabad</option>
-                  <option value="Indore">Indore</option>
-                  <option value="Goa">Goa</option>
-                  <option value="jaipur">Jaipur</option>
-                  <option value="Kolkata">Kolkatta</option>
-                  <option value="Mumbai">Mumbai</option>
-                </select>
-                <h4> Book At :</h4>
-                <select
-                  className="select-bar"
-                  onChange={(e) => {
-                    setBook(e.target.value);
-                  }}>
-                  <option>Daily</option>
-                  <option>Weekly</option>
-                  <option>Monthly</option>
-                </select>
-              </div>
-              <div>
-                <h4> Pick up date :</h4>
-                <input
-                  className="select-bar"
-                  type="time"
-                  onChange={(e) => {
-                    setpickupTime(e.target.value);
-                  }}
-                />
-                <br />
-                <input
-                  className="select-bar"
-                  type="date"
-                  onChange={(e) => {
-                    setpickupDate(e.target.value);
-                  }}
-                />
+   const saveFormData =() =>{
+      const dataForm = {
+              city,
+              bookDay,
+              pickupdate,
+              pickuptime,
+              dropdate,
+              droptime,
+            };
+     localStorage.setItem('currentUser', JSON.stringify(dataForm))
+      
+   }
+    
+   return (
+      <div>
+         <Navbar />
 
-                <h4> Drop up date :</h4>
-                <input
-                  className="select-bar"
-                  type="time"
-                  onChange={(e) => {
-                    setdropTime(e.target.value);
-                  }}
-                />
-                <input
-                  className="select-bar"
-                  type="date"
-                  onChange={(e) => {
-                    setdropDate(e.target.value);
-                  }}
-                />
-                <br />
-                </div>
-                <button
-                  className="btn btn find-button text-light"
-                  onClick={saveFormData}>
-                  See Bike
-                </button>
+         <div className='home-bg'>
+            <div className='container-grp'>
+               <h1 className='main-heading'>RENTALS, REDEFINED</h1>
+               <p className='sub-head mt-4'>Rent from India's Largest Fleet of Vehicles, Trusted by millions</p> {city}
+
+               <form>
+
+                  <div className='d-flex justify-content-center text-white border border-primary p-5 '>
+                     <p style={{color:"white"}}> City </p>
+                     <select  onChange={(e)=>{
+                        setcity(e.target.value)
+                     }}> <br/> <br/>
+                        <option value="pune">pune</option>
+                        <option value="bengluru">bengluru</option>
+                        <option value="chandigadh">chandigadh</option>
+                        <option value="chennai">chennai</option>
+                        <option value="Ahmdabad">Ahmdabad</option>
+                        <option value="Indore">Indore</option>
+                        <option value="Goa">Goa</option>
+                        <option value="jaipur">Jaipur</option>
+                        <option value="Kolkata">Kolkatta</option>
+                        <option value="Mumbai">Mumbai</option>
+                     </select>
+
+                     <p>Book At</p><br/>
+                     <select onChange={(e)=>{
+                        setBook(e.target.value)
+
+                     }}>
+                        <option>Daily</option>
+                        <option>Weekly</option>
+                        <option>Monthly</option>
+                     </select>
+
+                    
+
+                        <p>pick up date</p>
+                     <input type="time" onChange={(e)=>{
+                        setpickupTime(e.target.value)
+                     }} />
+                     <input type="date" onChange={(e)=>{
+                        setpickupDate(e.target.value)
+                     }}  className='ms-3'/>
+
+                     <p >drop  up date</p>
+                     <input type="time" onChange={(e)=>{
+                        setdropTime(e.target.value)
+                     }} />
+                     <input type="date"  onChange={(e)=>{
+                        setdropDate(e.target.value)
+                     }} className='ms-3'/>
+                  </div>
+                  <button onClick={saveFormData} >find bike</button>
+
+
+                  
+               </form>
+
+             
             </div>
           </form>
         </div>
@@ -242,8 +225,7 @@ const Home = () => {
           </div>
 
                <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
-
-
+             
             </div>
          </div>
 

@@ -6,3 +6,6 @@
     color: white;
     background-color:rgb(15, 15, 54);
 }
+.cart-logo , .user{
+    height: 40px;
+}

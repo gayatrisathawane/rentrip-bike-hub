@@ -8,8 +8,8 @@ import Bikedatacard from '../../component/Bikedatacard/Bikedatacard';
 const BookBike = () => {
     const [DataStore, setDataStore] = useState(bikeData)
     const [searchTerm, setSearchTerm] = useState('')
-    const [findform, setFindform] = useState("")
-    console.log(findform)
+    const [findform, setFindform] = useState('')
+   
 
 
     useEffect(() => {
@@ -28,9 +28,9 @@ const BookBike = () => {
     useEffect(() => {
         const list = JSON.parse(localStorage.getItem('currentUser'));
       
-    //    if(list && list.length>0){
+  
         setFindform(list)
-    //    }
+   
   
     }, [])
 
@@ -41,21 +41,14 @@ const BookBike = () => {
             <Navbar />
 
             <div className='bikepage-container shadow p-3'  >
-               
-            
-                  <h1> Rent  A Bike at {findform.city}</h1>
-                  <button className='datasearch'> your search :</button>
-                   <span className='ms-3 fs-5'>{findform.pickupdate}  </span>
-                   <span className='fw-bold fs-5'>{findform.pickuptime} </span> - 
-                  <span className='ms-2 fs-5'>{findform.dropdate} </span>
-                  <span className='fw-bold fs-5'>{findform.droptime} </span>
 
-                
-                
-                
 
-               
-                    
+                <h1> Rent  A Bike at {findform.city}</h1>
+                <button className='datasearch'> your search :</button>
+                <span className='ms-3 fs-5'>{findform.pickupdate}  </span>
+                <span className='fw-bold fs-5'>{findform.pickuptime} </span> -
+                <span className='ms-2 fs-5'>{findform.dropdate} </span>
+                <span className='fw-bold fs-5'>{findform.droptime} </span>
             </div>
 
             <div className='bikefound shadow'>
@@ -69,7 +62,7 @@ const BookBike = () => {
                     value={searchTerm}
                     onChange={(e) => {
                         setSearchTerm(e.target.value)
-                    }}  /> <span className='bg-primary'>🔍</span>
+                    }}  /> 
             </div>
 
             <div className='bookbike'>
@@ -81,17 +74,13 @@ const BookBike = () => {
 
             </div>
 
-  <br/>
-           
-           <Footer/>
+            <br />
+
+            <Footer />
 
 
-                    </div>
-      
-
-    
+        </div>
 
     )
 }
 export default BookBike;
-// id, offer, left, ImageUrl, title, rating, price, pickup, dealertiming, deposite, terms, viewdetails, addtocard 

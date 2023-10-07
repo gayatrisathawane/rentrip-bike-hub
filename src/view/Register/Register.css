@@ -1,70 +1,69 @@
-.register{
-    display: flex;
-    flex-direction: row;
-    box-shadow: 2px 4px 4px 5px lightgrey;
+.main-register-container{
+  background-image: url('./../Login/bg-login.jpg');
+  background-size: cover;
+  height: 100vh;
+  position:relative;
+}
+ .register{
+    position:absolute;
+   
+    box-shadow: 0px 0px 10px 0px rgb(237, 233, 233);
     width: 800px;
-    /* height: 100vh; */
     border-radius: 20px;
-    flex-wrap: wrap;
    justify-content: center;
    margin: 0 auto;
    padding: 5px;
    margin-top: 30px;
    margin-bottom: 30px;
-    
 }
 .form-line {
     padding: 12px 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 20px;
     margin: 10px;
     padding: 10px;
-}
-.bike-info-text{
+} */
+/* .bike-info-text{
     color: white;
     background-color:rgb(37, 37, 66) ;
     margin: 10px;
     padding: 10px;
     
-}
+} */
 
 .register-data{
-    background-color: rgb(246, 162, 7);
+    background-color:orange;
     width:800px;
     height: 200px;
     margin-top: -3px;
     border-radius: 20px;
     color: white;
     
-}
-.login-main{
+} */
+/* .login-main{
     display: flex;
-}
-.register-image{
+} */
+/* .register-image{
    display: flex;
    justify-content: center;
    margin: auto;
    height: 160px;
 
-}
-.text-center{
+} */
+/* .text-center{
     display: block;
     justify-content: space-around;
-}
-.info{
-    font-size: 25px;
-   text-align: center;
-   padding: 5px;
-  }
+} */
+
 .text{
     margin: 10px;
     padding: 4px;
     font-size: 20px;
-    /* text-align: center; */
+    text-align: center;
 
-}
-.facebook{
+} 
+/* .facebook{
     background-color: rgb(22, 22, 233);
     color: white;
     margin: 5px ;
@@ -75,40 +74,42 @@
     font-size: 20px;
     border: none;
 
-}
-.or-login{
+} */
+/* .or-login{
     position: relative;
     bottom: 50px;
 
-}
-.google-logo{
+} */
+/* .google-logo{
     height: 35px;
 
-}
-.google{
+} */
+.btn-register{
     background-color: orange;
     color: white;
-    margin-left: 300px ;
-    padding: 12px;
+    padding: 10px 30px;
     font-size: 20px;
-    border-radius: 10px;
-    text-decoration: none;
+    border:none;
+    display: block;
+    margin: 0 auto;
+
+  
    
 }
-.textregi {
+/* .textregi {
     margin: 14px;
     font-size: 24px;
     text-align: center;
 box-shadow:  1px 1px 1px rgb(120, 116, 116);
     
-  }
+  } */
 
 
-.password{
+/* .password{
     text-decoration: none;
     margin-left: 30px;
     color: orange;
-}
+} */
 
 @media screen and (max-width: 600px) {
 
