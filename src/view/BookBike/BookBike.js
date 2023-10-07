@@ -3,6 +3,12 @@ import { useState, useEffect } from 'react';
 import bikeData from "./../../bikes/bike-data.json"
 import Navbar from '../../component/Navbar/Navbar';
 import Footer from '../../component/Footer/Footer';
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 0125967410a80c2c06959f516074ba2c9ef7c5e6
 import Bikedatacard from '../../component/Bikedatacard/Bikedatacard';
 
 const BookBike = () => {
@@ -80,6 +86,11 @@ const BookBike = () => {
                 }
 
             </div>
+<<<<<<< HEAD
+  <br/>
+           
+           <Footer/>
+=======
 
             <div className='text-bike'>
 
@@ -138,6 +149,7 @@ const BookBike = () => {
                 Mail
             </div>
             <Footer />
+>>>>>>> 0125967410a80c2c06959f516074ba2c9ef7c5e6
         </div>
 
     )
