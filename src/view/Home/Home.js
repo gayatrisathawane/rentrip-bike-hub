@@ -76,74 +76,85 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-
       <div className="home-bg">
         <div className="container-grp">
           <h1 className="main-heading">RENTALS, REDEFINED</h1>
           <p className="sub-head mt-4">
             Rent from India's Largest Fleet of Vehicles, Trusted by millions
-          </p>{" "}
-          {city}
+          </p>
           <form>
-            <div className="container d-flex justify-content-space-evenly text-white border border-primary my-5 p-5 ">
-              <h4 style={{ color: "white" }}> City </h4>
-              <select
-                onChange={(e) => {
-                  setcity(e.target.value);
-                }}>
-                {" "}
-                <br /> <br />
-                <option value="pune">Pune</option>
-                <option value="bengluru">Bengluru</option>
-                <option value="chandigadh">chandigadh</option>
-                <option value="chennai">chennai</option>
-                <option value="Ahmdabad">Ahmdabad</option>
-                <option value="Indore">Indore</option>
-                <option value="Goa">Goa</option>
-                <option value="jaipur">Jaipur</option>
-                <option value="Kolkata">Kolkatta</option>
-                <option value="Mumbai">Mumbai</option>
-              </select>
-              <h4>Book At :</h4>
-              <select
-                onChange={(e) => {
-                  setBook(e.target.value);
-                }}>
-                <option>Daily</option>
-                <option>Weekly</option>
-                <option>Monthly</option>
-              </select>
-              <h4>Pick up date :</h4>
-              <input
-                type="time"
-                onChange={(e) => {
-                  setpickupTime(e.target.value);
-                }}
-              />
-              <input
-                type="date"
-                onChange={(e) => {
-                  setpickupDate(e.target.value);
-                }}
-              />
-             <h4>Drop up date :</h4>
-              <input
-                type="time"
-                onChange={(e) => {
-                  setdropTime(e.target.value);
-                }}
-              />
-              <input
-                type="date"
-                onChange={(e) => {
-                  setdropDate(e.target.value);
-                }}
-              />
-              <button
-                className="btn btn find-button  text-light"
-                onClick={saveFormData}>
-                find bike
-              </button>
+            <div className="  justify-content-space-evenly text-white border shadow p-5 form-content-design">
+              <div>
+                <h4 style={{ color: "white" }}> City </h4>
+                <select
+                  className="select-bar"
+                  onChange={(e) => {
+                    setcity(e.target.value);
+                  }}>
+                  {" "}
+                  <br /> <br />
+                  <option value="pune">Pune</option>
+                  <option value="bengluru">Bengluru</option>
+                  <option value="chandigadh">chandigadh</option>
+                  <option value="chennai">chennai</option>
+                  <option value="Ahmdabad">Ahmdabad</option>
+                  <option value="Indore">Indore</option>
+                  <option value="Goa">Goa</option>
+                  <option value="jaipur">Jaipur</option>
+                  <option value="Kolkata">Kolkatta</option>
+                  <option value="Mumbai">Mumbai</option>
+                </select>
+                <h4> Book At :</h4>
+                <select
+                  className="select-bar"
+                  onChange={(e) => {
+                    setBook(e.target.value);
+                  }}>
+                  <option>Daily</option>
+                  <option>Weekly</option>
+                  <option>Monthly</option>
+                </select>
+              </div>
+              <div>
+                <h4> Pick up date :</h4>
+                <input
+                  className="select-bar"
+                  type="time"
+                  onChange={(e) => {
+                    setpickupTime(e.target.value);
+                  }}
+                />
+                <br />
+                <input
+                  className="select-bar"
+                  type="date"
+                  onChange={(e) => {
+                    setpickupDate(e.target.value);
+                  }}
+                />
+
+                <h4> Drop up date :</h4>
+                <input
+                  className="select-bar"
+                  type="time"
+                  onChange={(e) => {
+                    setdropTime(e.target.value);
+                  }}
+                />
+                <input
+                  className="select-bar"
+                  type="date"
+                  onChange={(e) => {
+                    setdropDate(e.target.value);
+                  }}
+                />
+                <br />
+                </div>
+                <button
+                  className="btn btn find-button text-light"
+                  onClick={saveFormData}>
+                  See Bike
+                </button>
             </div>
           </form>
         </div>
