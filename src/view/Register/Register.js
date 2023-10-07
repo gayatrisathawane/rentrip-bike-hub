@@ -163,7 +163,7 @@ const Register = () => {
 
                                     }} /><br />
 
-                                <label className='mt-3 fs-4'>Age : </label>
+                                {/* <label className='mt-3 fs-4'>Age : </label>
 
                                 <input
                                     type='mobile'
@@ -176,7 +176,7 @@ const Register = () => {
 
                                     }} />
 
-                                {/* <input
+                                <input
                                     type='mobile'
                                     className='text px-4'
                                     value={mobileno}

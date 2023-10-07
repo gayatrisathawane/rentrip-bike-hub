@@ -17,25 +17,31 @@ const Login = () => {
   const addLogin = () => {
     if (!email && !password) {
       showToast(' Enter a email and password', 'alert', 5000);
-    } else if (!validEmail(email)) {
+    } 
+    else if (!name) {
+      showToast(' Enter Name', 'warning', 5000);
+    }
+    else if (!validEmail(email)) {
       showToast(' Enter valid email', 'warning', 5000);
     }
     else {
       const loginData = {
         email,
         password,
+        name,
       };
       localStorage.setItem('currentUser', JSON.stringify(loginData));
       showToast(' Successful loged in', 'success', 5000);
       window.location.href = "";
       setEmail('');
       setPassword('');
+      setName('')
     }
   };
 
   const validEmail = (email) => {
 
-    const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailSymbol = /[@]/;
     return emailSymbol.test(email);
   };
   return (
