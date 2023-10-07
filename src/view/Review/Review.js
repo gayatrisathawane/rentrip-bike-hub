@@ -39,6 +39,13 @@ const Review = () => {
   const [profession, setProfession] = useState("");
   const [emoji, setEmoji] = useState("");
 
+  
+  //save local storage
+  const savetolocalstorage = () =>{
+    localStorage.setItem("reviewlist", JSON.stringify({ taskList }));
+  }
+
+
   const addReviseToList = () => {
     if (!title) {
       showToast("Title is Required.", "alert", 3000);
@@ -71,11 +78,11 @@ const Review = () => {
       setName("");
       setProfession("");
       setEmoji("");
+
+      savetolocalstorage();
     };
 
-    const savetolocalstorage = () =>{
-
-    };
+   
 
     // const randomId = Math.floor(Math.random() * 1000);
 
@@ -94,6 +101,12 @@ const Review = () => {
     showToast("Review added successfully!", "success", 3000);
   };
   
+
+  const updateReview = () =>{
+    
+  }
+
+
   return (
     <>
       <Navbar />
