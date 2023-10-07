@@ -2,12 +2,12 @@
 import './Loginpage.css'
 import { useState } from 'react';
 import showToast from 'crunchy-toast';
-import Facebook from "./../../component/Footer/facebook - Copy.png"
 import Navbar from './../../component/Navbar/Navbar';
-import Google from "./logo.png";
+
 import Footer from './../../component/Footer/Footer';
-import Logo1 from "./../../component/Navbar/logo-rentrip.png"
+
 import { Link } from 'react-router-dom'
+
 
 const Login = () => {
   const [name, setName] = useState('')
@@ -114,10 +114,22 @@ const Login = () => {
               {/* {error && <p className='text-danger'>{error}</p>}   */}
 
 
+              
+
+              <div className='d-flex justify-content-between'>
+                <div>
+                <input type='checkbox' className=' fs-4' /> <span className='fs-3'>I'm not a robort</span>
+                </div>
+             <div>
+            <p className=' fs-4'>Forgot Password?</p>
+             </div>
+             
+              </div>
+             
 
 
-              <input type='checkbox' className=' fs-3' />I'm not a robort
-              <a href="" className='password fs-5'>Forgot Password?</a><br /><br />
+            
+
 
 
               <div>
@@ -132,6 +144,7 @@ const Login = () => {
 
             </div>
           </form>
+          <Link to="/Register"><p className='fs-4 text-decoration-none text-center mt-3 text-light'>Register</p></Link>
         </div>
 
         {/* <div className='login-content col-md-6'>
