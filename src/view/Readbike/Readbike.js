@@ -34,12 +34,12 @@ function Readbike() {
             <h4><FontAwesomeIcon icon={faGear} />  Self Start</h4><br />
             <h4> <FontAwesomeIcon icon={faGear} />  110cc</h4><br />
             <h4><FontAwesomeIcon icon={faMotorcycle} />  2019</h4>
-            <span></span>
+
             <span>Share details with friends</span>
             <div className='d-flex'>
-                
-            c
+
               
+
             </div>
 
           </div>
@@ -50,14 +50,14 @@ function Readbike() {
         <div className='container box-readbikedata  h-10 w-100 my-2 p-4 ' >
           <h2 className='mx-5'>{post.title} </h2>
           <h6 className='mx-5'>{post.price}</h6>
-          <Link to={`/bookbike/addtocard/${id}`} className='readbike-addtocard' >Add To Card</Link>
+          <Link to={`/bookbike/addtocard/${id}`} className='readbike-addtocard p-2 ' >Add To Card</Link>
         </div>
 
         <h3 className='description'>Description</h3>
         <div className='mx-5 '>
           Dealer Timings: 09:00 AM - 09:00 PM<br /><br />
 
-            <b>{post.title}</b>  comes with an engine capacity of 109.51cc which has a new fuel injection that produces power of 7.79PS at 8000rpm and 8.79Nm at 5250rpm.<br /> <br />
+          <b>{post.title}</b>  comes with an engine capacity of 109.51cc which has a new fuel injection that produces power of 7.79PS at 8000rpm and 8.79Nm at 5250rpm.<br /> <br />
 
           Deposit Terms<br />
           No deposit amount<br /><br />
