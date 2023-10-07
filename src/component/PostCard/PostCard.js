@@ -9,7 +9,7 @@ function PostCard( {id,img,title,description,date,effect,effectinfo,Convenient,C
             <img src={img} className='image-blog mt-2' />
             <h2>{title}</h2><br />
             <p>{description}</p>
-            <p>{date}</p>
+            <p cl>{date}</p>
             <h1>{effect}</h1>
             <p>{effectinfo}</p>
             <h2>{Convenient}</h2>
