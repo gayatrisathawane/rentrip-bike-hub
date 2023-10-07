@@ -177,8 +177,7 @@ const Home = () => {
                <div className='ms-3'><UseTo useimg={use3} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
 
                <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
-
-
+             
             </div>
          </div>
 
