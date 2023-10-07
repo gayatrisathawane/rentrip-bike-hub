@@ -121,7 +121,7 @@ const Login = () => {
 
 
               <div>
-                <button className="btn btn-login text-light p-2 fs-5" type="button" onClick={addLogin} >Button</button>
+                <button className="btn btn-login text-light p-2 fs-5" type="button" onClick={addLogin} >Login</button>
               </div>
 
               {/* <Link to="">
