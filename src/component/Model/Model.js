@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./Model.css"
 import Mobile from "./mobile.png";

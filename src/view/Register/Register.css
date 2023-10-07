@@ -18,6 +18,13 @@
  
 } 
 /* .form-line {
+
+   padding: 5px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.form-line {
+
     padding: 12px 10px;
     display: flex;
     justify-content: space-between;
@@ -33,7 +40,7 @@
     
 } */
 
-/* .register-data{
+.register-data{
     background-color:orange;
     width:800px;
     height: 200px;
@@ -115,7 +122,7 @@ box-shadow:  1px 1px 1px rgb(120, 116, 116);
 @media screen and (max-width: 600px) {
 
     .register-data {
-        background-color: orange;
+        background-color: rgb(246, 162, 7);
         width: 540px;
         height: 107px;
         margin-left: 13px;

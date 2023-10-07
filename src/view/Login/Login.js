@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 
 const Login = () => {
-  const [name, setName] = useState('')
+  const[name,setName]=useState('')
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -22,7 +22,6 @@ const Login = () => {
     }
     else {
       const loginData = {
-        name,
         email,
         password,
       };
@@ -31,13 +30,12 @@ const Login = () => {
       window.location.href = "";
       setEmail('');
       setPassword('');
-      setName('');
     }
   };
 
   const validEmail = (email) => {
 
-    const emailSymbol = /[@]/;
+    const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailSymbol.test(email);
   };
   return (
@@ -65,6 +63,7 @@ const Login = () => {
                       With google
                     </button>
                   </div> */}
+
 
 
 
@@ -111,6 +110,51 @@ const Login = () => {
               />
               <br /><br></br>
               {/* {error && <p className='text-danger'>{error}</p>}   */}
+              
+                <div className='info p-5 mt-5'>
+
+
+                <input
+                    type='text'
+                    className='text'
+                    value={name}
+                    placeholder='Enter name'
+                    required
+
+                    onChange={(e) => {
+                      setName(e.target.value);
+                      // setError(''); 
+                    }}
+                  />
+
+                  <input
+                    type='email'
+                    className='text'
+                    value={email}
+                    placeholder='Enter Email'
+                    required
+
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                      // setError(''); 
+                    }}
+                  />
+                  
+                  <br />
+                  <input
+                    type='password'
+                    className='text'
+                    value={password}
+                    required
+                    placeholder='Enter Password'
+                    onChange={(e) => {
+                      setPassword(e.target.value);
+                      // setError(''); 
+                    }}
+                  />
+                  <br /><br></br>
+                  {/* {error && <p className='text-danger'>{error}</p>}   */}
+
 
 
               
@@ -161,7 +205,6 @@ const Login = () => {
       </div>
 
       <Footer />
-
     </>
   );
 };
