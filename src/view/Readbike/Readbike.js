@@ -38,7 +38,7 @@ function Readbike() {
             <span>Share details with friends</span>
             <div className='d-flex'>
 
-              c
+              
 
             </div>
 
@@ -50,7 +50,7 @@ function Readbike() {
         <div className='container box-readbikedata  h-10 w-100 my-2 p-4 ' >
           <h2 className='mx-5'>{post.title} </h2>
           <h6 className='mx-5'>{post.price}</h6>
-          <Link to={`/bookbike/addtocard/${id}`} className='readbike-addtocard' >Add To Card</Link>
+          <Link to={`/bookbike/addtocard/${id}`} className='readbike-addtocard p-2 ' >Add To Card</Link>
         </div>
 
         <h3 className='description'>Description</h3>

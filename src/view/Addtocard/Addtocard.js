@@ -59,13 +59,13 @@ function Addtocard() {
 
             <span className='fs-5 mt-5 p-2 pt-3'> <span className='fs-6'>price</span> <br />{post.price}</span>
 
-            <span className='total-price'><span className='mx-5'>.Total </span> <br /> {post.price} </span>
+            <span className='total-price fs-3 px-2'><span className='mx-5 px-4 fs-4'>.Total </span> <br /> {post.price} </span>
 
 
           </div><br />
           <h4 className='mx-5'>Additional Item(s)</h4><br />
 
-          <div className='bg-primary addtocard-additional p-3 position-relative color  '>
+          <div className=' addtocard-additional p-3 position-relative color  '>
             <span className=' px-3 fs-6'>Sub Total:</span> <span className='position-absolute end-0 px-2' >{post.price}</span>
             <br /><br />
             <span className='px-3 fs-4'> Net total: </span> <span className='position-absolute fs-4 end-0 px-2' >{post.price}</span>
