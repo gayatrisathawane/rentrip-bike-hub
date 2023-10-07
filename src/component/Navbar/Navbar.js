@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import logo from "./logo-rentrip.png";
-import cart from './shopping-cart.png'
+import cart from './cart.png'
 import { Link } from "react-router-dom";
 import user from './user.png'
 import { useState,useEffect } from "react";
