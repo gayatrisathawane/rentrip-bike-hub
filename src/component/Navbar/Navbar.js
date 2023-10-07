@@ -1,29 +1,12 @@
 import "./Navbar.css";
 import logo from "./logo-rentrip.png";
-import cart from './shopping-cart.png'
+import cart from './cart.png'
 import { Link } from "react-router-dom";
+
 import user from './user.png'
-import { useState,useEffect } from "react";
+import { useState,useEffect } from "react"
 
 const Navbar = () => {
-  const[login ,setLogin]=useState('')
-
- 
-    
-  
-
-    useEffect(()=>{
-      const loginData = JSON.parse(localStorage.getItem('currentUser'));
-      setLogin(loginData)
-      // console.log(loginData)
-
-
-    },[])
-   
-
-
-
-
   return (
     <div>
       <nav className="navbar navbar-expand-lg  position-sticky top-0 p-3 fs-4 nav1 ">
@@ -79,7 +62,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item ms-5">
-                {
+
+                <Link className="nav-link text-light" to="/login">
+                  Login
+                </Link>
+
+                {/* {
                   login ? 
                   <span className="nav-link text-light" onClick={()=>{
                     localStorage.clear();
@@ -91,7 +79,7 @@ const Navbar = () => {
                   <Link className="nav-link text-light" to="/login">
                  <img src={user} className="user"/>
                   </Link>
-                }
+                } */}
               </li>
             </ul>
           </div>

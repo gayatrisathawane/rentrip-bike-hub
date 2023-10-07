@@ -9,7 +9,7 @@ const BookBike = () => {
     const [DataStore, setDataStore] = useState(bikeData)
     const [searchTerm, setSearchTerm] = useState('')
     const [findform, setFindform] = useState('')
-
+   
 
 
     useEffect(() => {
@@ -27,11 +27,11 @@ const BookBike = () => {
 
     useEffect(() => {
         const list = JSON.parse(localStorage.getItem('currentUser'));
-
-
+      
+  
         setFindform(list)
-
-
+   
+  
     }, [])
 
 
@@ -62,7 +62,7 @@ const BookBike = () => {
                     value={searchTerm}
                     onChange={(e) => {
                         setSearchTerm(e.target.value)
-                    }} />
+                    }}  /> 
             </div>
 
             <div className='bookbike'>

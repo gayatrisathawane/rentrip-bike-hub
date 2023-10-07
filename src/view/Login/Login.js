@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 
 const Login = () => {
-  const [name, setName] = useState('')
+  const[name,setName]=useState('')
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -22,7 +22,6 @@ const Login = () => {
     }
     else {
       const loginData = {
-        name,
         email,
         password,
       };
@@ -31,13 +30,12 @@ const Login = () => {
       window.location.href = "";
       setEmail('');
       setPassword('');
-      setName('');
     }
   };
 
   const validEmail = (email) => {
 
-    const emailSymbol = /[@]/;
+    const emailSymbol = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailSymbol.test(email);
   };
   return (
@@ -47,7 +45,7 @@ const Login = () => {
       <div className='login-main-container'>
         <div className='login-form-container'>
           <form>
-            <div className=''>
+        
               <h1 className='text-center'> Login</h1>
 
 
@@ -65,6 +63,11 @@ const Login = () => {
                       With google
                     </button>
                   </div> */}
+
+
+
+
+
 
               <label className='fs-4'>Name</label>
               <input
@@ -106,6 +109,24 @@ const Login = () => {
                 }}
               />
               <br /><br></br>
+<<<<<<< HEAD
+=======
+              {/* {error && <p className='text-danger'>{error}</p>}   */}
+              
+                
+
+
+              
+
+                 
+                  
+                 
+                  
+
+
+              
+
+>>>>>>> 0b259810cc250ea79c5cf5f7aa03ad06c907b71c
               <div className='d-flex justify-content-between'>
                 <div>
                 <input type='checkbox' className=' fs-4' /> <span className='fs-3'>I'm not a robort</span>
@@ -125,7 +146,7 @@ const Login = () => {
                 </button>
               </Link> */}
 
-            </div>
+            
           </form>
           <Link to="/register"><p className='fs-4 text-decoration-none  text-center mt-3 text-light'>Register</p></Link>
         </div>
@@ -145,7 +166,6 @@ const Login = () => {
       </div>
 
       <Footer />
-
     </>
   );
 };
