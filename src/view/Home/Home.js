@@ -92,8 +92,8 @@ const Home = () => {
 
                <form>
 
-                  <div className='d-flex text-white border border-primary p-5 '>
-                     <h4 style={{color:"white"}}> City </h4>
+                  <div className='d-flex justify-content-center text-white border border-primary p-5 '>
+                     <p style={{color:"white"}}> City </p>
                      <select  onChange={(e)=>{
                         setcity(e.target.value)
                      }}> <br/> <br/>
@@ -109,7 +109,7 @@ const Home = () => {
                         <option value="Mumbai">Mumbai</option>
                      </select>
 
-                     <h4>Book At</h4><br/>
+                     <p>Book At</p><br/>
                      <select onChange={(e)=>{
                         setBook(e.target.value)
 
@@ -121,30 +121,31 @@ const Home = () => {
 
                     
 
-                        pick up date
+                        <p>pick up date</p>
                      <input type="time" onChange={(e)=>{
                         setpickupTime(e.target.value)
                      }} />
                      <input type="date" onChange={(e)=>{
                         setpickupDate(e.target.value)
-                     }} />
+                     }}  className='ms-3'/>
 
-                     drop  up date
+                     <p >drop  up date</p>
                      <input type="time" onChange={(e)=>{
                         setdropTime(e.target.value)
                      }} />
                      <input type="date"  onChange={(e)=>{
                         setdropDate(e.target.value)
-                     }}/>
+                     }} className='ms-3'/>
                   </div>
+                  <button onClick={saveFormData} >find bike</button>
+
 
                   
                </form>
 
              
             </div>
-            <button onClick={saveFormData} >find bike</button>
-
+           
          </div>
 
 

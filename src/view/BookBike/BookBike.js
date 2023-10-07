@@ -69,7 +69,7 @@ const BookBike = () => {
                     value={searchTerm}
                     onChange={(e) => {
                         setSearchTerm(e.target.value)
-                    }}  /> <span className='bg-primary'>🔍</span>
+                    }}  /> 
             </div>
 
             <div className='bookbike'>
