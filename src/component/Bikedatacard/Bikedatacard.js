@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Bikedatacard.css"
 
 
-function Bikedatacard({ id, offer, left, ImageUrl, title, rating, price, pickup, dealertiming, deposite, terms, viewdetails, addtocard }) {
+function Bikedatacard({ id, offer, left, ImageUrl, title, rating, price, pickup, dealertiming, deposite, terms, viewdetails, addtocard, paymentform }) {
     return (
         <div className='bike'>
             <div className='bike-container'>
@@ -28,6 +28,7 @@ function Bikedatacard({ id, offer, left, ImageUrl, title, rating, price, pickup,
                     <div className='details-bike'>
                         <Link to={`/bookbike/readbikedata/${id}`} className='view-details'>View-Details </Link>
                         <Link to={`/bookbike/addtocard/${id}` }className='addtocard'>Add To Card</Link>
+                     
                     </div>
                 </div>
             </div>

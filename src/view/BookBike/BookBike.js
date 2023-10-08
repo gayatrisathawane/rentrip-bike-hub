@@ -9,8 +9,16 @@ const BookBike = () => {
     const [DataStore, setDataStore] = useState(bikeData)
     const [searchTerm, setSearchTerm] = useState('')
     const [findform, setFindform] = useState('')
+    const [price,setprice] = useState("");
    
 
+    const saveFormDatas =() =>{
+        const dataForms = {
+               price 
+              };
+       localStorage.setItem('currentUsers', JSON.stringify(dataForms))
+        
+     }
 
     useEffect(() => {
         console.log("Search term changed:", searchTerm);
@@ -39,6 +47,8 @@ const BookBike = () => {
     return (
         <div className='main-container-bike'>
             <Navbar />
+       
+
 
             <div className='bikepage-container shadow p-3'  >
 
@@ -78,7 +88,7 @@ const BookBike = () => {
              }
 
             <br />
-
+           
             <Footer />
 
 
