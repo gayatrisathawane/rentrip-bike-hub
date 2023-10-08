@@ -40,6 +40,7 @@ const Home = () => {
   const [dropdate, setdropDate] = useState("");
   const [pickuptime, setpickupTime] = useState("");
   const [droptime, setdropTime] = useState("");
+ 
 
   // const saveFormData = () => {
   //    // Parse existing data from local storage or create an empty array
@@ -71,6 +72,7 @@ const Home = () => {
               pickuptime,
               dropdate,
               droptime,
+              
             };
      localStorage.setItem('currentUser', JSON.stringify(dataForm))
       
@@ -131,6 +133,8 @@ const Home = () => {
                      <input type="date"  onChange={(e)=>{
                         setdropDate(e.target.value)
                      }} className='ms-3'/>
+                    
+
                   </div>
                   <Link to="/bookbike">
                   <button onClick={saveFormData} >find bike</button>

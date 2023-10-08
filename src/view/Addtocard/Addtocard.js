@@ -58,7 +58,7 @@ function Addtocard() {
 
             <span className='fs-5 mt-5 p-2 pt-3'><span className='fs-6'>Drop</span> <br /> {findform.dropdate} {findform.droptime} </span>
 
-            <span className='fs-5 mt-5 p-2 pt-3'> <span className='fs-6'>price</span> <br />{post.price}</span>
+            <span className='fs-5 mt-5 p-2 pt-3'> <span className='fs-6'>price</span> <br />{findform.price}</span>
 
             <span className='total-price fs-3 px-2'><span className='mx-5 px-4 fs-4'>.Total </span> <br /> {post.price} </span>
 
@@ -67,10 +67,10 @@ function Addtocard() {
           <h4 className='mx-5'>Additional Item(s)</h4><br />
 
           <div className=' addtocard-additional p-3 position-relative color  '>
-            <span className=' px-3 fs-6'>Sub Total:</span> <span className='position-absolute end-0 px-2' >{post.price}</span>
+            {/* <span className=' px-3 fs-6'>Sub Total:</span> <span className='position-absolute end-0 px-2' >{post.price}</span>
             <br /><br />
             <span className='px-3 fs-4'> Net total: </span> <span className='position-absolute fs-4 end-0 px-2' >{post.price}</span>
-           
+            */}
 
           </div>
 
@@ -78,7 +78,7 @@ function Addtocard() {
             {/* <button type='button'>remove data</button> */}
             {/* <Link to={`/addtocard/paymentform/${id}`} className='readbike-addtocard p-2 ' >Add To Card</Link> */}
             {/* <button className='p-1   rounded addtocard-btn fs-4 w-25 position-absolute end-0 mx-4 shadow '>Checkout</button> */}
-            <Link to={`/addtocard/paymentform/${id}` }className='addtocard p-2 px-5 rounded my-3'>checkout</Link>
+            <Link to={`/addtocard/paymentform/${id}` }className=' p-2 text-decoration-none px-5   rounded addtocard-btn fs-4 w-25 position-absolute end-0  shadow'>checkout</Link>
           </div>
         </div>
         
