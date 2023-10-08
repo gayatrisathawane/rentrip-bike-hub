@@ -1,0 +1,17 @@
+.background-image-about{
+    background-image: url(./../Footer/footer1.png);
+    width: 100%;
+   opacity: 0.9;
+  
+
+}
+.about-img{
+    width: 210px;
+    height: 250px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: none;
+    margin: 10px;
+    padding: 10px;
+   
+}
