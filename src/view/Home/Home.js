@@ -2,6 +2,7 @@ import Safety from "../../component/Safety/Safety";
 import Navbar from "../../component/Navbar/Navbar";
 import Footer from "../../component/Footer/Footer";
 import UseTo from "./../../component/UseTo/UseTo";
+
 import "./Home.css";
 
 import City from "../../component/City/City";
@@ -325,6 +326,8 @@ const Home = () => {
 <Model/>
       <div>
         <Footer />
+
+      
       </div>
     </div>
   );
