@@ -73,6 +73,9 @@ const BookBike = () => {
                 }
 
             </div>
+            {
+            DataStore.length===0  ? <h2 className='text-center'>Bike not found</h2> : null 
+             }
 
             <br />
 
