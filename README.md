@@ -32,7 +32,10 @@ Bike rental is a web application built with React for searching bikes on rent . 
 
 
 
-# Contributors
+### Contributors 👏🤝
 
 
 
+<a href="https://github.com/gayatrisathawane/rentrip">
+  <img src="https://contrib.rocks/image?repo=gayatrisathawane/rentrip" />
+</a>
