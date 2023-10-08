@@ -1,8 +1,8 @@
-import Safety from '../../component/Safety/Safety'
-import Navbar from '../../component/Navbar/Navbar'
-import Footer from '../../component/Footer/Footer'
-import UseTo from './../../component/UseTo/UseTo'
-import './Home.css'
+import Safety from "../../component/Safety/Safety";
+import Navbar from "../../component/Navbar/Navbar";
+import Footer from "../../component/Footer/Footer";
+import UseTo from "./../../component/UseTo/UseTo";
+import "./Home.css";
 
 import City from "../../component/City/City";
 
@@ -31,7 +31,9 @@ import use2 from "./assets/select-to-cart.png";
 import use3 from "./assets/pick-up.png";
 import use4 from "./assets/ride-your-bike.png";
 import { useState } from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
+
+import Model from './../../component/Model/Model'
 
 const Home = () => {
   const [city, setcity] = useState("");
@@ -63,48 +65,56 @@ const Home = () => {
   //    localStorage.setItem('formUser', JSON.stringify(formdatasave));
   //  };
 
+  const saveFormData = () => {
+    const dataForm = {
+      city,
+      bookDay,
+      pickupdate,
+      pickuptime,
+      dropdate,
+      droptime,
+    };
+    localStorage.setItem("currentUser", JSON.stringify(dataForm));
+  };
 
-   const saveFormData =() =>{
-      const dataForm = {
-              city,
-              bookDay,
-              pickupdate,
-              pickuptime,
-              dropdate,
-              droptime,
-              
-            };
-     localStorage.setItem('currentUser', JSON.stringify(dataForm))
-      
-   }
-    
-   return (
-      <div>
-         <Navbar />
+  return (
+    <div>
+      <Navbar />
 
-         <div className='home-bg'>
-            <div className='container-grp'>
-               <h1 className='main-heading'>RENTALS, REDEFINED</h1>
-               <p className='sub-head mt-4'>Rent from India's Largest Fleet of Vehicles, Trusted by millions</p> {city}
-
-               <form>
-
-                  <div className='d-flex justify-content-center text-white border border-primary p-5 '>
-                     <p style={{color:"white"}}> City </p>
-                     <select  onChange={(e)=>{
-                        setcity(e.target.value)
-                     }}> <br/> <br/>
-                        <option value="pune">pune</option>
-                        <option value="bengluru">bengluru</option>
-                        <option value="chandigadh">chandigadh</option>
-                        <option value="chennai">chennai</option>
-                        <option value="Ahmdabad">Ahmdabad</option>
-                        <option value="Indore">Indore</option>
-                        <option value="Goa">Goa</option>
-                        <option value="jaipur">Jaipur</option>
-                        <option value="Kolkata">Kolkatta</option>
-                        <option value="Mumbai">Mumbai</option>
-                     </select>
+      <div className="home-bg">
+        <div className="container-grp">
+          <h1 className="main-heading">RENTALS, REDEFINED</h1>
+          <p className="sub-head mt-4">
+            Rent from India's Largest Fleet of Vehicles, Trusted by millions
+          </p>{" "}
+          {city}
+          <form className="form-container-bg">
+            <div className="d-flex justify-content-center text-white p-5 form-content-design">
+              <div>
+                <div>
+                  <h4 className="text-center"> City </h4>
+                </div>
+                <div>
+                  <select
+                    onChange={(e) => {
+                      setcity(e.target.value);
+                    }}
+                    className="select-bar">
+                    {" "}
+                    <br /> <br />
+                    <option value="pune">Pune</option>
+                    <option value="bengluru">Bengluru</option>
+                    <option value="chandigadh">Chandigadh</option>
+                    <option value="chennai">Chennai</option>
+                    <option value="Ahmdabad">Ahmdabad</option>
+                    <option value="Indore">Indore</option>
+                    <option value="Goa">Goa</option>
+                    <option value="jaipur">Jaipur</option>
+                    <option value="Kolkata">Kolkatta</option>
+                    <option value="Mumbai">Mumbai</option>
+                  </select>
+                </div>
+              </div>
 
                      <p>Book At</p><br/>
                      <select onChange={(e)=>{
@@ -133,20 +143,38 @@ const Home = () => {
                      <input type="date"  onChange={(e)=>{
                         setdropDate(e.target.value)
                      }} className='ms-3'/>
-                    
-
                   </div>
                   <Link to="/bookbike">
                   <button onClick={saveFormData} >find bike</button>
                  </Link>
 
-                  
-               </form>
+                <input
+                  type="time"
+                  onChange={(e) => {
+                    setdropTime(e.target.value);
+                  }}
+                  className="select-bar"
+                />
 
-             
+                <input
+                  type="date"
+                  onChange={(e) => {
+                    setdropDate(e.target.value);
+                  }}
+                  className="ms-3 select-bar"
+                />
+                <div></div>
+              </div>
+
             </div>
-          
-          </div>
+            <Link to="/bookbike">
+              <button onClick={saveFormData} className="find-button px-5 d-block bold text-decoration-none mx-auto">
+                Find Bike Here
+              </button>
+            </Link>
+          </form>
+        </div>
+      </div>
 
       <div className="d-flex justify-content-evenly flex-wrap ms-5  mt-5">
         <div>
@@ -229,16 +257,21 @@ const Home = () => {
             />
           </div>
 
-               <div className='ms-3'><UseTo useimg={use4} useheading="Select Rental Product" usedes="You can search & select product from our wide range." /></div>
-             
-            </div>
-         </div>
+          <div className="ms-3">
+            <UseTo
+              useimg={use4}
+              useheading="Select Rental Product"
+              usedes="You can search & select product from our wide range."
+            />
+          </div>
+        </div>
+      </div>
 
       <h1 className="text-center fs-1  m-5 cityheading">
         Bike Rental Services in Top Cities
       </h1>
 
-      <div className="city-main-container">
+      <div className=" container city-main-container my-3">
         <div className="d-flex justify-content-evenly flex-wrap m-3">
           <div>
             <City cityimg={city1} cityname="Ahmedabad" />
@@ -281,6 +314,7 @@ const Home = () => {
         </div>
       </div>
 
+<Model/>
       <div>
         <Footer />
       </div>
