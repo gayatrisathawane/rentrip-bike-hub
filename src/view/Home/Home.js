@@ -33,6 +33,8 @@ import use4 from "./assets/ride-your-bike.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import Model from './../../component/Model/Model'
+
 const Home = () => {
   const [city, setcity] = useState("");
   const [bookDay, setBook] = useState("");
@@ -100,9 +102,9 @@ const Home = () => {
                     {" "}
                     <br /> <br />
                     <option value="pune">Pune</option>
-                    <option value="bengluru">bengluru</option>
-                    <option value="chandigadh">chandigadh</option>
-                    <option value="chennai">chennai</option>
+                    <option value="bengluru">Bengluru</option>
+                    <option value="chandigadh">Chandigadh</option>
+                    <option value="chennai">Chennai</option>
                     <option value="Ahmdabad">Ahmdabad</option>
                     <option value="Indore">Indore</option>
                     <option value="Goa">Goa</option>
@@ -277,7 +279,7 @@ const Home = () => {
         Bike Rental Services in Top Cities
       </h1>
 
-      <div className="city-main-container">
+      <div className=" container city-main-container my-3">
         <div className="d-flex justify-content-evenly flex-wrap m-3">
           <div>
             <City cityimg={city1} cityname="Ahmedabad" />
@@ -320,6 +322,7 @@ const Home = () => {
         </div>
       </div>
 
+<Model/>
       <div>
         <Footer />
       </div>

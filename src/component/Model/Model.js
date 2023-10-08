@@ -2,6 +2,7 @@
 import React from "react";
 import "./Model.css"
 import Mobile from "./mobile.png";
+import { Link } from "react-router-dom";
 export default function Model() {
     return (
         <>
@@ -20,12 +21,16 @@ export default function Model() {
                     </p>
 
                     <div className="d-flex model-button my-5">
+                        <Link to="https://www.google.com/">
                         <div>
                             <button type="button" className="btn btn bg-dark text-light px-5 button-google"> Google Pay</button>
                         </div>
+                        </Link>
+                        <Link to="https://www.google.com/">
                         <div>
                             <button type="button " className="btn btn text-light px-5 mx-3 button-app" > App Store</button>
                         </div>
+                        </Link>
                     </div>
                 </div>
 

@@ -8,8 +8,8 @@ import { useState,useEffect } from "react"
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg  position-sticky top-0 p-3 fs-4 nav1 ">
+    <div className="position-sticky top-0 navbar-container ">
+      <nav className="navbar navbar-expand-lg p-3 fs-4 nav1 ">
         <div className="container-fluid">
           <Link className="navbar-brand" to="#">
             <img src={logo} className="logoimg" />
