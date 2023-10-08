@@ -14,6 +14,7 @@ import BookBike from './view/BookBike/BookBike'
 import Readbike from './view/Readbike/Readbike';
 import Register from "./view/Register/Register";
 import Addtocard from "./view/Addtocard/Addtocard";
+import Payment from "./view/Payment/Payment"
 
 
 
@@ -77,6 +78,10 @@ const router = createBrowserRouter([
   {
     path: "/bookbike/addtocard/:id",
     element: <Addtocard />,
+  },
+  {
+    path: "/addtocard/paymentform/:id",
+    element: <Payment />,
   },
   {
     path: "*",
